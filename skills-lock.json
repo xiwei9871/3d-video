@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "hyperframes": {
+      "source": "./work/hyperframes-main",
+      "sourceType": "local",
+      "computedHash": "4b344aeda28e488904cab0cbe48a1e415e9147d2ff65d5416cf64a8d5b8a012d"
+    },
+    "hyperframes-animation": {
+      "source": "./work/hyperframes-main",
+      "sourceType": "local",
+      "computedHash": "f54b2bae3289389055e09d4e5c3d8daf6ac1e7b0f68e1fcede34edcff1c5c752"
+    },
+    "hyperframes-cli": {
+      "source": "./work/hyperframes-main",
+      "sourceType": "local",
+      "computedHash": "8129f0a1545f29c0717d4c138bfd5031dfa5fe1702b9cac16c2be7e926d1ce3b"
+    },
+    "hyperframes-core": {
+      "source": "./work/hyperframes-main",
+      "sourceType": "local",
+      "computedHash": "72e6a7c9cf0a2d5eace329a24231f31976ec4e2b1e66c53acb4dd6be9fa66e64"
+    }
+  }
+}

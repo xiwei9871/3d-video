@@ -1,0 +1,6 @@
+import http from 'node:http';
+import {createReadStream,statSync} from 'node:fs';
+import {config,abs} from './common.mjs';
+const routes={'/':['web/index.html','text/html; charset=utf-8'],'/video.mp4':[config.outputPaths.final,'video/mp4'],'/poster.jpg':[config.outputPaths.poster,'image/jpeg'],'/build.json':['outputs/final/build.json','application/json']};
+const port=Number(process.env.PORT||5173);
+http.createServer((req,res)=>{const item=routes[new URL(req.url,'http://localhost').pathname];if(!item){res.writeHead(404).end();return}const [f,type]=item;let size;try{size=statSync(abs(f)).size}catch{res.writeHead(404).end('Run npm run render:final first');return}let start=0,end=size-1,status=200;const range=req.headers.range;if(range){const m=/^bytes=(\d+)-(\d*)$/.exec(range);if(!m){res.writeHead(416).end();return}start=Number(m[1]);end=m[2]?Math.min(Number(m[2]),size-1):end;if(start>=size||end<start){res.writeHead(416,{'Content-Range':'bytes */'+size}).end();return}status=206}const headers={'Content-Type':type,'Content-Length':end-start+1,'Accept-Ranges':'bytes'};if(status===206)headers['Content-Range']='bytes '+start+'-'+end+'/'+size;res.writeHead(status,headers);if(req.method==='HEAD')res.end();else createReadStream(abs(f),{start,end}).pipe(res)}).listen(port,'127.0.0.1',()=>console.log('Web demo: http://localhost:'+port+' (debug: /?debug=1)'));

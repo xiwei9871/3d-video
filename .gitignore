@@ -1,0 +1,8 @@
+node_modules/
+generated/
+work/
+outputs/
+blender/scenes/
+*.blend1
+.DS_Store
+.superpowers/

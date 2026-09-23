@@ -1,0 +1,6 @@
+export function background(){return '<div class="background"></div><div class="halo"></div><div class="border"></div>';}
+export function zodiac(){return '<div class="zodiac">'+[...'鼠牛虎兔龙蛇马羊猴鸡狗猪'].map((s,i)=>'<span class="medallion '+(s==='蛇'?'selected':'')+'" style="left:'+([180,350,520,1390,1560,1730,180,350,520,1390,1560,1730][i])+'px;top:'+(i<6?320:530)+'px">'+s+'</span>').join('')+'</div>';}
+export function snake(c){return '<video id="blender-snake" class="clip snake" src="media/snake-alpha.webm" data-start="0" data-duration="'+c.duration+'" data-track-index="2" muted playsinline></video>';}
+export function fx(){return '<div class="fx">'+Array.from({length:12},(_,i)=>'<span class="sparkle" style="left:'+(560+(i%4)*260)+'px;top:'+(220+Math.floor(i/4)*230)+'px">✦</span>').join('')+'</div>';}
+export function titles(){return '<div class="brand"><p class="eyebrow">CHINESE ZODIAC · 06</p><p class="series">十二生肖</p></div><div class="seal">福</div><div class="hero"><h1>蛇宝宝</h1><p class="english">LITTLE SNAKE, BIG HAPPINESS</p><p class="wish">温柔相伴 · 美好每一天</p></div><div class="intro-caption">十二生肖 · 蛇宝宝</div>';}
+export function audio(c){return '<audio id="snake-audio" src="media/snake_chimes.wav" data-start="0" data-duration="'+c.duration+'" data-track-index="5" data-volume="1"></audio>';}

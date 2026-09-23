@@ -1,0 +1,12 @@
+{
+  "name": "snake-zodiac-demo",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 5.8,
+  "audioSampleRate": 48000,
+  "previewWidth": 1280,
+  "previewHeight": 720,
+  "renderPaths": { "scene": "blender/scenes/snake_demo.blend", "frames": "generated/blender/snake_demo", "previewFrames": "generated/blender/snake_preview", "modelPreviews": "outputs/preview/model" },
+  "outputPaths": { "preview": "outputs/preview/snake_demo_720p.mp4", "composition": "generated/hyperframes/snake_demo.mp4", "final": "outputs/final/snake_zodiac_demo_v001.mp4", "poster": "outputs/final/poster.jpg" }
+}

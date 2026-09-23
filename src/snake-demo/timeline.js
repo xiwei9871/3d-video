@@ -1,0 +1,13 @@
+const tl=gsap.timeline({paused:true});
+tl.fromTo('.halo',{scale:.96,opacity:0},{scale:1,opacity:1,duration:1.1,ease:'power2.out'},0);
+tl.fromTo('.medallion',{y:20,opacity:0},{y:0,opacity:.65,stagger:.035,duration:.7,ease:'power2.out'},.12);
+tl.fromTo('.brand',{opacity:0,y:12},{opacity:1,y:0,duration:.8},.1);
+tl.fromTo('#blender-snake',{opacity:0},{opacity:1,duration:.6,ease:'power2.out'},.65);
+tl.fromTo('.intro-caption',{opacity:0},{opacity:1,duration:.6},.1);
+tl.to('.intro-caption',{opacity:0,duration:.4},1.1);
+tl.fromTo('.hero',{opacity:0,y:25},{opacity:1,y:0,duration:.65,ease:'power3.out'},4.2);
+tl.fromTo('.seal',{scale:.85},{scale:1,duration:.7,ease:'back.out(1.4)'},4.1);
+tl.to('.medallion',{opacity:.32,duration:.8},3.9);
+document.querySelectorAll('.sparkle').forEach((el,i)=>{const start=4.05+i*.055;tl.fromTo(el,{opacity:0,scale:.4,rotation:0},{opacity:.85,scale:1,rotation:30,duration:.35},start);tl.to(el,{opacity:.3,scale:.7,duration:.7},start+.35)});
+window.__timelines=window.__timelines||{};
+window.__timelines['snake-demo']=tl;
