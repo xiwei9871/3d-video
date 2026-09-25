@@ -1,0 +1,52 @@
+{
+  "project": "乙巳灵蛇 Interactive Character",
+  "phase": "phase0",
+  "generated_at": "2026-09-25",
+  "assets": [
+    {
+      "role": "500K Visual Master",
+      "source_path": "0bb5679922f839930887017be0479527.glb",
+      "filename": "0bb5679922f839930887017be0479527.glb",
+      "sha256": "4990af1153307e8b3bf46a6c8f45b933e8ce5ca1c2637b70547ea3d69f227ec0",
+      "size_bytes": 47947832,
+      "frozen": true,
+      "phase": "phase0"
+    },
+    {
+      "role": "Semantic component GLB",
+      "source_path": "experiments/snake-b-route/raw/component_artifact_v001.glb",
+      "filename": "component_artifact_v001.glb",
+      "sha256": "d7223904d93bc1ba0befa92d24d82e6c9044d1e111342eda75d59d8e4ce94556",
+      "size_bytes": 1746696,
+      "frozen": true,
+      "phase": "phase0"
+    },
+    {
+      "role": "Animation Mesh",
+      "source_path": "experiments/snake-b-route/game_ready/blender/snake_animation_mesh_v001.blend",
+      "filename": "snake_animation_mesh_v001.blend",
+      "sha256": "bc0bfe754de90ff857c379d4ebd1788f794787dcd1e6a8207559e146a7915fd0",
+      "size_bytes": 1668960,
+      "frozen": true,
+      "phase": "phase0"
+    },
+    {
+      "role": "Native Rig MVP Blender scene",
+      "source_path": "experiments/snake-b-route/native_rig_mvp/blender/snake_native_rig_mvp_v001.blend",
+      "filename": "snake_native_rig_mvp_v001.blend",
+      "sha256": "5cc1c3321273bbd43bdc880716a4fd1e9dc5f1e0f44af454de03e08dfcfb9f23",
+      "size_bytes": 941870,
+      "frozen": true,
+      "phase": "phase0"
+    },
+    {
+      "role": "Native Rig MVP motion video",
+      "source_path": "experiments/snake-b-route/native_rig_mvp/renders/snake_native_rig_mvp_v001.mp4",
+      "filename": "snake_native_rig_mvp_v001.mp4",
+      "sha256": "e7e0a1f4626167f51ca18aaa2d7023f818a4ec3cadb63948d27fbdc94d175f26",
+      "size_bytes": 103701,
+      "frozen": true,
+      "phase": "phase0"
+    }
+  ]
+}
