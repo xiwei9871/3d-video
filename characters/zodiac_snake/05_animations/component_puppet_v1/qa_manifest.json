@@ -1,0 +1,48 @@
+{
+  "source_blend": "characters/zodiac_snake/04_rig/rebuild/clean_actions.blend",
+  "static_actions": [
+    {
+      "label": "HeadTilt",
+      "action": "snake_head_tilt",
+      "frame": 16,
+      "path": "characters/zodiac_snake/04_rig/review/character_v1/poses/HeadTilt.png"
+    },
+    {
+      "label": "HeadShake",
+      "action": "snake_head_shake",
+      "frame": 16,
+      "path": "characters/zodiac_snake/04_rig/review/character_v1/poses/HeadShake.png"
+    },
+    {
+      "label": "BodySway",
+      "action": "snake_body_sway",
+      "frame": 16,
+      "path": "characters/zodiac_snake/04_rig/review/character_v1/poses/BodySway.png"
+    },
+    {
+      "label": "Bounce",
+      "action": "snake_bounce",
+      "frame": 16,
+      "path": "characters/zodiac_snake/04_rig/review/character_v1/poses/Bounce.png"
+    },
+    {
+      "label": "TailWag",
+      "action": "snake_tail_wag",
+      "frame": 16,
+      "path": "characters/zodiac_snake/04_rig/review/character_v1/poses/TailWag.png"
+    },
+    {
+      "label": "TongueFlick",
+      "action": "snake_tongue_flick",
+      "frame": 12,
+      "path": "characters/zodiac_snake/04_rig/review/character_v1/poses/TongueFlick.png"
+    }
+  ],
+  "contact_sheet": "characters/zodiac_snake/04_rig/review/character_v1/snake_actions_contact_sheet.png",
+  "preview_action": "AN_ComponentPuppet_V1_Preview",
+  "preview_frames": 60,
+  "fps": 30,
+  "preview_frame_dir": "characters/zodiac_snake/05_animations/component_puppet_v1/preview_frames",
+  "material_policy": "Original Material.001 PBR retained; segmentation colors are not rendered.",
+  "status": "HUMAN_REVIEW"
+}

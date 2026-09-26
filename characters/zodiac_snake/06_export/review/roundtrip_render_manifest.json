@@ -1,0 +1,22 @@
+{
+  "input_glb": "characters/zodiac_snake/06_export/zodiac_snake_character_v1.glb",
+  "rendered": [
+    {
+      "action": "snake_head_tilt",
+      "frame": 12,
+      "path": "characters/zodiac_snake/06_export/review/snake_head_tilt_roundtrip.png"
+    },
+    {
+      "action": "snake_body_sway",
+      "frame": 12,
+      "path": "characters/zodiac_snake/06_export/review/snake_body_sway_roundtrip.png"
+    },
+    {
+      "action": "snake_tail_wag",
+      "frame": 12,
+      "path": "characters/zodiac_snake/06_export/review/snake_tail_wag_roundtrip.png"
+    }
+  ],
+  "component_mesh_count": 460,
+  "status": "HUMAN_REVIEW"
+}

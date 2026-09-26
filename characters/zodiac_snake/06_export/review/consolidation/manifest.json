@@ -1,0 +1,32 @@
+{
+  "before": "characters/zodiac_snake/04_rig/rebuild/clean_actions.blend",
+  "after": "characters/zodiac_snake/04_rig/rebuild/runtime_consolidated.blend",
+  "original_outputs": [
+    "characters/zodiac_snake/06_export/review/consolidation/original_neutral.png",
+    "characters/zodiac_snake/06_export/review/consolidation/original_snake_head_tilt.png",
+    "characters/zodiac_snake/06_export/review/consolidation/original_snake_head_shake.png",
+    "characters/zodiac_snake/06_export/review/consolidation/original_snake_body_sway.png",
+    "characters/zodiac_snake/06_export/review/consolidation/original_snake_bounce.png",
+    "characters/zodiac_snake/06_export/review/consolidation/original_snake_tail_wag.png",
+    "characters/zodiac_snake/06_export/review/consolidation/original_snake_tongue_flick.png"
+  ],
+  "consolidated_outputs": [
+    "characters/zodiac_snake/06_export/review/consolidation/consolidated_neutral.png",
+    "characters/zodiac_snake/06_export/review/consolidation/consolidated_snake_head_tilt.png",
+    "characters/zodiac_snake/06_export/review/consolidation/consolidated_snake_head_shake.png",
+    "characters/zodiac_snake/06_export/review/consolidation/consolidated_snake_body_sway.png",
+    "characters/zodiac_snake/06_export/review/consolidation/consolidated_snake_bounce.png",
+    "characters/zodiac_snake/06_export/review/consolidation/consolidated_snake_tail_wag.png",
+    "characters/zodiac_snake/06_export/review/consolidation/consolidated_snake_tongue_flick.png"
+  ],
+  "actions": [
+    "snake_head_tilt",
+    "snake_head_shake",
+    "snake_body_sway",
+    "snake_bounce",
+    "snake_tail_wag",
+    "snake_tongue_flick"
+  ],
+  "camera_policy": "same orthographic camera and lights derived from original neutral bounds",
+  "status": "HUMAN_REVIEW"
+}

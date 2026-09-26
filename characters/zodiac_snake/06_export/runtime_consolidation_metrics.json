@@ -1,0 +1,102 @@
+{
+  "before": {
+    "mesh_objects": 460,
+    "vertices": 30479,
+    "polygons": 49916,
+    "triangles": 49916,
+    "materials": [
+      "Material.001"
+    ],
+    "images": [
+      "texture_pbr_20250901",
+      "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "texture_pbr_20250901_normal"
+    ],
+    "actions": {
+      "snake_body_sway": [
+        1.0,
+        30.0
+      ],
+      "snake_bounce": [
+        1.0,
+        30.0
+      ],
+      "snake_head_shake": [
+        1.0,
+        30.0
+      ],
+      "snake_head_tilt": [
+        1.0,
+        30.0
+      ],
+      "snake_idle": [
+        1.0,
+        90.0
+      ],
+      "snake_tail_wag": [
+        1.0,
+        30.0
+      ],
+      "snake_tongue_flick": [
+        1.0,
+        24.0
+      ]
+    },
+    "blend_size_bytes": 29290016,
+    "glb_size_bytes": 30164728,
+    "bone_count": 10
+  },
+  "after": {
+    "mesh_objects": 9,
+    "vertices": 30479,
+    "polygons": 49916,
+    "triangles": 49916,
+    "materials": [
+      "Material.001"
+    ],
+    "images": [
+      "texture_pbr_20250901",
+      "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "texture_pbr_20250901_normal"
+    ],
+    "actions": {
+      "snake_body_sway": [
+        1.0,
+        30.0
+      ],
+      "snake_bounce": [
+        1.0,
+        30.0
+      ],
+      "snake_head_shake": [
+        1.0,
+        30.0
+      ],
+      "snake_head_tilt": [
+        1.0,
+        30.0
+      ],
+      "snake_idle": [
+        1.0,
+        90.0
+      ],
+      "snake_tail_wag": [
+        1.0,
+        30.0
+      ],
+      "snake_tongue_flick": [
+        1.0,
+        24.0
+      ]
+    },
+    "blend_size_bytes": 29139741,
+    "glb_size_bytes": 29736608,
+    "bone_count": 10
+  },
+  "delta": {
+    "mesh_objects": -451,
+    "materials": 0,
+    "triangles": 0,
+    "glb_size_bytes": -428120
+  }
+}

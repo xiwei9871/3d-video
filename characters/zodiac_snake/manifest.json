@@ -7,11 +7,52 @@
     "status": "FROZEN"
   },
   "sources": {
-    "visual_master": {"path": "0bb5679922f839930887017be0479527.glb", "sha256": "4990af1153307e8b3bf46a6c8f45b933e8ce5ca1c2637b70547ea3d69f227ec0"},
-    "semantic_components": {"path": "experiments/snake-b-route/raw/component_artifact_v001.glb", "sha256": "d7223904d93bc1ba0befa92d24d82e6c9044d1e111342eda75d59d8e4ce94556"},
-    "animation_mesh": {"path": "experiments/snake-b-route/game_ready/blender/snake_animation_mesh_v001.blend"},
-    "native_rig_mvp": {"path": "experiments/snake-b-route/native_rig_mvp/blender/snake_native_rig_mvp_v001.blend"},
-    "native_mvp_video": {"path": "experiments/snake-b-route/native_rig_mvp/renders/snake_native_rig_mvp_v001.mp4"}
+    "visual_master": {
+      "path": "0bb5679922f839930887017be0479527.glb",
+      "sha256": "4990af1153307e8b3bf46a6c8f45b933e8ce5ca1c2637b70547ea3d69f227ec0"
+    },
+    "semantic_components": {
+      "path": "experiments/snake-b-route/raw/component_artifact_v001.glb",
+      "sha256": "d7223904d93bc1ba0befa92d24d82e6c9044d1e111342eda75d59d8e4ce94556"
+    },
+    "animation_mesh": {
+      "path": "experiments/snake-b-route/game_ready/blender/snake_animation_mesh_v001.blend"
+    },
+    "native_rig_mvp": {
+      "path": "experiments/snake-b-route/native_rig_mvp/blender/snake_native_rig_mvp_v001.blend"
+    },
+    "native_mvp_video": {
+      "path": "experiments/snake-b-route/native_rig_mvp/renders/snake_native_rig_mvp_v001.mp4"
+    }
   },
-  "gates": {"pipeline_baseline_frozen": "PASS", "game_mesh_shape": "NOT_STARTED", "pbr_transfer": "NOT_STARTED", "production_rig": "NOT_STARTED", "animation_library_v1": "NOT_STARTED", "glb_roundtrip": "NOT_STARTED", "interactive_character_mvp": "NOT_STARTED"}
+  "gates": {
+    "pipeline_baseline_frozen": "PASS",
+    "game_mesh_shape": "PARTIAL",
+    "pbr_transfer": "NOT_STARTED",
+    "production_rig": "NOT_STARTED",
+    "animation_library_v1": "NOT_STARTED",
+    "glb_roundtrip": "NOT_STARTED",
+    "interactive_character_mvp": "NOT_STARTED",
+    "registration_phase1a": "PASS"
+  },
+  "character_v1": {
+    "status": "FROZEN",
+    "checkpoint": "ZODIAC_SNAKE_CHARACTER_V1_FROZEN",
+    "runtime_asset": "characters/zodiac_snake/06_export/zodiac_snake_character_v1_runtime.glb",
+    "runtime_demo": "characters/zodiac_snake/07_web_demo/",
+    "gates": {
+      "G0_asset_audit": "PASS",
+      "G1_component_map": "PASS",
+      "G2_puppet_build": "PASS",
+      "G3_core_actions": "PASS",
+      "G4_visual_deformation_qa": "PASS_WITH_KNOWN_LIMITATION",
+      "G5_export_roundtrip": "PASS",
+      "G5_5_runtime_asset": "PASS",
+      "G6_threejs_runtime": "PASS"
+    },
+    "known_limitations": [
+      "TailWag seam accepted at normal runtime distance.",
+      "Blink remains fallback/not productionized."
+    ]
+  }
 }

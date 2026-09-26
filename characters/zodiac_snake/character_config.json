@@ -1,0 +1,342 @@
+{
+  "character_id": "zodiac_snake",
+  "display_name": "乙巳灵蛇",
+  "rig_type": "component_puppet_v1",
+  "source_high_50k": "experiments/snake-b-route/raw/snake_unsplit_50k.glb",
+  "component_reference": "20260924110430_581b611c.glb",
+  "material_policy": "preserve_source_material; segmentation colors are audit-only",
+  "status": {
+    "overall": "PASS",
+    "checkpoint": "ZODIAC_SNAKE_CHARACTER_V1_FROZEN",
+    "frozen_at": "2026-09-26",
+    "gates": {
+      "G0_asset_audit": "PASS",
+      "G1_component_map": "PASS",
+      "G2_puppet_build": "PASS",
+      "G3_core_actions": "PASS",
+      "G4_visual_deformation_qa": "PASS_WITH_KNOWN_LIMITATION",
+      "G5_export_roundtrip": "PASS",
+      "G5_5_runtime_asset": "PASS",
+      "G6_threejs_runtime": "PASS"
+    },
+    "known_limitations": [
+      "TailWag component boundary is visible only at close inspection and is accepted at normal runtime viewing distance.",
+      "Blink remains a documented fallback because no production eyelid component is present."
+    ],
+    "frozen_rules": [
+      "Do not modify the V1 asset, rig, actions, UVs, PBR, or runtime consolidation without a new version.",
+      "Do not optimize the 29.74 MB runtime GLB before a separate WEB OPTIMIZATION gate.",
+      "Do not add actions or start 500K work under the V1 checkpoint."
+    ]
+  },
+  "reference_implementation": {
+    "source_vertices_approx": 50000,
+    "source_loose_islands": 460,
+    "puppet_controls": 10,
+    "exported_actions": 7,
+    "runtime_meshes": 9,
+    "runtime_triangles": 49916,
+    "threejs_draw_calls": 9,
+    "threejs_average_fps_desktop": "approximately 60",
+    "clean_rebuild_seconds": 5.683,
+    "manual_intervention_count": 0
+  },
+  "controllers": {
+    "root": "ROOT",
+    "head": "HEAD",
+    "body_neck": "BODY_NECK",
+    "coil": "COIL_BASE",
+    "tail_root": "TAIL_ROOT",
+    "tail_tip": "TAIL_TIP",
+    "eye_l": "EYE_L",
+    "eye_r": "EYE_R",
+    "tongue": "TONGUE",
+    "medallion": "MEDALLION"
+  },
+  "components": {
+    "head": {
+      "mode": "rigid",
+      "controller": "HEAD"
+    },
+    "body_neck": {
+      "mode": "rigid_puppet",
+      "controller": "BODY_NECK"
+    },
+    "coil": {
+      "mode": "rigid",
+      "controller": "COIL_BASE"
+    },
+    "tail": {
+      "mode": "two_segment_rigid",
+      "controllers": [
+        "TAIL_ROOT",
+        "TAIL_TIP"
+      ]
+    },
+    "eyes": {
+      "mode": "rigid",
+      "controllers": [
+        "EYE_L",
+        "EYE_R"
+      ],
+      "blink_mode": "placeholder"
+    },
+    "tongue": {
+      "mode": "rigid",
+      "controller": "TONGUE"
+    },
+    "flower": {
+      "follow": "HEAD"
+    },
+    "brows": {
+      "follow": "HEAD"
+    },
+    "medallion": {
+      "follow": "MEDALLION"
+    }
+  },
+  "actions": {
+    "idle": "snake_idle",
+    "head_shake": "snake_head_shake",
+    "head_tilt": "snake_head_tilt",
+    "body_sway": "snake_body_sway",
+    "tail_wag": "snake_tail_wag",
+    "tongue_flick": "snake_tongue_flick",
+    "bounce": "snake_bounce",
+    "blink": "snake_blink"
+  },
+  "action_specs": {
+    "snake_idle": {
+      "duration_frames": 90,
+      "fps": 30,
+      "keys": {
+        "HEAD": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            45,
+            0.03,
+            0.02,
+            0
+          ],
+          [
+            90,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "snake_head_shake": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {
+        "HEAD": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            15,
+            0,
+            0.18,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "snake_head_tilt": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {
+        "HEAD": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            15,
+            0.2,
+            0,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "snake_body_sway": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {
+        "BODY_NECK": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            15,
+            0.14,
+            0,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "snake_tail_wag": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {
+        "TAIL_ROOT": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            15,
+            0,
+            0.14,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ],
+        "TAIL_TIP": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            15,
+            0,
+            -0.22,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "snake_tongue_flick": {
+      "duration_frames": 24,
+      "fps": 30,
+      "keys": {
+        "TONGUE": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            0.18,
+            0
+          ],
+          [
+            16,
+            0,
+            -0.14,
+            0
+          ],
+          [
+            24,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "snake_bounce": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {},
+      "location_keys": {
+        "COIL_BASE": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            0.035,
+            0
+          ],
+          [
+            16,
+            0,
+            0,
+            0
+          ],
+          [
+            24,
+            0,
+            0.018,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "snake_blink": {
+      "duration_frames": 12,
+      "fps": 30,
+      "fallback": "eye_squash_placeholder",
+      "keys": {}
+    }
+  },
+  "notes": [
+    "COIL_BASE remains rigid.",
+    "No full-body smooth skinning.",
+    "Blink is a fallback placeholder because no eyelid component is present in the supplied segmentation reference."
+  ]
+}

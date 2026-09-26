@@ -1,0 +1,246 @@
+{
+  "generated_utc": "2026-09-26T12:24:06.595345+00:00",
+  "environment": {
+    "browser_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": [
+      1280,
+      720
+    ],
+    "device_pixel_ratio": 1,
+    "renderer": "THREE.WebGLRenderer / Three.js r180",
+    "test_host": "127.0.0.1 static HTTP server; local browser run, not a remote production network"
+  },
+  "load": {
+    "response_status": 200,
+    "transfer_bytes": 29736608,
+    "fetch_to_arraybuffer_ms": 17.8,
+    "body_read_ms": 15.9,
+    "resource_network_ms": 12.9,
+    "encoded_body_bytes": 29736608,
+    "transfer_size_bytes": 29736908,
+    "parse_ms": 159.2,
+    "first_visible_ms": 349.8
+  },
+  "first_visible_ms": 349.8,
+  "renderer_info_after_last_frame": {
+    "calls": 9,
+    "triangles": 49916,
+    "points": 0,
+    "lines": 0,
+    "geometries": 9,
+    "textures": 3,
+    "canvas_width": 1280,
+    "canvas_height": 645
+  },
+  "renderer_info_by_action": [
+    {
+      "semantic": "idle",
+      "duration_ms": 1407.9,
+      "samples": 85,
+      "average_fps": 60.374,
+      "average_frame_time_ms": 16.564,
+      "average_draw_calls": 9,
+      "average_triangles": 49916,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 9,
+      "textures": 3
+    },
+    {
+      "semantic": "head_shake",
+      "duration_ms": 1400.3,
+      "samples": 85,
+      "average_fps": 60.701,
+      "average_frame_time_ms": 16.474,
+      "average_draw_calls": 9,
+      "average_triangles": 49916,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 9,
+      "textures": 3
+    },
+    {
+      "semantic": "body_sway",
+      "duration_ms": 1416.7,
+      "samples": 85,
+      "average_fps": 59.999,
+      "average_frame_time_ms": 16.667,
+      "average_draw_calls": 9,
+      "average_triangles": 49916,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 9,
+      "textures": 3
+    },
+    {
+      "semantic": "tail_wag",
+      "duration_ms": 1416.4,
+      "samples": 86,
+      "average_fps": 60.717,
+      "average_frame_time_ms": 16.47,
+      "average_draw_calls": 9,
+      "average_triangles": 49916,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 9,
+      "textures": 3
+    },
+    {
+      "semantic": "bounce",
+      "duration_ms": 1416,
+      "samples": 85,
+      "average_fps": 60.028,
+      "average_frame_time_ms": 16.659,
+      "average_draw_calls": 9,
+      "average_triangles": 49916,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 9,
+      "textures": 3
+    }
+  ],
+  "frame_rate_summary": {
+    "min_average_fps": 59.999,
+    "max_average_fps": 60.717,
+    "mean_average_fps": 60.364,
+    "min_draw_calls": 9,
+    "max_draw_calls": 9
+  },
+  "idle_loop": {
+    "started_ms": 375.5,
+    "elapsed_ms": 198825.80000019073,
+    "root_baseline": [
+      0,
+      0,
+      0
+    ],
+    "max_root_drift": 0,
+    "root_position_track_count": 1,
+    "boundary": {
+      "duration_seconds": 3,
+      "max_position_delta": 0,
+      "max_rotation_delta_degrees": 0.02998,
+      "root_start": [
+        0,
+        0,
+        0
+      ],
+      "root_end": [
+        0,
+        0,
+        0
+      ],
+      "root_boundary_drift": 0,
+      "pass": true
+    }
+  },
+  "interaction_events": [
+    {
+      "type": "autoplay",
+      "semantic": "idle",
+      "clip": "snake_idle",
+      "time_ms": 203.19999980926514
+    },
+    {
+      "type": "idle_boundary_audit_restore",
+      "semantic": "idle",
+      "clip": "snake_idle",
+      "time_ms": 384.19999980926514
+    },
+    {
+      "type": "benchmark",
+      "semantic": "idle",
+      "clip": "snake_idle",
+      "time_ms": 385
+    },
+    {
+      "type": "benchmark",
+      "semantic": "head_shake",
+      "clip": "snake_head_shake",
+      "time_ms": 1793.9000000953674
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "snake_idle",
+      "time_ms": 2793
+    },
+    {
+      "type": "benchmark",
+      "semantic": "body_sway",
+      "clip": "snake_body_sway",
+      "time_ms": 3193.5
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "snake_idle",
+      "time_ms": 4192.900000095367
+    },
+    {
+      "type": "benchmark",
+      "semantic": "tail_wag",
+      "clip": "snake_tail_wag",
+      "time_ms": 4610.400000095367
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "snake_idle",
+      "time_ms": 5625.900000095367
+    },
+    {
+      "type": "benchmark",
+      "semantic": "bounce",
+      "clip": "snake_bounce",
+      "time_ms": 6026.599999904633
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "snake_idle",
+      "time_ms": 7042.400000095367
+    },
+    {
+      "type": "hover",
+      "semantic": "head_tilt",
+      "clip": "snake_head_tilt",
+      "time_ms": 8916.099999904633
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "snake_idle",
+      "time_ms": 9817.900000095367
+    },
+    {
+      "type": "hover",
+      "semantic": "head_tilt",
+      "clip": "snake_head_tilt",
+      "time_ms": 10182.800000190735
+    },
+    {
+      "type": "click",
+      "semantic": "bounce",
+      "clip": "snake_bounce",
+      "time_ms": 10187
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "snake_idle",
+      "time_ms": 11083.900000095367
+    }
+  ],
+  "performance_method": "renderer.info sampled after each WebGLRenderer.render call; 1.4s window per Idle/HeadShake/BodySway/TailWag/Bounce state",
+  "limitations": [
+    "Load timing is measured on localhost with a warm browser process; deployment cold-cache network timing is not measured.",
+    "FPS reflects this desktop HeadlessChrome 153 run at 1280x720 CSS pixels and DPR 1.",
+    "No texture compression, geometry reduction, Draco, Meshopt, or KTX2 optimization was applied."
+  ]
+}

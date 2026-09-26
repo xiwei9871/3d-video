@@ -1,0 +1,6924 @@
+{
+  "character_id": "zodiac_snake",
+  "source_high_50k": "/Users/xiwei/video making/experiments/snake-b-route/raw/snake_unsplit_50k.glb",
+  "source_high_sha256": "69bce8f26aae5420ab771ce1177dbf92bf4548423f2565db75dd52492607c11b",
+  "component_reference": "/Users/xiwei/video making/20260924110430_581b611c.glb",
+  "component_reference_sha256": "d7223904d93bc1ba0befa92d24d82e6c9044d1e111342eda75d59d8e4ce94556",
+  "semantic_color_policy": "Reference colors are segmentation only; renders use original Material.001 PBR.",
+  "mapping_method": "loose-island centroid sampling against component-reference BVHs; confidence from winner/runner distance margin",
+  "islands": [
+    {
+      "object": "node_0",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00024984557239804417,
+      "runner_distance": 0.10811387995878856,
+      "confidence": "HIGH",
+      "center": [
+        0.2891666889190674,
+        0.3148376941680908,
+        0.22927841544151306
+      ]
+    },
+    {
+      "object": "node_0.001",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 72,
+      "faces": 107,
+      "mean_distance": 0.00022920697892914177,
+      "runner_distance": 0.08037944359239191,
+      "confidence": "HIGH",
+      "center": [
+        0.2782962918281555,
+        0.3016742765903473,
+        0.20524246990680695
+      ]
+    },
+    {
+      "object": "node_0.002",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 37,
+      "faces": 43,
+      "mean_distance": 0.00022305801462607633,
+      "runner_distance": 0.15673333639279008,
+      "confidence": "HIGH",
+      "center": [
+        0.01356724463403225,
+        0.3264089524745941,
+        0.14827986061573029
+      ]
+    },
+    {
+      "object": "node_0.003",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 447,
+      "faces": 774,
+      "mean_distance": 0.0002455461949466553,
+      "runner_distance": 0.18566312454640865,
+      "confidence": "HIGH",
+      "center": [
+        0.008422574028372765,
+        0.3245355784893036,
+        0.1005474179983139
+      ]
+    },
+    {
+      "object": "node_0.004",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 83,
+      "faces": 119,
+      "mean_distance": 0.00017330969834006282,
+      "runner_distance": 0.06474701982097031,
+      "confidence": "HIGH",
+      "center": [
+        0.17354583740234375,
+        0.2891539931297302,
+        0.15019291639328003
+      ]
+    },
+    {
+      "object": "node_0.005",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 1773,
+      "faces": 3268,
+      "mean_distance": 0.0001270657130589825,
+      "runner_distance": 0.12553403645870276,
+      "confidence": "HIGH",
+      "center": [
+        -0.057600364089012146,
+        0.01198862586170435,
+        0.17240913212299347
+      ]
+    },
+    {
+      "object": "node_0.006",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 572,
+      "faces": 1005,
+      "mean_distance": 0.0002197664446583758,
+      "runner_distance": 0.26542426412925124,
+      "confidence": "HIGH",
+      "center": [
+        -0.3099184036254883,
+        0.16774827241897583,
+        0.0835924744606018
+      ]
+    },
+    {
+      "object": "node_0.007",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 15,
+      "faces": 13,
+      "mean_distance": 0.00019333408987828686,
+      "runner_distance": 0.279850047826767,
+      "confidence": "HIGH",
+      "center": [
+        -0.3633157014846802,
+        0.07667835056781769,
+        0.070627361536026
+      ]
+    },
+    {
+      "object": "node_0.008",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 492,
+      "faces": 877,
+      "mean_distance": 0.0001307495281466231,
+      "runner_distance": 0.23601069068536162,
+      "confidence": "HIGH",
+      "center": [
+        -0.2808808982372284,
+        -0.1271270513534546,
+        0.055340394377708435
+      ]
+    },
+    {
+      "object": "node_0.009",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 566,
+      "faces": 1018,
+      "mean_distance": 0.0002435225003978303,
+      "runner_distance": 0.10797178641314531,
+      "confidence": "HIGH",
+      "center": [
+        0.29633381962776184,
+        0.30615901947021484,
+        0.21055804193019867
+      ]
+    },
+    {
+      "object": "node_0.010",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 31,
+      "faces": 38,
+      "mean_distance": 0.00028495131459015783,
+      "runner_distance": 0.02357079520422098,
+      "confidence": "HIGH",
+      "center": [
+        0.25097715854644775,
+        0.28108492493629456,
+        0.15894488990306854
+      ]
+    },
+    {
+      "object": "node_0.011",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 1624,
+      "faces": 2913,
+      "mean_distance": 9.94294995848577e-05,
+      "runner_distance": 0.159392979927361,
+      "confidence": "HIGH",
+      "center": [
+        0.06651996821165085,
+        0.12690302729606628,
+        0.028041813522577286
+      ]
+    },
+    {
+      "object": "node_0.012",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 165,
+      "faces": 275,
+      "mean_distance": 0.0001809055970056761,
+      "runner_distance": 0.09373001882340759,
+      "confidence": "HIGH",
+      "center": [
+        0.3596312403678894,
+        0.28638985753059387,
+        0.10444356501102448
+      ]
+    },
+    {
+      "object": "node_0.013",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 295,
+      "faces": 502,
+      "mean_distance": 0.0001855593886261886,
+      "runner_distance": 0.09763713332358748,
+      "confidence": "HIGH",
+      "center": [
+        0.26149848103523254,
+        0.23232516646385193,
+        0.25656601786613464
+      ]
+    },
+    {
+      "object": "node_0.014",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 154,
+      "faces": 260,
+      "mean_distance": 9.685842378814868e-05,
+      "runner_distance": 0.17723481683060527,
+      "confidence": "HIGH",
+      "center": [
+        0.27465659379959106,
+        0.23463992774486542,
+        0.33973994851112366
+      ]
+    },
+    {
+      "object": "node_0.015",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 113,
+      "faces": 163,
+      "mean_distance": 0.00010989243621395417,
+      "runner_distance": 0.14954191423021257,
+      "confidence": "HIGH",
+      "center": [
+        0.3703552782535553,
+        0.27321144938468933,
+        0.2405388206243515
+      ]
+    },
+    {
+      "object": "node_0.016",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 801,
+      "faces": 1405,
+      "mean_distance": 0.00013681046681313092,
+      "runner_distance": 0.12286768096964806,
+      "confidence": "HIGH",
+      "center": [
+        -0.009680814109742641,
+        -0.10829474031925201,
+        0.017852453514933586
+      ]
+    },
+    {
+      "object": "node_0.017",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0003797116660280153,
+      "runner_distance": 0.2255002073943615,
+      "confidence": "HIGH",
+      "center": [
+        -0.27469325065612793,
+        -0.16971276700496674,
+        0.07580873370170593
+      ]
+    },
+    {
+      "object": "node_0.018",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0003480467736759844,
+      "runner_distance": 0.22580789029598236,
+      "confidence": "HIGH",
+      "center": [
+        -0.2757800221443176,
+        -0.16835471987724304,
+        0.07607698440551758
+      ]
+    },
+    {
+      "object": "node_0.019",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 174,
+      "faces": 270,
+      "mean_distance": 0.0001014387082847179,
+      "runner_distance": 0.22294992627575994,
+      "confidence": "HIGH",
+      "center": [
+        -0.29884159564971924,
+        -0.11435713618993759,
+        0.13158126175403595
+      ]
+    },
+    {
+      "object": "node_0.020",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 332,
+      "faces": 547,
+      "mean_distance": 8.695901743527301e-05,
+      "runner_distance": 0.15319287008605897,
+      "confidence": "HIGH",
+      "center": [
+        -0.0239896010607481,
+        -0.2615957260131836,
+        0.041041336953639984
+      ]
+    },
+    {
+      "object": "node_0.021",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0002012314071180299,
+      "runner_distance": 0.1762762814760208,
+      "confidence": "HIGH",
+      "center": [
+        -0.11264200508594513,
+        -0.263143390417099,
+        0.043381303548812866
+      ]
+    },
+    {
+      "object": "node_0.022",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 37,
+      "faces": 49,
+      "mean_distance": 7.971057542022209e-05,
+      "runner_distance": 0.17087276186794043,
+      "confidence": "HIGH",
+      "center": [
+        -0.08868498355150223,
+        -0.2733333110809326,
+        0.052206967025995255
+      ]
+    },
+    {
+      "object": "node_0.023",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 6.618402827977359e-05,
+      "runner_distance": 0.18763002753257751,
+      "confidence": "HIGH",
+      "center": [
+        -0.15803001821041107,
+        -0.2292143702507019,
+        0.018765635788440704
+      ]
+    },
+    {
+      "object": "node_0.024",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 377,
+      "faces": 646,
+      "mean_distance": 9.825246612216176e-05,
+      "runner_distance": 0.04121241370739881,
+      "confidence": "HIGH",
+      "center": [
+        0.003197490004822612,
+        0.17542923986911774,
+        0.09030001610517502
+      ]
+    },
+    {
+      "object": "node_0.025",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 153,
+      "faces": 238,
+      "mean_distance": 9.621976653306774e-05,
+      "runner_distance": 0.0801981488475576,
+      "confidence": "HIGH",
+      "center": [
+        -0.12346141040325165,
+        0.1381726711988449,
+        0.17438039183616638
+      ]
+    },
+    {
+      "object": "node_0.026",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 387,
+      "faces": 681,
+      "mean_distance": 0.00012162212765076674,
+      "runner_distance": 0.10502660018391907,
+      "confidence": "HIGH",
+      "center": [
+        -0.1849275827407837,
+        0.04957897961139679,
+        0.1135500967502594
+      ]
+    },
+    {
+      "object": "node_0.027",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 28,
+      "faces": 31,
+      "mean_distance": 0.000227615024933974,
+      "runner_distance": 0.017392681811803153,
+      "confidence": "HIGH",
+      "center": [
+        0.15423528850078583,
+        0.1566452980041504,
+        0.07432650029659271
+      ]
+    },
+    {
+      "object": "node_0.028",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 388,
+      "faces": 679,
+      "mean_distance": 0.0002658756156961317,
+      "runner_distance": 0.017347911183605902,
+      "confidence": "HIGH",
+      "center": [
+        0.20546996593475342,
+        0.04501459002494812,
+        0.10164909809827805
+      ]
+    },
+    {
+      "object": "node_0.029",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 175,
+      "faces": 291,
+      "mean_distance": 0.000164016904818709,
+      "runner_distance": 0.03854571597184986,
+      "confidence": "HIGH",
+      "center": [
+        0.13025017082691193,
+        0.17372959852218628,
+        0.04077150300145149
+      ]
+    },
+    {
+      "object": "node_0.030",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.000270724791334942,
+      "runner_distance": 0.00998800496260325,
+      "confidence": "HIGH",
+      "center": [
+        0.19421766698360443,
+        0.10942934453487396,
+        0.08284202218055725
+      ]
+    },
+    {
+      "object": "node_0.031",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 510,
+      "faces": 901,
+      "mean_distance": 0.00014167736531334185,
+      "runner_distance": 0.10216713938280009,
+      "confidence": "HIGH",
+      "center": [
+        0.34191304445266724,
+        0.2132808417081833,
+        0.20711837708950043
+      ]
+    },
+    {
+      "object": "node_0.032",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 13,
+      "faces": 11,
+      "mean_distance": 0.00018991426958774144,
+      "runner_distance": 0.11151466747889152,
+      "confidence": "HIGH",
+      "center": [
+        0.306978315114975,
+        0.19500623643398285,
+        0.26787492632865906
+      ]
+    },
+    {
+      "object": "node_0.033",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 54,
+      "faces": 68,
+      "mean_distance": 0.00020583099833970664,
+      "runner_distance": 0.01347103867038868,
+      "confidence": "HIGH",
+      "center": [
+        0.3153190016746521,
+        0.19229112565517426,
+        0.14615187048912048
+      ]
+    },
+    {
+      "object": "node_0.034",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0001861250375441159,
+      "runner_distance": 0.009431971702724695,
+      "confidence": "HIGH",
+      "center": [
+        0.3216806948184967,
+        0.18737000226974487,
+        0.11490537971258163
+      ]
+    },
+    {
+      "object": "node_0.035",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 302,
+      "faces": 520,
+      "mean_distance": 7.716690292447481e-05,
+      "runner_distance": 0.13025089702568948,
+      "confidence": "HIGH",
+      "center": [
+        0.3239355981349945,
+        0.007100497838109732,
+        0.1139427199959755
+      ]
+    },
+    {
+      "object": "node_0.036",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 8,
+      "faces": 6,
+      "mean_distance": 0.0003485158576950198,
+      "runner_distance": 0.028158077693660744,
+      "confidence": "HIGH",
+      "center": [
+        0.30203133821487427,
+        0.20233339071273804,
+        0.1719980537891388
+      ]
+    },
+    {
+      "object": "node_0.037",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.000300868092381279,
+      "runner_distance": 0.05089571978896856,
+      "confidence": "HIGH",
+      "center": [
+        0.30737924575805664,
+        0.20921799540519714,
+        0.1952555626630783
+      ]
+    },
+    {
+      "object": "node_0.038",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 8,
+      "faces": 6,
+      "mean_distance": 8.422660755513789e-05,
+      "runner_distance": 0.13688553124666214,
+      "confidence": "HIGH",
+      "center": [
+        0.27331674098968506,
+        -0.16423864662647247,
+        0.05239610746502876
+      ]
+    },
+    {
+      "object": "node_0.039",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 331,
+      "faces": 579,
+      "mean_distance": 9.054722917767322e-05,
+      "runner_distance": 0.1389923319220543,
+      "confidence": "HIGH",
+      "center": [
+        0.147115096449852,
+        -0.2447516918182373,
+        0.09469626098871231
+      ]
+    },
+    {
+      "object": "node_0.040",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0001572972929958875,
+      "runner_distance": 0.262492835521698,
+      "confidence": "HIGH",
+      "center": [
+        -0.3070383071899414,
+        0.21711435914039612,
+        0.15494105219841003
+      ]
+    },
+    {
+      "object": "node_0.041",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 5.425751987786498e-05,
+      "runner_distance": 0.165249432126681,
+      "confidence": "HIGH",
+      "center": [
+        -0.04000700265169144,
+        -0.287136048078537,
+        0.05396796762943268
+      ]
+    },
+    {
+      "object": "node_0.042",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 7,
+      "faces": 6,
+      "mean_distance": 0.00010935814030485094,
+      "runner_distance": 0.16053153148719243,
+      "confidence": "HIGH",
+      "center": [
+        0.035757433623075485,
+        -0.2929510474205017,
+        0.05253668129444122
+      ]
+    },
+    {
+      "object": "node_0.043",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 8,
+      "faces": 6,
+      "mean_distance": 0.00019884064295183634,
+      "runner_distance": 0.20312188565731049,
+      "confidence": "HIGH",
+      "center": [
+        -0.22789451479911804,
+        -0.1530458927154541,
+        0.00972085539251566
+      ]
+    },
+    {
+      "object": "node_0.044",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00013495589555532206,
+      "runner_distance": 0.20692401826381684,
+      "confidence": "HIGH",
+      "center": [
+        -0.2304552048444748,
+        -0.15818622708320618,
+        0.01037238072603941
+      ]
+    },
+    {
+      "object": "node_0.045",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 15,
+      "faces": 15,
+      "mean_distance": 0.0003505232331614631,
+      "runner_distance": 0.07366988981763521,
+      "confidence": "HIGH",
+      "center": [
+        0.26684388518333435,
+        0.2764233648777008,
+        0.2192249596118927
+      ]
+    },
+    {
+      "object": "node_0.046",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 119,
+      "faces": 194,
+      "mean_distance": 0.00018581038426646046,
+      "runner_distance": 0.02268688951517106,
+      "confidence": "HIGH",
+      "center": [
+        0.2728246748447418,
+        0.23427948355674744,
+        0.1764620542526245
+      ]
+    },
+    {
+      "object": "node_0.047",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 5.960901216894854e-05,
+      "runner_distance": 0.16166749969124794,
+      "confidence": "HIGH",
+      "center": [
+        0.017915498465299606,
+        -0.2927022874355316,
+        0.05087696760892868
+      ]
+    },
+    {
+      "object": "node_0.048",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00025609926766871166,
+      "runner_distance": 0.002074825286399573,
+      "confidence": "LOW",
+      "center": [
+        0.1749986708164215,
+        -0.18437477946281433,
+        0.6355640888214111
+      ]
+    },
+    {
+      "object": "node_0.049",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 1241,
+      "faces": 1964,
+      "mean_distance": 0.0007674872784999565,
+      "runner_distance": 0.061690134244145156,
+      "confidence": "HIGH",
+      "center": [
+        0.14215126633644104,
+        -0.1775081306695938,
+        0.7198178172111511
+      ]
+    },
+    {
+      "object": "node_0.050",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 28,
+      "faces": 37,
+      "mean_distance": 0.0001314750649044072,
+      "runner_distance": 0.012792056813071082,
+      "confidence": "HIGH",
+      "center": [
+        0.19308525323867798,
+        -0.17379751801490784,
+        0.6466623544692993
+      ]
+    },
+    {
+      "object": "node_0.051",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 10,
+      "faces": 9,
+      "mean_distance": 0.00027320962399244306,
+      "runner_distance": 0.0017850313888629898,
+      "confidence": "LOW",
+      "center": [
+        0.16091910004615784,
+        -0.19881491363048553,
+        0.6278104186058044
+      ]
+    },
+    {
+      "object": "node_0.052",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0003274225358230372,
+      "runner_distance": 0.0014206536191826065,
+      "confidence": "LOW",
+      "center": [
+        -0.04904866963624954,
+        -0.15150539577007294,
+        0.37826669216156006
+      ]
+    },
+    {
+      "object": "node_0.053",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 21,
+      "faces": 20,
+      "mean_distance": 0.00022289861189641496,
+      "runner_distance": 0.006197332124602759,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.05422624200582504,
+        -0.15288180112838745,
+        0.38501739501953125
+      ]
+    },
+    {
+      "object": "node_0.054",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 20,
+      "faces": 20,
+      "mean_distance": 0.00030141498757529916,
+      "runner_distance": 0.0028161035654193254,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.05024494603276253,
+        -0.14987371861934662,
+        0.38550683856010437
+      ]
+    },
+    {
+      "object": "node_0.055",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00020428968370348835,
+      "runner_distance": 0.0004635754885384813,
+      "confidence": "LOW",
+      "center": [
+        -0.04582200199365616,
+        -0.15643373131752014,
+        0.36459633708000183
+      ]
+    },
+    {
+      "object": "node_0.056",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 8,
+      "faces": 6,
+      "mean_distance": 0.0003158891668135766,
+      "runner_distance": 0.019068795489147305,
+      "confidence": "HIGH",
+      "center": [
+        -0.030889375135302544,
+        -0.17133133113384247,
+        0.4037487804889679
+      ]
+    },
+    {
+      "object": "node_0.057",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00017962296745584658,
+      "runner_distance": 0.02078734462459882,
+      "confidence": "HIGH",
+      "center": [
+        -0.03513733670115471,
+        -0.17415539920330048,
+        0.393032044172287
+      ]
+    },
+    {
+      "object": "node_0.058",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 85,
+      "faces": 106,
+      "mean_distance": 0.0004644399132587296,
+      "runner_distance": 0.017899510508868843,
+      "confidence": "HIGH",
+      "center": [
+        -0.0028010818641632795,
+        -0.17061564326286316,
+        0.4041271209716797
+      ]
+    },
+    {
+      "object": "node_0.059",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 27,
+      "faces": 26,
+      "mean_distance": 0.00036749587141255487,
+      "runner_distance": 0.019165038855539426,
+      "confidence": "HIGH",
+      "center": [
+        -0.021193480119109154,
+        -0.1785472184419632,
+        0.3812757134437561
+      ]
+    },
+    {
+      "object": "node_0.060",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.00036018149304644406,
+      "runner_distance": 0.019597598085446016,
+      "confidence": "HIGH",
+      "center": [
+        -0.027759000658988953,
+        -0.17217977344989777,
+        0.40076032280921936
+      ]
+    },
+    {
+      "object": "node_0.061",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 73,
+      "faces": 108,
+      "mean_distance": 8.157733019231728e-05,
+      "runner_distance": 0.0637310902502577,
+      "confidence": "HIGH",
+      "center": [
+        -0.0809657871723175,
+        -0.27027007937431335,
+        0.5707315802574158
+      ]
+    },
+    {
+      "object": "node_0.062",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00030620229032744345,
+      "runner_distance": 0.0023770182512331908,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.005594000220298767,
+        -0.28300243616104126,
+        0.5643353462219238
+      ]
+    },
+    {
+      "object": "node_0.063",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00014603609724872513,
+      "runner_distance": 0.0007638742390554398,
+      "confidence": "LOW",
+      "center": [
+        0.0017152497312054038,
+        -0.2819043695926666,
+        0.5656754970550537
+      ]
+    },
+    {
+      "object": "node_0.064",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 20,
+      "faces": 23,
+      "mean_distance": 0.0002817774855884636,
+      "runner_distance": 0.010016049965634011,
+      "confidence": "HIGH",
+      "center": [
+        0.012810749001801014,
+        -0.29122722148895264,
+        0.5525402426719666
+      ]
+    },
+    {
+      "object": "node_0.065",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00030675006928504445,
+      "runner_distance": 0.0016629943759956707,
+      "confidence": "LOW",
+      "center": [
+        -0.0007340001175180078,
+        -0.28331995010375977,
+        0.5648225545883179
+      ]
+    },
+    {
+      "object": "node_0.066",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0005174287556049725,
+      "runner_distance": 0.0006024297617841512,
+      "confidence": "LOW",
+      "center": [
+        -0.006228333339095116,
+        -0.28330546617507935,
+        0.5644916892051697
+      ]
+    },
+    {
+      "object": "node_0.067",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 74,
+      "faces": 106,
+      "mean_distance": 0.00045677486650674837,
+      "runner_distance": 0.010430407560306776,
+      "confidence": "HIGH",
+      "center": [
+        -0.011881881393492222,
+        -0.28435418009757996,
+        0.5765734314918518
+      ]
+    },
+    {
+      "object": "node_0.068",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 43,
+      "faces": 60,
+      "mean_distance": 0.00027967669134199014,
+      "runner_distance": 0.006826787181125837,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.03301941603422165,
+        -0.26460763812065125,
+        0.5939556956291199
+      ]
+    },
+    {
+      "object": "node_0.069",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 102,
+      "faces": 161,
+      "mean_distance": 0.0002692477170676,
+      "runner_distance": 0.016453297882435436,
+      "confidence": "HIGH",
+      "center": [
+        0.010407116264104843,
+        0.07150501012802124,
+        0.4655761420726776
+      ]
+    },
+    {
+      "object": "node_0.070",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 1267,
+      "faces": 2327,
+      "mean_distance": 0.000168611140125563,
+      "runner_distance": 0.10084491753877955,
+      "confidence": "HIGH",
+      "center": [
+        -0.05128784850239754,
+        0.020616408437490463,
+        0.5113414525985718
+      ]
+    },
+    {
+      "object": "node_0.071",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 115,
+      "faces": 181,
+      "mean_distance": 0.00027451623850538454,
+      "runner_distance": 0.01796662025481055,
+      "confidence": "HIGH",
+      "center": [
+        -0.1127442866563797,
+        0.009860167279839516,
+        0.4617482125759125
+      ]
+    },
+    {
+      "object": "node_0.072",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.000307318200005587,
+      "runner_distance": 0.0004699060906811307,
+      "confidence": "LOW",
+      "center": [
+        -0.09548300504684448,
+        0.05690461024641991,
+        0.48236405849456787
+      ]
+    },
+    {
+      "object": "node_0.073",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 121,
+      "faces": 194,
+      "mean_distance": 0.00012353104727935715,
+      "runner_distance": 0.01608724607831391,
+      "confidence": "HIGH",
+      "center": [
+        0.0901961699128151,
+        -0.03462569788098335,
+        0.45640408992767334
+      ]
+    },
+    {
+      "object": "node_0.074",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 21,
+      "faces": 21,
+      "mean_distance": 0.0002113178042712943,
+      "runner_distance": 0.0024887002405843566,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.12017395347356796,
+        -0.036774732172489166,
+        0.4713996350765228
+      ]
+    },
+    {
+      "object": "node_0.075",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00027292093727737665,
+      "runner_distance": 0.00041471646400168536,
+      "confidence": "LOW",
+      "center": [
+        -0.12086760252714157,
+        -0.047290269285440445,
+        0.47277045249938965
+      ]
+    },
+    {
+      "object": "node_0.076",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0003339256363688037,
+      "runner_distance": 0.0003762468113563955,
+      "confidence": "LOW",
+      "center": [
+        -0.11320250481367111,
+        -0.06765256822109222,
+        0.4706287980079651
+      ]
+    },
+    {
+      "object": "node_0.077",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 48,
+      "faces": 72,
+      "mean_distance": 0.00012278380685515344,
+      "runner_distance": 0.00800052664044415,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.0697307363152504,
+        -0.11753549426794052,
+        0.4547077417373657
+      ]
+    },
+    {
+      "object": "node_0.078",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0003123694429329286,
+      "runner_distance": 0.0003643055582263817,
+      "confidence": "LOW",
+      "center": [
+        -0.09213399887084961,
+        -0.09566740691661835,
+        0.4677310883998871
+      ]
+    },
+    {
+      "object": "node_0.079",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00023870895650664656,
+      "runner_distance": 0.0002887221344280988,
+      "confidence": "LOW",
+      "center": [
+        -0.0960693359375,
+        -0.09233607351779938,
+        0.46805042028427124
+      ]
+    },
+    {
+      "object": "node_0.080",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 31,
+      "faces": 41,
+      "mean_distance": 0.0002789120071317865,
+      "runner_distance": 0.01271568562491842,
+      "confidence": "HIGH",
+      "center": [
+        -0.06255046278238297,
+        -0.10978035628795624,
+        0.452896386384964
+      ]
+    },
+    {
+      "object": "node_0.081",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 11,
+      "faces": 9,
+      "mean_distance": 0.00040437738326462835,
+      "runner_distance": 0.0004853808198028921,
+      "confidence": "LOW",
+      "center": [
+        -0.02702036313712597,
+        -0.09938816726207733,
+        0.4629758596420288
+      ]
+    },
+    {
+      "object": "node_0.082",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0003397160174927194,
+      "runner_distance": 0.0004720293072750792,
+      "confidence": "LOW",
+      "center": [
+        -0.06694500148296356,
+        -0.09091781824827194,
+        0.46447432041168213
+      ]
+    },
+    {
+      "object": "node_0.083",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.000625234266044572,
+      "runner_distance": 0.0016083783790236338,
+      "confidence": "LOW",
+      "center": [
+        -0.08366420120000839,
+        -0.08616387099027634,
+        0.4649118483066559
+      ]
+    },
+    {
+      "object": "node_0.084",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 64,
+      "faces": 94,
+      "mean_distance": 0.0003465782012312957,
+      "runner_distance": 0.013934559306264305,
+      "confidence": "HIGH",
+      "center": [
+        -0.00932484120130539,
+        -0.10637010633945465,
+        0.4506595730781555
+      ]
+    },
+    {
+      "object": "node_0.085",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0004598716914188117,
+      "runner_distance": 0.0010451858106534928,
+      "confidence": "LOW",
+      "center": [
+        0.05177899822592735,
+        -0.08440006524324417,
+        0.4658122956752777
+      ]
+    },
+    {
+      "object": "node_0.086",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 44,
+      "faces": 63,
+      "mean_distance": 0.00048332050755561795,
+      "runner_distance": 0.01567874254851631,
+      "confidence": "HIGH",
+      "center": [
+        0.037622932344675064,
+        -0.11356478929519653,
+        0.44993552565574646
+      ]
+    },
+    {
+      "object": "node_0.087",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 16,
+      "faces": 17,
+      "mean_distance": 0.0003305368915391682,
+      "runner_distance": 0.01117914140013454,
+      "confidence": "HIGH",
+      "center": [
+        0.03783100098371506,
+        -0.12008114159107208,
+        0.45596352219581604
+      ]
+    },
+    {
+      "object": "node_0.088",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 83,
+      "faces": 131,
+      "mean_distance": 0.00013216697705331626,
+      "runner_distance": 0.028434032165932877,
+      "confidence": "HIGH",
+      "center": [
+        0.05124882981181145,
+        -0.12235186249017715,
+        0.444942831993103
+      ]
+    },
+    {
+      "object": "node_0.089",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 18,
+      "faces": 20,
+      "mean_distance": 0.0002809344684161867,
+      "runner_distance": 0.010383826864805693,
+      "confidence": "HIGH",
+      "center": [
+        -0.01724672131240368,
+        -0.1377996951341629,
+        0.4539774954319
+      ]
+    },
+    {
+      "object": "node_0.090",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 27,
+      "faces": 37,
+      "mean_distance": 0.00029843416066594527,
+      "runner_distance": 0.010582013689498935,
+      "confidence": "HIGH",
+      "center": [
+        -0.007531778886914253,
+        -0.13957297801971436,
+        0.45362189412117004
+      ]
+    },
+    {
+      "object": "node_0.091",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 17,
+      "faces": 21,
+      "mean_distance": 0.0003018608263921445,
+      "runner_distance": 0.00980571064642658,
+      "confidence": "HIGH",
+      "center": [
+        -0.012166471220552921,
+        -0.12933149933815002,
+        0.4552502930164337
+      ]
+    },
+    {
+      "object": "node_0.092",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.0013192947746054934,
+      "runner_distance": 0.0023825775549214867,
+      "confidence": "LOW",
+      "center": [
+        0.06441157311201096,
+        -0.08198392391204834,
+        0.46508219838142395
+      ]
+    },
+    {
+      "object": "node_0.093",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 9,
+      "faces": 7,
+      "mean_distance": 0.00037578931672517985,
+      "runner_distance": 0.007386021872258021,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.003925666678696871,
+        -0.1326228380203247,
+        0.452337384223938
+      ]
+    },
+    {
+      "object": "node_0.094",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 482,
+      "faces": 819,
+      "mean_distance": 9.190480523102451e-05,
+      "runner_distance": 0.1539907071273774,
+      "confidence": "HIGH",
+      "center": [
+        0.10656443983316422,
+        -0.16016785800457,
+        0.5348219275474548
+      ]
+    },
+    {
+      "object": "node_0.095",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 1186,
+      "faces": 2214,
+      "mean_distance": 0.0002912830730110727,
+      "runner_distance": 0.2892213468439877,
+      "confidence": "HIGH",
+      "center": [
+        -0.10285897552967072,
+        0.23934301733970642,
+        0.6932098269462585
+      ]
+    },
+    {
+      "object": "node_0.096",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 103,
+      "faces": 136,
+      "mean_distance": 0.0001848003403210896,
+      "runner_distance": 0.06616353392018937,
+      "confidence": "HIGH",
+      "center": [
+        -0.2644255459308624,
+        -0.14572034776210785,
+        0.6248750686645508
+      ]
+    },
+    {
+      "object": "node_0.097",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 1216,
+      "faces": 1915,
+      "mean_distance": 0.0002061490910136854,
+      "runner_distance": 0.0972726228646934,
+      "confidence": "HIGH",
+      "center": [
+        -0.19296453893184662,
+        -0.16022217273712158,
+        0.7047641277313232
+      ]
+    },
+    {
+      "object": "node_0.098",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 952,
+      "faces": 1777,
+      "mean_distance": 0.00014368654296958994,
+      "runner_distance": 0.29584161285310984,
+      "confidence": "HIGH",
+      "center": [
+        0.2131103128194809,
+        0.1236649826169014,
+        0.7403784394264221
+      ]
+    },
+    {
+      "object": "node_0.099",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00012720555605483241,
+      "runner_distance": 0.0919596366584301,
+      "confidence": "HIGH",
+      "center": [
+        -0.23805999755859375,
+        -0.172904834151268,
+        0.5423343181610107
+      ]
+    },
+    {
+      "object": "node_0.100",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0001867924875114113,
+      "runner_distance": 0.1704763819773992,
+      "confidence": "HIGH",
+      "center": [
+        -0.2920446991920471,
+        -0.05069374665617943,
+        0.5621607303619385
+      ]
+    },
+    {
+      "object": "node_0.101",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0001897788606584072,
+      "runner_distance": 0.20683870712916055,
+      "confidence": "HIGH",
+      "center": [
+        -0.3077593445777893,
+        -0.00045941065764054656,
+        0.5757327079772949
+      ]
+    },
+    {
+      "object": "node_0.102",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 677,
+      "faces": 1245,
+      "mean_distance": 0.00029996404100529617,
+      "runner_distance": 0.11517980857752264,
+      "confidence": "HIGH",
+      "center": [
+        -0.07455558329820633,
+        0.04356687515974045,
+        0.20199686288833618
+      ]
+    },
+    {
+      "object": "node_0.103",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 91,
+      "faces": 131,
+      "mean_distance": 0.00020310326743810947,
+      "runner_distance": 0.0313691966002807,
+      "confidence": "HIGH",
+      "center": [
+        -0.030250156298279762,
+        0.04891962185502052,
+        0.4471651017665863
+      ]
+    },
+    {
+      "object": "node_0.104",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 65,
+      "faces": 87,
+      "mean_distance": 0.00019629621237982064,
+      "runner_distance": 0.04022127384087071,
+      "confidence": "HIGH",
+      "center": [
+        -0.09832434356212616,
+        -0.0725652351975441,
+        0.42965760827064514
+      ]
+    },
+    {
+      "object": "node_0.105",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 743,
+      "faces": 1376,
+      "mean_distance": 0.00030482483057880927,
+      "runner_distance": 0.1258919338870328,
+      "confidence": "HIGH",
+      "center": [
+        0.06470470875501633,
+        0.09729497879743576,
+        0.23670217394828796
+      ]
+    },
+    {
+      "object": "node_0.106",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 586,
+      "faces": 1088,
+      "mean_distance": 0.00014498803176365982,
+      "runner_distance": 0.08709002181421965,
+      "confidence": "HIGH",
+      "center": [
+        0.07127135992050171,
+        0.039240434765815735,
+        0.024221401661634445
+      ]
+    },
+    {
+      "object": "node_0.107",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 384,
+      "faces": 645,
+      "mean_distance": 0.00014206734832100665,
+      "runner_distance": 0.04886615172654274,
+      "confidence": "HIGH",
+      "center": [
+        -0.032585274428129196,
+        -0.11986275017261505,
+        0.17296114563941956
+      ]
+    },
+    {
+      "object": "node_0.108",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00018217825557561204,
+      "runner_distance": 0.04690779000520706,
+      "confidence": "HIGH",
+      "center": [
+        -0.10597049444913864,
+        -0.0690707340836525,
+        0.4210442304611206
+      ]
+    },
+    {
+      "object": "node_0.109",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 359,
+      "faces": 642,
+      "mean_distance": 0.0002716294461606594,
+      "runner_distance": 0.053319909748097416,
+      "confidence": "HIGH",
+      "center": [
+        -0.08235565572977066,
+        -0.11657331883907318,
+        0.10383827984333038
+      ]
+    },
+    {
+      "object": "node_0.110",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 345,
+      "faces": 607,
+      "mean_distance": 0.0003581829978429596,
+      "runner_distance": 0.024744860580540262,
+      "confidence": "HIGH",
+      "center": [
+        0.12964338064193726,
+        -0.12530484795570374,
+        0.08131854236125946
+      ]
+    },
+    {
+      "object": "node_0.111",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 13,
+      "faces": 14,
+      "mean_distance": 0.0004592498946224693,
+      "runner_distance": 0.002022204774010998,
+      "confidence": "LOW",
+      "center": [
+        0.010547386482357979,
+        -0.1608036607503891,
+        0.15363161265850067
+      ]
+    },
+    {
+      "object": "node_0.112",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 11,
+      "faces": 11,
+      "mean_distance": 0.0007755869519314729,
+      "runner_distance": 0.002603064830922945,
+      "confidence": "LOW",
+      "center": [
+        0.03534172847867012,
+        -0.16049620509147644,
+        0.1453438103199005
+      ]
+    },
+    {
+      "object": "node_0.113",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 638,
+      "faces": 1178,
+      "mean_distance": 0.00010403463690522585,
+      "runner_distance": 0.0975845168431988,
+      "confidence": "HIGH",
+      "center": [
+        0.15860624611377716,
+        -0.012344676069915295,
+        0.2214338183403015
+      ]
+    },
+    {
+      "object": "node_0.114",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 261,
+      "faces": 431,
+      "mean_distance": 0.0001586964461921525,
+      "runner_distance": 0.059466163907927694,
+      "confidence": "HIGH",
+      "center": [
+        0.053973305970430374,
+        -0.1531534492969513,
+        0.3195514380931854
+      ]
+    },
+    {
+      "object": "node_0.115",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 350,
+      "faces": 606,
+      "mean_distance": 9.673574343338487e-05,
+      "runner_distance": 0.027272382911178283,
+      "confidence": "HIGH",
+      "center": [
+        0.10799799114465714,
+        -0.10914004594087601,
+        0.10295823961496353
+      ]
+    },
+    {
+      "object": "node_0.116",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 112,
+      "faces": 169,
+      "mean_distance": 0.00013999467849146185,
+      "runner_distance": 0.03661365620791912,
+      "confidence": "HIGH",
+      "center": [
+        0.06913663446903229,
+        -0.05016046017408371,
+        0.43267902731895447
+      ]
+    },
+    {
+      "object": "node_0.117",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00021463787804047266,
+      "runner_distance": 0.030021479974190395,
+      "confidence": "HIGH",
+      "center": [
+        0.07319667190313339,
+        0.011976274661719799,
+        0.44338175654411316
+      ]
+    },
+    {
+      "object": "node_0.118",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 1033,
+      "faces": 1925,
+      "mean_distance": 0.0001660114624542075,
+      "runner_distance": 0.21306121617089957,
+      "confidence": "HIGH",
+      "center": [
+        -0.13491620123386383,
+        0.09974619746208191,
+        0.8965417742729187
+      ]
+    },
+    {
+      "object": "node_0.119",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 553,
+      "faces": 968,
+      "mean_distance": 5.950928550646495e-05,
+      "runner_distance": 0.18624825397273526,
+      "confidence": "HIGH",
+      "center": [
+        -0.003961923997849226,
+        -0.08399958908557892,
+        0.929913341999054
+      ]
+    },
+    {
+      "object": "node_0.120",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0002439000782032963,
+      "runner_distance": 0.06074634939432144,
+      "confidence": "HIGH",
+      "center": [
+        -0.30776047706604004,
+        0.0026293916162103415,
+        0.8079298734664917
+      ]
+    },
+    {
+      "object": "node_0.121",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 3.5446313328672353e-05,
+      "runner_distance": 0.1780601292848587,
+      "confidence": "HIGH",
+      "center": [
+        0.2343900054693222,
+        -0.008999114856123924,
+        0.8389605283737183
+      ]
+    },
+    {
+      "object": "node_0.122",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00011125687039263236,
+      "runner_distance": 0.15446233749389648,
+      "confidence": "HIGH",
+      "center": [
+        0.28404664993286133,
+        -0.024461090564727783,
+        0.6668943762779236
+      ]
+    },
+    {
+      "object": "node_0.123",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0003960593603551388,
+      "runner_distance": 0.18554435297846794,
+      "confidence": "HIGH",
+      "center": [
+        -0.33449798822402954,
+        0.050185415893793106,
+        0.6659910678863525
+      ]
+    },
+    {
+      "object": "node_0.124",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 44,
+      "faces": 47,
+      "mean_distance": 0.00014255477026381413,
+      "runner_distance": 0.04639454907737672,
+      "confidence": "HIGH",
+      "center": [
+        -0.0015401350101456046,
+        -0.16403727233409882,
+        0.3151603043079376
+      ]
+    },
+    {
+      "object": "node_0.125",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 215,
+      "faces": 363,
+      "mean_distance": 0.00014430055215086668,
+      "runner_distance": 0.08322448330000043,
+      "confidence": "HIGH",
+      "center": [
+        -0.06231163814663887,
+        -0.1501755714416504,
+        0.25938308238983154
+      ]
+    },
+    {
+      "object": "node_0.126",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 148,
+      "faces": 257,
+      "mean_distance": 0.00013663480237369185,
+      "runner_distance": 0.03282625898191327,
+      "confidence": "HIGH",
+      "center": [
+        -0.0678291767835617,
+        -0.13968655467033386,
+        0.35663753747940063
+      ]
+    },
+    {
+      "object": "node_0.127",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 13,
+      "faces": 12,
+      "mean_distance": 0.0001761387659196491,
+      "runner_distance": 0.05738102214840742,
+      "confidence": "HIGH",
+      "center": [
+        0.062137771397829056,
+        -0.15159592032432556,
+        0.3198543190956116
+      ]
+    },
+    {
+      "object": "node_0.128",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 10,
+      "faces": 9,
+      "mean_distance": 0.0007086118206643732,
+      "runner_distance": 0.0013233329405920812,
+      "confidence": "LOW",
+      "center": [
+        0.015179799869656563,
+        -0.15459513664245605,
+        0.1413675993680954
+      ]
+    },
+    {
+      "object": "node_0.129",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0007781350359437056,
+      "runner_distance": 0.00154799235072763,
+      "confidence": "LOW",
+      "center": [
+        -0.003884000238031149,
+        -0.15331169962882996,
+        0.1461421698331833
+      ]
+    },
+    {
+      "object": "node_0.130",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 5,
+      "faces": 4,
+      "mean_distance": 0.0002627659676363692,
+      "runner_distance": 0.002494501636829227,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.008936800062656403,
+        -0.15536683797836304,
+        0.151339590549469
+      ]
+    },
+    {
+      "object": "node_0.131",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 30,
+      "faces": 40,
+      "mean_distance": 0.00038832314815711775,
+      "runner_distance": 0.00826339578391829,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.01502753421664238,
+        -0.13318490982055664,
+        0.4425819516181946
+      ]
+    },
+    {
+      "object": "node_0.132",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 81,
+      "faces": 126,
+      "mean_distance": 0.0002239333590523529,
+      "runner_distance": 0.015591322170848798,
+      "confidence": "HIGH",
+      "center": [
+        -0.04935411736369133,
+        -0.16914455592632294,
+        0.3805074095726013
+      ]
+    },
+    {
+      "object": "node_0.133",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 49,
+      "faces": 70,
+      "mean_distance": 0.00011788851119831634,
+      "runner_distance": 0.008217221688198606,
+      "confidence": "HIGH",
+      "center": [
+        0.008071939460933208,
+        -0.1793200820684433,
+        0.35605373978614807
+      ]
+    },
+    {
+      "object": "node_0.134",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0001455723455971262,
+      "runner_distance": 0.055647979800899826,
+      "confidence": "HIGH",
+      "center": [
+        0.19591300189495087,
+        -0.2099962681531906,
+        0.5833377242088318
+      ]
+    },
+    {
+      "object": "node_0.135",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00015816397853996023,
+      "runner_distance": 0.07649951241910458,
+      "confidence": "HIGH",
+      "center": [
+        0.22494274377822876,
+        -0.17760609090328217,
+        0.5765577554702759
+      ]
+    },
+    {
+      "object": "node_0.136",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 3.4976470634059554e-05,
+      "runner_distance": 0.06714713041271482,
+      "confidence": "HIGH",
+      "center": [
+        -0.1608550101518631,
+        -0.2377498298883438,
+        0.5449492931365967
+      ]
+    },
+    {
+      "object": "node_0.137",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 9.829076589085162e-05,
+      "runner_distance": 0.08399855842192967,
+      "confidence": "HIGH",
+      "center": [
+        -0.17636233568191528,
+        -0.21413910388946533,
+        0.5245007276535034
+      ]
+    },
+    {
+      "object": "node_0.138",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 194,
+      "faces": 336,
+      "mean_distance": 0.00013373376606296006,
+      "runner_distance": 0.05473853414878249,
+      "confidence": "HIGH",
+      "center": [
+        0.01315236184746027,
+        -0.17361614108085632,
+        0.22493253648281097
+      ]
+    },
+    {
+      "object": "node_0.139",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 5.3657277931051794e-05,
+      "runner_distance": 0.018836729383716982,
+      "confidence": "HIGH",
+      "center": [
+        0.16513684391975403,
+        -0.21652913093566895,
+        0.6163555383682251
+      ]
+    },
+    {
+      "object": "node_0.140",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00016103456582641228,
+      "runner_distance": 0.0166447713971138,
+      "confidence": "HIGH",
+      "center": [
+        0.20814259350299835,
+        -0.14468291401863098,
+        0.6760643124580383
+      ]
+    },
+    {
+      "object": "node_0.141",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00038987535420649994,
+      "runner_distance": 0.000556442488838608,
+      "confidence": "LOW",
+      "center": [
+        0.29093533754348755,
+        0.19107967615127563,
+        0.14736539125442505
+      ]
+    },
+    {
+      "object": "node_0.142",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0002703485188249033,
+      "runner_distance": 0.002635378659761045,
+      "confidence": "MEDIUM",
+      "center": [
+        0.3062885105609894,
+        0.18536551296710968,
+        0.1347752958536148
+      ]
+    },
+    {
+      "object": "node_0.143",
+      "semantic": "TAIL",
+      "reference_part": "part_5",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00039714112972433213,
+      "runner_distance": 0.008873453425621847,
+      "confidence": "HIGH",
+      "center": [
+        0.29506850242614746,
+        0.19456052780151367,
+        0.1546015441417694
+      ]
+    },
+    {
+      "object": "node_0.144",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 97,
+      "faces": 158,
+      "mean_distance": 0.00026579448299912656,
+      "runner_distance": 0.02330444495601114,
+      "confidence": "HIGH",
+      "center": [
+        -0.20659805834293365,
+        -0.1685790717601776,
+        0.8733241558074951
+      ]
+    },
+    {
+      "object": "node_0.145",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 40,
+      "faces": 53,
+      "mean_distance": 0.00035799125521407404,
+      "runner_distance": 0.029021332855336368,
+      "confidence": "HIGH",
+      "center": [
+        -0.2417229861021042,
+        -0.1462061107158661,
+        0.8709952235221863
+      ]
+    },
+    {
+      "object": "node_0.146",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0003302306017758383,
+      "runner_distance": 0.018598108552396297,
+      "confidence": "HIGH",
+      "center": [
+        -0.22954575717449188,
+        -0.1605941355228424,
+        0.8488951325416565
+      ]
+    },
+    {
+      "object": "node_0.147",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 51,
+      "faces": 70,
+      "mean_distance": 0.0004203402305762438,
+      "runner_distance": 0.01995450117101427,
+      "confidence": "HIGH",
+      "center": [
+        -0.2407045215368271,
+        -0.15846377611160278,
+        0.8417304754257202
+      ]
+    },
+    {
+      "object": "node_0.148",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 42,
+      "faces": 56,
+      "mean_distance": 0.000462540915975751,
+      "runner_distance": 0.02484869139152579,
+      "confidence": "HIGH",
+      "center": [
+        -0.17652329802513123,
+        -0.18502019345760345,
+        0.8858048915863037
+      ]
+    },
+    {
+      "object": "node_0.149",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 99,
+      "faces": 160,
+      "mean_distance": 0.0003014536181069616,
+      "runner_distance": 0.03734475138480775,
+      "confidence": "HIGH",
+      "center": [
+        -0.23807774484157562,
+        -0.11632826179265976,
+        0.9129747152328491
+      ]
+    },
+    {
+      "object": "node_0.150",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 85,
+      "faces": 129,
+      "mean_distance": 0.00025543408261796685,
+      "runner_distance": 0.014237049428629689,
+      "confidence": "HIGH",
+      "center": [
+        -0.18645304441452026,
+        -0.16505590081214905,
+        0.8772607445716858
+      ]
+    },
+    {
+      "object": "node_0.151",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 38,
+      "faces": 50,
+      "mean_distance": 0.0005627495391991033,
+      "runner_distance": 0.019071215616804693,
+      "confidence": "HIGH",
+      "center": [
+        -0.20124591886997223,
+        -0.13495109975337982,
+        0.9074935913085938
+      ]
+    },
+    {
+      "object": "node_0.152",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 20,
+      "faces": 22,
+      "mean_distance": 0.00037237889459902364,
+      "runner_distance": 0.015568394749425351,
+      "confidence": "HIGH",
+      "center": [
+        -0.22093220055103302,
+        -0.17213037610054016,
+        0.8303513526916504
+      ]
+    },
+    {
+      "object": "node_0.153",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 28,
+      "faces": 36,
+      "mean_distance": 0.0006148443853330068,
+      "runner_distance": 0.013261998321727983,
+      "confidence": "HIGH",
+      "center": [
+        -0.20802490413188934,
+        -0.1831067055463791,
+        0.8181029558181763
+      ]
+    },
+    {
+      "object": "node_0.154",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 31,
+      "faces": 36,
+      "mean_distance": 0.0004007750208074867,
+      "runner_distance": 0.010992428781690015,
+      "confidence": "HIGH",
+      "center": [
+        -0.19225767254829407,
+        -0.1819402575492859,
+        0.8432929515838623
+      ]
+    },
+    {
+      "object": "node_0.155",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.001035129145020619,
+      "runner_distance": 0.0010806247009895742,
+      "confidence": "LOW",
+      "center": [
+        -0.018925800919532776,
+        -0.27348092198371887,
+        0.5763994455337524
+      ]
+    },
+    {
+      "object": "node_0.156",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 54,
+      "faces": 74,
+      "mean_distance": 0.00026322268386991254,
+      "runner_distance": 0.010831395609216088,
+      "confidence": "HIGH",
+      "center": [
+        -0.025570163503289223,
+        -0.27725735306739807,
+        0.6003448963165283
+      ]
+    },
+    {
+      "object": "node_0.157",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0008410067627361665,
+      "runner_distance": 0.0010652773586722712,
+      "confidence": "LOW",
+      "center": [
+        -0.017167001962661743,
+        -0.27769944071769714,
+        0.5737113356590271
+      ]
+    },
+    {
+      "object": "node_0.158",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 93,
+      "faces": 147,
+      "mean_distance": 0.00027766708812748675,
+      "runner_distance": 0.03264053013367629,
+      "confidence": "HIGH",
+      "center": [
+        -0.08369877189397812,
+        -0.10991723090410233,
+        0.43877705931663513
+      ]
+    },
+    {
+      "object": "node_0.159",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 50,
+      "faces": 67,
+      "mean_distance": 0.00020354755464069285,
+      "runner_distance": 0.009944438707407244,
+      "confidence": "HIGH",
+      "center": [
+        -0.014226097613573074,
+        -0.15564166009426117,
+        0.4354124665260315
+      ]
+    },
+    {
+      "object": "node_0.160",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 41,
+      "faces": 58,
+      "mean_distance": 0.00034975393850800174,
+      "runner_distance": 0.03194671310484409,
+      "confidence": "HIGH",
+      "center": [
+        -0.26456108689308167,
+        -0.13288545608520508,
+        0.8642676472663879
+      ]
+    },
+    {
+      "object": "node_0.161",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 45,
+      "faces": 61,
+      "mean_distance": 0.0002485048725731076,
+      "runner_distance": 0.031035627704113722,
+      "confidence": "HIGH",
+      "center": [
+        -0.2636870741844177,
+        -0.14225974678993225,
+        0.8376321792602539
+      ]
+    },
+    {
+      "object": "node_0.162",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0005315102462191135,
+      "runner_distance": 0.019980978220701218,
+      "confidence": "HIGH",
+      "center": [
+        -0.2590956687927246,
+        -0.11375080049037933,
+        0.8640257716178894
+      ]
+    },
+    {
+      "object": "node_0.163",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 104,
+      "faces": 173,
+      "mean_distance": 0.00025710419461688616,
+      "runner_distance": 0.04351843072799966,
+      "confidence": "HIGH",
+      "center": [
+        -0.3010226786136627,
+        -0.0944366455078125,
+        0.8628780245780945
+      ]
+    },
+    {
+      "object": "node_0.164",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 106,
+      "faces": 151,
+      "mean_distance": 0.0001499466070526978,
+      "runner_distance": 0.02373479653033428,
+      "confidence": "HIGH",
+      "center": [
+        -0.016768161207437515,
+        -0.1783328354358673,
+        0.3943500220775604
+      ]
+    },
+    {
+      "object": "node_0.165",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 51,
+      "faces": 77,
+      "mean_distance": 0.00010775433116805289,
+      "runner_distance": 0.013481286687692773,
+      "confidence": "HIGH",
+      "center": [
+        0.03553074970841408,
+        -0.16365452110767365,
+        0.396923303604126
+      ]
+    },
+    {
+      "object": "node_0.166",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 18,
+      "faces": 18,
+      "mean_distance": 0.000137869001719082,
+      "runner_distance": 0.004165019849703337,
+      "confidence": "MEDIUM",
+      "center": [
+        0.03214772418141365,
+        -0.1526561826467514,
+        0.3826715350151062
+      ]
+    },
+    {
+      "object": "node_0.167",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00014302378986030817,
+      "runner_distance": 0.001590929629552799,
+      "confidence": "LOW",
+      "center": [
+        0.02699633501470089,
+        -0.15796039998531342,
+        0.36306166648864746
+      ]
+    },
+    {
+      "object": "node_0.168",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 9,
+      "faces": 8,
+      "mean_distance": 0.00018512654383408112,
+      "runner_distance": 0.015433359735955795,
+      "confidence": "HIGH",
+      "center": [
+        -0.039403222501277924,
+        -0.1319669634103775,
+        0.45057669281959534
+      ]
+    },
+    {
+      "object": "node_0.169",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0004078207518129299,
+      "runner_distance": 0.0004320736528219034,
+      "confidence": "LOW",
+      "center": [
+        -0.018089666962623596,
+        -0.14058107137680054,
+        0.4460630416870117
+      ]
+    },
+    {
+      "object": "node_0.170",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0010130704104085453,
+      "runner_distance": 0.001307238581830461,
+      "confidence": "LOW",
+      "center": [
+        0.036961499601602554,
+        -0.1570107787847519,
+        0.14188100397586823
+      ]
+    },
+    {
+      "object": "node_0.171",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 29,
+      "faces": 28,
+      "mean_distance": 0.0002683591878222019,
+      "runner_distance": 0.01768052221500668,
+      "confidence": "HIGH",
+      "center": [
+        -0.007385207340121269,
+        -0.17113971710205078,
+        0.4097285866737366
+      ]
+    },
+    {
+      "object": "node_0.172",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 9,
+      "faces": 7,
+      "mean_distance": 0.000507546722171052,
+      "runner_distance": 0.020605124947097566,
+      "confidence": "HIGH",
+      "center": [
+        0.00220044469460845,
+        -0.17252208292484283,
+        0.401349812746048
+      ]
+    },
+    {
+      "object": "node_0.173",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 16,
+      "faces": 14,
+      "mean_distance": 0.00038539994375241804,
+      "runner_distance": 0.01949471718398854,
+      "confidence": "HIGH",
+      "center": [
+        -0.011366687715053558,
+        -0.1771503984928131,
+        0.3890949487686157
+      ]
+    },
+    {
+      "object": "node_0.174",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 6,
+      "faces": 5,
+      "mean_distance": 0.0003551508737776506,
+      "runner_distance": 0.020992775137225788,
+      "confidence": "HIGH",
+      "center": [
+        -0.0010403337655588984,
+        -0.17466625571250916,
+        0.39691102504730225
+      ]
+    },
+    {
+      "object": "node_0.175",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.0005014983804098197,
+      "runner_distance": 0.0206574552825519,
+      "confidence": "HIGH",
+      "center": [
+        0.002546714385971427,
+        -0.17515535652637482,
+        0.39433160424232483
+      ]
+    },
+    {
+      "object": "node_0.176",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 6,
+      "faces": 5,
+      "mean_distance": 0.0008403816646023188,
+      "runner_distance": 0.02034839956710736,
+      "confidence": "HIGH",
+      "center": [
+        -0.004001000430434942,
+        -0.1766042411327362,
+        0.39143919944763184
+      ]
+    },
+    {
+      "object": "node_0.177",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00022428778975154274,
+      "runner_distance": 0.02153252437710762,
+      "confidence": "HIGH",
+      "center": [
+        0.01303540077060461,
+        -0.17328326404094696,
+        0.3991082012653351
+      ]
+    },
+    {
+      "object": "node_0.178",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0008157251504599117,
+      "runner_distance": 0.018897261004894972,
+      "confidence": "HIGH",
+      "center": [
+        -0.009457500651478767,
+        -0.17188407480716705,
+        0.40292078256607056
+      ]
+    },
+    {
+      "object": "node_0.179",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00047472993621037557,
+      "runner_distance": 0.018254475047190983,
+      "confidence": "HIGH",
+      "center": [
+        0.0016948332777246833,
+        -0.1711772382259369,
+        0.40462273359298706
+      ]
+    },
+    {
+      "object": "node_0.180",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 7,
+      "faces": 6,
+      "mean_distance": 0.0005496565718203783,
+      "runner_distance": 0.014328490942716599,
+      "confidence": "HIGH",
+      "center": [
+        -0.0018557143630459905,
+        -0.1689033806324005,
+        0.41076934337615967
+      ]
+    },
+    {
+      "object": "node_0.181",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 8,
+      "faces": 7,
+      "mean_distance": 0.00036475216984399594,
+      "runner_distance": 0.012748817331157625,
+      "confidence": "HIGH",
+      "center": [
+        0.001628125086426735,
+        -0.1671513319015503,
+        0.4138948917388916
+      ]
+    },
+    {
+      "object": "node_0.182",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0009299790253862739,
+      "runner_distance": 0.01307520130649209,
+      "confidence": "HIGH",
+      "center": [
+        -0.011217249557375908,
+        -0.1679893136024475,
+        0.4107465147972107
+      ]
+    },
+    {
+      "object": "node_0.183",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0003203884709819249,
+      "runner_distance": 0.016272078035399318,
+      "confidence": "HIGH",
+      "center": [
+        0.008079249411821365,
+        -0.16967107355594635,
+        0.4081647992134094
+      ]
+    },
+    {
+      "object": "node_0.184",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0002931679875473492,
+      "runner_distance": 0.013553359173238277,
+      "confidence": "HIGH",
+      "center": [
+        -0.024566002190113068,
+        -0.1673576831817627,
+        0.4163378179073334
+      ]
+    },
+    {
+      "object": "node_0.185",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0002289733339845649,
+      "runner_distance": 0.012250162195414305,
+      "confidence": "HIGH",
+      "center": [
+        -0.021485835313796997,
+        -0.1657589077949524,
+        0.41927236318588257
+      ]
+    },
+    {
+      "object": "node_0.186",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00031612484212928393,
+      "runner_distance": 0.012448148103430867,
+      "confidence": "HIGH",
+      "center": [
+        -0.014114750549197197,
+        -0.16718056797981262,
+        0.4161185324192047
+      ]
+    },
+    {
+      "object": "node_0.187",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00021791489295234592,
+      "runner_distance": 0.01232966190824906,
+      "confidence": "HIGH",
+      "center": [
+        0.00024633342400193214,
+        -0.16627459228038788,
+        0.4182180166244507
+      ]
+    },
+    {
+      "object": "node_0.188",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00028333858062978834,
+      "runner_distance": 0.01372883073054254,
+      "confidence": "HIGH",
+      "center": [
+        0.009044500067830086,
+        -0.16739483177661896,
+        0.41753876209259033
+      ]
+    },
+    {
+      "object": "node_0.189",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00021379730242188089,
+      "runner_distance": 0.012338812462985516,
+      "confidence": "HIGH",
+      "center": [
+        -0.027249250560998917,
+        -0.16521507501602173,
+        0.4205385446548462
+      ]
+    },
+    {
+      "object": "node_0.190",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 42,
+      "faces": 57,
+      "mean_distance": 0.0003903286250590554,
+      "runner_distance": 0.04061831597937271,
+      "confidence": "HIGH",
+      "center": [
+        -0.2120581865310669,
+        -0.11554516106843948,
+        0.9397554397583008
+      ]
+    },
+    {
+      "object": "node_0.191",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 117,
+      "faces": 191,
+      "mean_distance": 0.00025908783757699894,
+      "runner_distance": 0.023923221732331967,
+      "confidence": "HIGH",
+      "center": [
+        -0.23664045333862305,
+        -0.09384670108556747,
+        0.9069408178329468
+      ]
+    },
+    {
+      "object": "node_0.192",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 30,
+      "faces": 39,
+      "mean_distance": 0.0004000932610021361,
+      "runner_distance": 0.04390968134005865,
+      "confidence": "HIGH",
+      "center": [
+        -0.2893553376197815,
+        -0.07313293218612671,
+        0.8924238085746765
+      ]
+    },
+    {
+      "object": "node_0.193",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 33,
+      "faces": 44,
+      "mean_distance": 0.0002784179461343683,
+      "runner_distance": 0.01185094119682617,
+      "confidence": "HIGH",
+      "center": [
+        -0.2572208046913147,
+        -0.15323394536972046,
+        0.7816653251647949
+      ]
+    },
+    {
+      "object": "node_0.194",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 37,
+      "faces": 49,
+      "mean_distance": 0.0005155584719602757,
+      "runner_distance": 0.015153602838836377,
+      "confidence": "HIGH",
+      "center": [
+        -0.2777561545372009,
+        -0.13849879801273346,
+        0.7794322371482849
+      ]
+    },
+    {
+      "object": "node_0.195",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 56,
+      "faces": 78,
+      "mean_distance": 0.0006014624242993705,
+      "runner_distance": 0.007894773555563006,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.23052360117435455,
+        -0.1642603576183319,
+        0.7928037047386169
+      ]
+    },
+    {
+      "object": "node_0.196",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 39,
+      "faces": 52,
+      "mean_distance": 0.0005028232609447514,
+      "runner_distance": 0.020237981632817537,
+      "confidence": "HIGH",
+      "center": [
+        -0.228887140750885,
+        -0.186240091919899,
+        0.7844398617744446
+      ]
+    },
+    {
+      "object": "node_0.197",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 97,
+      "faces": 144,
+      "mean_distance": 0.00024595110690484034,
+      "runner_distance": 0.021259788307361305,
+      "confidence": "HIGH",
+      "center": [
+        -0.24284689128398895,
+        -0.1698622852563858,
+        0.8044963479042053
+      ]
+    },
+    {
+      "object": "node_0.198",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0003677680884720758,
+      "runner_distance": 0.017889940924942494,
+      "confidence": "HIGH",
+      "center": [
+        -0.2622123956680298,
+        -0.1469811052083969,
+        0.8037369847297668
+      ]
+    },
+    {
+      "object": "node_0.199",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 116,
+      "faces": 195,
+      "mean_distance": 0.00026963142087765846,
+      "runner_distance": 0.030137637368170545,
+      "confidence": "HIGH",
+      "center": [
+        -0.300262987613678,
+        -0.12244941294193268,
+        0.8039363026618958
+      ]
+    },
+    {
+      "object": "node_0.200",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 77,
+      "faces": 110,
+      "mean_distance": 0.0001002212918397305,
+      "runner_distance": 0.0285927067452576,
+      "confidence": "HIGH",
+      "center": [
+        0.03246176987886429,
+        -0.29201260209083557,
+        0.6111989617347717
+      ]
+    },
+    {
+      "object": "node_0.201",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00013610688377715027,
+      "runner_distance": 0.03578987065702677,
+      "confidence": "HIGH",
+      "center": [
+        0.06360234320163727,
+        -0.2713034749031067,
+        0.6080197095870972
+      ]
+    },
+    {
+      "object": "node_0.202",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 49,
+      "faces": 64,
+      "mean_distance": 0.00032032809582460686,
+      "runner_distance": 0.011008866941665474,
+      "confidence": "HIGH",
+      "center": [
+        0.028554974123835564,
+        -0.2734174132347107,
+        0.6035961508750916
+      ]
+    },
+    {
+      "object": "node_0.203",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0003648513287771493,
+      "runner_distance": 0.017734410241246223,
+      "confidence": "HIGH",
+      "center": [
+        0.04707139730453491,
+        -0.2623451352119446,
+        0.6053268313407898
+      ]
+    },
+    {
+      "object": "node_0.204",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 39,
+      "faces": 53,
+      "mean_distance": 0.00019633824119580368,
+      "runner_distance": 0.06438604253344238,
+      "confidence": "HIGH",
+      "center": [
+        -0.32973596453666687,
+        -0.06494352966547012,
+        0.8756361603736877
+      ]
+    },
+    {
+      "object": "node_0.205",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 68,
+      "faces": 106,
+      "mean_distance": 0.0002492489255558894,
+      "runner_distance": 0.03888634609756991,
+      "confidence": "HIGH",
+      "center": [
+        -0.3052979111671448,
+        -0.0701223835349083,
+        0.8589580655097961
+      ]
+    },
+    {
+      "object": "node_0.206",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 30,
+      "faces": 40,
+      "mean_distance": 0.00024848914757361247,
+      "runner_distance": 0.04786088392138481,
+      "confidence": "HIGH",
+      "center": [
+        -0.32892778515815735,
+        -0.07848039269447327,
+        0.8358951210975647
+      ]
+    },
+    {
+      "object": "node_0.207",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 60,
+      "faces": 86,
+      "mean_distance": 0.0004469504426651838,
+      "runner_distance": 0.025421793339774013,
+      "confidence": "HIGH",
+      "center": [
+        -0.28497806191444397,
+        -0.06438528001308441,
+        0.8675887584686279
+      ]
+    },
+    {
+      "object": "node_0.208",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00024180499458452686,
+      "runner_distance": 0.02781786061823368,
+      "confidence": "HIGH",
+      "center": [
+        -0.22427502274513245,
+        -0.19456453621387482,
+        0.8003741502761841
+      ]
+    },
+    {
+      "object": "node_0.209",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 16,
+      "faces": 14,
+      "mean_distance": 0.00027869351856679714,
+      "runner_distance": 0.020788312540389597,
+      "confidence": "HIGH",
+      "center": [
+        -0.022112376987934113,
+        -0.17866675555706024,
+        0.3858540654182434
+      ]
+    },
+    {
+      "object": "node_0.210",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00033922589409485226,
+      "runner_distance": 0.020161697641015053,
+      "confidence": "HIGH",
+      "center": [
+        -0.021987000480294228,
+        -0.17523407936096191,
+        0.3944380283355713
+      ]
+    },
+    {
+      "object": "node_0.211",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0003023838974816802,
+      "runner_distance": 0.020020817096034687,
+      "confidence": "HIGH",
+      "center": [
+        -0.02385016903281212,
+        -0.17841005325317383,
+        0.38375282287597656
+      ]
+    },
+    {
+      "object": "node_0.212",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00027231441708863713,
+      "runner_distance": 0.02096222760155797,
+      "confidence": "HIGH",
+      "center": [
+        -0.027747001498937607,
+        -0.17805582284927368,
+        0.3860360383987427
+      ]
+    },
+    {
+      "object": "node_0.213",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0003967242470631997,
+      "runner_distance": 0.019991533209880192,
+      "confidence": "HIGH",
+      "center": [
+        -0.02014966681599617,
+        -0.17256741225719452,
+        0.4007020592689514
+      ]
+    },
+    {
+      "object": "node_0.214",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.0002840529549367992,
+      "runner_distance": 0.02012254563825471,
+      "confidence": "HIGH",
+      "center": [
+        -0.020505428314208984,
+        -0.1793859302997589,
+        0.3827577531337738
+      ]
+    },
+    {
+      "object": "node_0.215",
+      "semantic": "RIGHT_BROW",
+      "reference_part": "part_1",
+      "vertices": 51,
+      "faces": 73,
+      "mean_distance": 0.00026249781070930567,
+      "runner_distance": 0.009274686522985576,
+      "confidence": "HIGH",
+      "center": [
+        -0.1508205533027649,
+        -0.20789223909378052,
+        0.8289766311645508
+      ]
+    },
+    {
+      "object": "node_0.216",
+      "semantic": "RIGHT_BROW",
+      "reference_part": "part_1",
+      "vertices": 29,
+      "faces": 38,
+      "mean_distance": 0.0005731913160914325,
+      "runner_distance": 0.004344975668134104,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.14205913245677948,
+        -0.2097480297088623,
+        0.823271632194519
+      ]
+    },
+    {
+      "object": "node_0.217",
+      "semantic": "RIGHT_BROW",
+      "reference_part": "part_1",
+      "vertices": 13,
+      "faces": 14,
+      "mean_distance": 0.0003273323784994248,
+      "runner_distance": 0.005844918426681453,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.11915438622236252,
+        -0.22256092727184296,
+        0.8269563317298889
+      ]
+    },
+    {
+      "object": "node_0.218",
+      "semantic": "RIGHT_BROW",
+      "reference_part": "part_1",
+      "vertices": 11,
+      "faces": 10,
+      "mean_distance": 0.0005477610949045894,
+      "runner_distance": 0.0032789406119594455,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.17785482108592987,
+        -0.18981704115867615,
+        0.8179366588592529
+      ]
+    },
+    {
+      "object": "node_0.219",
+      "semantic": "RIGHT_BROW",
+      "reference_part": "part_1",
+      "vertices": 25,
+      "faces": 29,
+      "mean_distance": 0.0002536931584836566,
+      "runner_distance": 0.0037859899026807396,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.14296475052833557,
+        -0.2047037035226822,
+        0.8355206847190857
+      ]
+    },
+    {
+      "object": "node_0.220",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 11,
+      "faces": 9,
+      "mean_distance": 0.0002957356719806822,
+      "runner_distance": 0.0022432347041930452,
+      "confidence": "LOW",
+      "center": [
+        0.07056236267089844,
+        -0.23150013387203217,
+        0.756139874458313
+      ]
+    },
+    {
+      "object": "node_0.221",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 13,
+      "faces": 12,
+      "mean_distance": 0.00036762771154686704,
+      "runner_distance": 0.003284245599318708,
+      "confidence": "MEDIUM",
+      "center": [
+        0.06814523786306381,
+        -0.22863051295280457,
+        0.7647671103477478
+      ]
+    },
+    {
+      "object": "node_0.222",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 155,
+      "faces": 252,
+      "mean_distance": 0.00022060517738964336,
+      "runner_distance": 0.00657905351545196,
+      "confidence": "MEDIUM",
+      "center": [
+        0.1506703644990921,
+        -0.19818201661109924,
+        0.731174647808075
+      ]
+    },
+    {
+      "object": "node_0.223",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 10,
+      "faces": 8,
+      "mean_distance": 0.000270100586112676,
+      "runner_distance": 0.0016864719887962564,
+      "confidence": "LOW",
+      "center": [
+        0.10706960409879684,
+        -0.20645852386951447,
+        0.78004390001297
+      ]
+    },
+    {
+      "object": "node_0.224",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 39,
+      "faces": 55,
+      "mean_distance": 0.00034152901957895665,
+      "runner_distance": 0.040485083824023604,
+      "confidence": "HIGH",
+      "center": [
+        -0.3307403326034546,
+        -0.09196983277797699,
+        0.8018072247505188
+      ]
+    },
+    {
+      "object": "node_0.225",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 33,
+      "faces": 41,
+      "mean_distance": 0.00046862833960403805,
+      "runner_distance": 0.017464473718519002,
+      "confidence": "HIGH",
+      "center": [
+        -0.2997128963470459,
+        -0.08281612396240234,
+        0.8184579014778137
+      ]
+    },
+    {
+      "object": "node_0.226",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 12,
+      "faces": 10,
+      "mean_distance": 0.00019194650409796546,
+      "runner_distance": 0.0016403004046878777,
+      "confidence": "LOW",
+      "center": [
+        0.15596318244934082,
+        -0.17710570991039276,
+        0.7678754329681396
+      ]
+    },
+    {
+      "object": "node_0.227",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0006795668268750887,
+      "runner_distance": 0.000927242212734806,
+      "confidence": "LOW",
+      "center": [
+        0.13958418369293213,
+        -0.1819436252117157,
+        0.7869906425476074
+      ]
+    },
+    {
+      "object": "node_0.228",
+      "semantic": "LEFT_BROW",
+      "reference_part": "part_8",
+      "vertices": 38,
+      "faces": 50,
+      "mean_distance": 0.00046025203471344867,
+      "runner_distance": 0.0051687648011693454,
+      "confidence": "MEDIUM",
+      "center": [
+        0.11495590209960938,
+        -0.19732944667339325,
+        0.8240771889686584
+      ]
+    },
+    {
+      "object": "node_0.229",
+      "semantic": "LEFT_BROW",
+      "reference_part": "part_8",
+      "vertices": 27,
+      "faces": 32,
+      "mean_distance": 0.00028289050883527296,
+      "runner_distance": 0.012005103631290022,
+      "confidence": "HIGH",
+      "center": [
+        0.11664211750030518,
+        -0.20263467729091644,
+        0.8292068243026733
+      ]
+    },
+    {
+      "object": "node_0.230",
+      "semantic": "LEFT_BROW",
+      "reference_part": "part_8",
+      "vertices": 11,
+      "faces": 10,
+      "mean_distance": 0.000296808307129223,
+      "runner_distance": 0.004231223399983719,
+      "confidence": "MEDIUM",
+      "center": [
+        0.14324745535850525,
+        -0.1765604019165039,
+        0.8213397264480591
+      ]
+    },
+    {
+      "object": "node_0.231",
+      "semantic": "LEFT_BROW",
+      "reference_part": "part_8",
+      "vertices": 15,
+      "faces": 18,
+      "mean_distance": 0.00014486611319928974,
+      "runner_distance": 0.007130884604218106,
+      "confidence": "MEDIUM",
+      "center": [
+        0.08782153576612473,
+        -0.21551768481731415,
+        0.8294159770011902
+      ]
+    },
+    {
+      "object": "node_0.232",
+      "semantic": "LEFT_BROW",
+      "reference_part": "part_8",
+      "vertices": 39,
+      "faces": 54,
+      "mean_distance": 0.000287670163970688,
+      "runner_distance": 0.010578249086393043,
+      "confidence": "HIGH",
+      "center": [
+        0.12208317965269089,
+        -0.1954246163368225,
+        0.8347896933555603
+      ]
+    },
+    {
+      "object": "node_0.233",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00013343897921913594,
+      "runner_distance": 0.03390438947826624,
+      "confidence": "HIGH",
+      "center": [
+        -0.328543484210968,
+        -0.08772511780261993,
+        0.7908259034156799
+      ]
+    },
+    {
+      "object": "node_0.234",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 94,
+      "faces": 139,
+      "mean_distance": 0.00022643087648788196,
+      "runner_distance": 0.020331974299551803,
+      "confidence": "HIGH",
+      "center": [
+        -0.2979964315891266,
+        -0.10743977874517441,
+        0.7879986763000488
+      ]
+    },
+    {
+      "object": "node_0.235",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0003595672066391368,
+      "runner_distance": 0.006294675229582936,
+      "confidence": "MEDIUM",
+      "center": [
+        0.004641333594918251,
+        -0.13939741253852844,
+        0.4466380476951599
+      ]
+    },
+    {
+      "object": "node_0.236",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 18,
+      "faces": 21,
+      "mean_distance": 0.00022471527196583137,
+      "runner_distance": 0.022527200894223318,
+      "confidence": "HIGH",
+      "center": [
+        0.0030261666979640722,
+        -0.18649549782276154,
+        0.3698568344116211
+      ]
+    },
+    {
+      "object": "node_0.237",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0006118839185849841,
+      "runner_distance": 0.019007883345087368,
+      "confidence": "HIGH",
+      "center": [
+        -0.00023266665812116116,
+        -0.1811172366142273,
+        0.3758225440979004
+      ]
+    },
+    {
+      "object": "node_0.238",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 105,
+      "faces": 162,
+      "mean_distance": 0.00019480405870808681,
+      "runner_distance": 0.004974839882748938,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.10640670359134674,
+        -0.24428676068782806,
+        0.6751319766044617
+      ]
+    },
+    {
+      "object": "node_0.239",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 197,
+      "faces": 341,
+      "mean_distance": 0.0003330315626612901,
+      "runner_distance": 0.00904782984071062,
+      "confidence": "HIGH",
+      "center": [
+        -0.16570478677749634,
+        -0.22165478765964508,
+        0.7176746726036072
+      ]
+    },
+    {
+      "object": "node_0.240",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 56,
+      "faces": 73,
+      "mean_distance": 0.0014495793004698498,
+      "runner_distance": 0.0027015124712761462,
+      "confidence": "LOW",
+      "center": [
+        -0.19480691850185394,
+        -0.19714981317520142,
+        0.6432967185974121
+      ]
+    },
+    {
+      "object": "node_0.241",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 11,
+      "faces": 9,
+      "mean_distance": 0.00035959950896953654,
+      "runner_distance": 0.00159615208923986,
+      "confidence": "LOW",
+      "center": [
+        -0.07728290557861328,
+        -0.24788030982017517,
+        0.7223005890846252
+      ]
+    },
+    {
+      "object": "node_0.242",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00012088062794646248,
+      "runner_distance": 0.002403671503998339,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.14243966341018677,
+        -0.22597777843475342,
+        0.6100110411643982
+      ]
+    },
+    {
+      "object": "node_0.243",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 22,
+      "faces": 25,
+      "mean_distance": 0.00033184110510701845,
+      "runner_distance": 0.01302519138764844,
+      "confidence": "HIGH",
+      "center": [
+        -0.06052568554878235,
+        -0.2591494917869568,
+        0.6787771582603455
+      ]
+    },
+    {
+      "object": "node_0.244",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0003315627764095552,
+      "runner_distance": 0.006218462891411036,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.07130724936723709,
+        -0.24975788593292236,
+        0.7401172518730164
+      ]
+    },
+    {
+      "object": "node_0.245",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 14,
+      "faces": 13,
+      "mean_distance": 0.0004281603084694195,
+      "runner_distance": 0.0014871747054192902,
+      "confidence": "LOW",
+      "center": [
+        -0.10085128992795944,
+        -0.2353067398071289,
+        0.7570513486862183
+      ]
+    },
+    {
+      "object": "node_0.246",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 21,
+      "faces": 25,
+      "mean_distance": 0.0003527598083305098,
+      "runner_distance": 0.013498947265491421,
+      "confidence": "HIGH",
+      "center": [
+        0.011411047540605068,
+        -0.2943900525569916,
+        0.5824136137962341
+      ]
+    },
+    {
+      "object": "node_0.247",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 26,
+      "faces": 30,
+      "mean_distance": 0.00030850081804181594,
+      "runner_distance": 0.0178840914203857,
+      "confidence": "HIGH",
+      "center": [
+        0.003184692934155464,
+        -0.2992880344390869,
+        0.5646316409111023
+      ]
+    },
+    {
+      "object": "node_0.248",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 10,
+      "faces": 9,
+      "mean_distance": 0.000717772584175691,
+      "runner_distance": 0.002268921144423075,
+      "confidence": "LOW",
+      "center": [
+        0.003659300273284316,
+        -0.2815345227718353,
+        0.6006418466567993
+      ]
+    },
+    {
+      "object": "node_0.249",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 64,
+      "faces": 85,
+      "mean_distance": 0.00039681257891288624,
+      "runner_distance": 0.008573105735791842,
+      "confidence": "HIGH",
+      "center": [
+        0.02365685999393463,
+        -0.2792377769947052,
+        0.5784496665000916
+      ]
+    },
+    {
+      "object": "node_0.250",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 18,
+      "faces": 20,
+      "mean_distance": 0.00019947343760880662,
+      "runner_distance": 0.02130370783723063,
+      "confidence": "HIGH",
+      "center": [
+        0.01598244346678257,
+        -0.30285266041755676,
+        0.5515314936637878
+      ]
+    },
+    {
+      "object": "node_0.251",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.000447639606136363,
+      "runner_distance": 0.0011396970561084647,
+      "confidence": "LOW",
+      "center": [
+        0.020069334656000137,
+        -0.2798391282558441,
+        0.5979853868484497
+      ]
+    },
+    {
+      "object": "node_0.252",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0005549007134201626,
+      "runner_distance": 0.001644913398195058,
+      "confidence": "LOW",
+      "center": [
+        0.020868666470050812,
+        -0.28130778670310974,
+        0.5973710417747498
+      ]
+    },
+    {
+      "object": "node_0.253",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.00029390649407495014,
+      "runner_distance": 0.020939826699239866,
+      "confidence": "HIGH",
+      "center": [
+        0.009651857428252697,
+        -0.1783316433429718,
+        0.38490718603134155
+      ]
+    },
+    {
+      "object": "node_0.254",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 10,
+      "faces": 8,
+      "mean_distance": 0.00024295368257298833,
+      "runner_distance": 0.02121076304465532,
+      "confidence": "HIGH",
+      "center": [
+        0.006828800775110722,
+        -0.1799013763666153,
+        0.3824313282966614
+      ]
+    },
+    {
+      "object": "node_0.255",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.0005612022505374625,
+      "runner_distance": 0.019802310903157507,
+      "confidence": "HIGH",
+      "center": [
+        0.0034408573992550373,
+        -0.17889533936977386,
+        0.38248759508132935
+      ]
+    },
+    {
+      "object": "node_0.256",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0002887581358663738,
+      "runner_distance": 0.0014036658103577793,
+      "confidence": "LOW",
+      "center": [
+        -0.20781050622463226,
+        -0.12905487418174744,
+        0.8785986304283142
+      ]
+    },
+    {
+      "object": "node_0.257",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00026810262897924986,
+      "runner_distance": 0.02000370668247342,
+      "confidence": "HIGH",
+      "center": [
+        -0.006395000033080578,
+        -0.18175730109214783,
+        0.37579402327537537
+      ]
+    },
+    {
+      "object": "node_0.258",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 19,
+      "faces": 24,
+      "mean_distance": 0.00022520013647552237,
+      "runner_distance": 0.017549589815500536,
+      "confidence": "HIGH",
+      "center": [
+        -0.03517889603972435,
+        -0.16667239367961884,
+        0.421314001083374
+      ]
+    },
+    {
+      "object": "node_0.259",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0004035847347646874,
+      "runner_distance": 0.019313127423326176,
+      "confidence": "HIGH",
+      "center": [
+        -0.005189999938011169,
+        -0.17889472842216492,
+        0.382956862449646
+      ]
+    },
+    {
+      "object": "node_0.260",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 8,
+      "faces": 7,
+      "mean_distance": 0.00033042248423953424,
+      "runner_distance": 0.020074716536328197,
+      "confidence": "HIGH",
+      "center": [
+        -0.006437624804675579,
+        -0.181022047996521,
+        0.3792755603790283
+      ]
+    },
+    {
+      "object": "node_0.261",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0010504352758289315,
+      "runner_distance": 0.019527957215905188,
+      "confidence": "HIGH",
+      "center": [
+        -0.0023532002232968807,
+        -0.1769428700208664,
+        0.3882066607475281
+      ]
+    },
+    {
+      "object": "node_0.262",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00044548897615944344,
+      "runner_distance": 0.0004494209327579786,
+      "confidence": "LOW",
+      "center": [
+        -0.1624966859817505,
+        -0.19096481800079346,
+        0.8318678140640259
+      ]
+    },
+    {
+      "object": "node_0.263",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 8,
+      "faces": 6,
+      "mean_distance": 0.00015497446167955786,
+      "runner_distance": 0.024228308309830027,
+      "confidence": "HIGH",
+      "center": [
+        -0.0997452437877655,
+        -0.23087064921855927,
+        0.8124589920043945
+      ]
+    },
+    {
+      "object": "node_0.264",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 8,
+      "faces": 7,
+      "mean_distance": 0.0001832752232076018,
+      "runner_distance": 0.035554543836042285,
+      "confidence": "HIGH",
+      "center": [
+        -0.07806025445461273,
+        -0.2722911238670349,
+        0.6188178658485413
+      ]
+    },
+    {
+      "object": "node_0.265",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 6.096106759893397e-05,
+      "runner_distance": 0.04645254214604696,
+      "confidence": "HIGH",
+      "center": [
+        -0.1789483278989792,
+        -0.234675794839859,
+        0.5729670524597168
+      ]
+    },
+    {
+      "object": "node_0.266",
+      "semantic": "LEFT_BROW",
+      "reference_part": "part_8",
+      "vertices": 38,
+      "faces": 53,
+      "mean_distance": 0.00016203787942004055,
+      "runner_distance": 0.005124755109591206,
+      "confidence": "MEDIUM",
+      "center": [
+        0.11020275205373764,
+        -0.19477923214435577,
+        0.8366969227790833
+      ]
+    },
+    {
+      "object": "node_0.267",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 16,
+      "faces": 14,
+      "mean_distance": 0.0002261660218465522,
+      "runner_distance": 0.011740197195194924,
+      "confidence": "HIGH",
+      "center": [
+        0.1258697509765625,
+        -0.17753644287586212,
+        0.8362830877304077
+      ]
+    },
+    {
+      "object": "node_0.268",
+      "semantic": "COIL_BASE",
+      "reference_part": "part_9",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 8.597102039077851e-05,
+      "runner_distance": 0.19187755244118826,
+      "confidence": "HIGH",
+      "center": [
+        -0.21702000498771667,
+        -0.14457672834396362,
+        0.007608553394675255
+      ]
+    },
+    {
+      "object": "node_0.269",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.0001998900934268022,
+      "runner_distance": 0.001096355664360869,
+      "confidence": "LOW",
+      "center": [
+        -0.1937035769224167,
+        -0.1708192676305771,
+        0.8386028409004211
+      ]
+    },
+    {
+      "object": "node_0.270",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0003482516576696071,
+      "runner_distance": 0.001438729559595231,
+      "confidence": "LOW",
+      "center": [
+        -0.18799975514411926,
+        -0.17172138392925262,
+        0.846329391002655
+      ]
+    },
+    {
+      "object": "node_0.271",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0006937846228538547,
+      "runner_distance": 0.001027699060159648,
+      "confidence": "LOW",
+      "center": [
+        -0.19082269072532654,
+        -0.16716131567955017,
+        0.8505301475524902
+      ]
+    },
+    {
+      "object": "node_0.272",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00025437108236777323,
+      "runner_distance": 0.0010878613575187046,
+      "confidence": "LOW",
+      "center": [
+        -0.1954481601715088,
+        -0.1579776406288147,
+        0.8592082858085632
+      ]
+    },
+    {
+      "object": "node_0.273",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0004943810372424196,
+      "runner_distance": 0.0007171528530307114,
+      "confidence": "LOW",
+      "center": [
+        -0.1927340030670166,
+        -0.1638561487197876,
+        0.8522233366966248
+      ]
+    },
+    {
+      "object": "node_0.274",
+      "semantic": "MEDALLION",
+      "reference_part": "part_7",
+      "vertices": 17,
+      "faces": 18,
+      "mean_distance": 0.00028087293712280155,
+      "runner_distance": 0.0013799757616652641,
+      "confidence": "LOW",
+      "center": [
+        0.02829970419406891,
+        -0.14831660687923431,
+        0.3877205550670624
+      ]
+    },
+    {
+      "object": "node_0.275",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 11,
+      "faces": 10,
+      "mean_distance": 0.000630776872805489,
+      "runner_distance": 0.004742678431450093,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.000743272656109184,
+        -0.2894897758960724,
+        0.6010584235191345
+      ]
+    },
+    {
+      "object": "node_0.276",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 18,
+      "faces": 19,
+      "mean_distance": 0.0002693041488883965,
+      "runner_distance": 0.02246691400392188,
+      "confidence": "HIGH",
+      "center": [
+        -0.30143627524375916,
+        -0.05030134692788124,
+        0.8478952646255493
+      ]
+    },
+    {
+      "object": "node_0.277",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 53,
+      "faces": 68,
+      "mean_distance": 0.0002489879153948493,
+      "runner_distance": 0.009671102528955089,
+      "confidence": "HIGH",
+      "center": [
+        -0.28025081753730774,
+        -0.06285937130451202,
+        0.8518679738044739
+      ]
+    },
+    {
+      "object": "node_0.278",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 31,
+      "faces": 39,
+      "mean_distance": 0.0002904571379809978,
+      "runner_distance": 0.01682161440652224,
+      "confidence": "HIGH",
+      "center": [
+        -0.30041927099227905,
+        -0.06846544146537781,
+        0.8269703984260559
+      ]
+    },
+    {
+      "object": "node_0.279",
+      "semantic": "RIGHT_BROW",
+      "reference_part": "part_1",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00016254812847667685,
+      "runner_distance": 0.0001859810799942352,
+      "confidence": "LOW",
+      "center": [
+        -0.12306000292301178,
+        -0.21559379994869232,
+        0.8207454681396484
+      ]
+    },
+    {
+      "object": "node_0.280",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 12,
+      "faces": 10,
+      "mean_distance": 0.000335211070553972,
+      "runner_distance": 0.0014554271450227436,
+      "confidence": "LOW",
+      "center": [
+        -0.14814168214797974,
+        -0.21143922209739685,
+        0.7749980688095093
+      ]
+    },
+    {
+      "object": "node_0.281",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 81,
+      "faces": 109,
+      "mean_distance": 0.001534270835463758,
+      "runner_distance": 0.0023293706344702514,
+      "confidence": "LOW",
+      "center": [
+        -0.21089228987693787,
+        -0.1822676807641983,
+        0.7345994710922241
+      ]
+    },
+    {
+      "object": "node_0.282",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 8,
+      "faces": 6,
+      "mean_distance": 0.00036628166253649397,
+      "runner_distance": 0.0008446538195130415,
+      "confidence": "LOW",
+      "center": [
+        -0.14885026216506958,
+        -0.20859551429748535,
+        0.7774698734283447
+      ]
+    },
+    {
+      "object": "node_0.283",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 11,
+      "faces": 9,
+      "mean_distance": 0.0004250361177004048,
+      "runner_distance": 0.0014737038200730074,
+      "confidence": "LOW",
+      "center": [
+        0.1766292005777359,
+        -0.18273718655109406,
+        0.6471630930900574
+      ]
+    },
+    {
+      "object": "node_0.284",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 82,
+      "faces": 128,
+      "mean_distance": 0.00032964552292469307,
+      "runner_distance": 0.008919674474782369,
+      "confidence": "HIGH",
+      "center": [
+        0.15531931817531586,
+        -0.2095385044813156,
+        0.658284068107605
+      ]
+    },
+    {
+      "object": "node_0.285",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 50,
+      "faces": 79,
+      "mean_distance": 0.00018137161990239292,
+      "runner_distance": 0.01303078600903973,
+      "confidence": "HIGH",
+      "center": [
+        0.10098516196012497,
+        -0.23617856204509735,
+        0.7385571599006653
+      ]
+    },
+    {
+      "object": "node_0.286",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 9,
+      "faces": 7,
+      "mean_distance": 0.00042827699184676423,
+      "runner_distance": 0.013129070401191711,
+      "confidence": "HIGH",
+      "center": [
+        0.11036300659179688,
+        -0.23724456131458282,
+        0.719312846660614
+      ]
+    },
+    {
+      "object": "node_0.287",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00017321852828899864,
+      "runner_distance": 0.008753239642828703,
+      "confidence": "HIGH",
+      "center": [
+        0.08023099601268768,
+        -0.23855838179588318,
+        0.7450024485588074
+      ]
+    },
+    {
+      "object": "node_0.288",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0006640000307622055,
+      "runner_distance": 0.011379338490466276,
+      "confidence": "HIGH",
+      "center": [
+        -0.18759267032146454,
+        -0.21484212577342987,
+        0.729277491569519
+      ]
+    },
+    {
+      "object": "node_0.289",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00040327661554329097,
+      "runner_distance": 0.011074871445695559,
+      "confidence": "HIGH",
+      "center": [
+        -0.14537566900253296,
+        -0.23961812257766724,
+        0.7214130163192749
+      ]
+    },
+    {
+      "object": "node_0.290",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 11,
+      "faces": 10,
+      "mean_distance": 0.0005052048919341443,
+      "runner_distance": 0.0023573485192504118,
+      "confidence": "LOW",
+      "center": [
+        -0.21889418363571167,
+        -0.18258236348628998,
+        0.6633314490318298
+      ]
+    },
+    {
+      "object": "node_0.291",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00013519245039788074,
+      "runner_distance": 0.023790129274129868,
+      "confidence": "HIGH",
+      "center": [
+        -0.2716520130634308,
+        -0.05603192374110222,
+        0.8890762329101562
+      ]
+    },
+    {
+      "object": "node_0.292",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 38,
+      "faces": 51,
+      "mean_distance": 0.0002595763043302668,
+      "runner_distance": 0.015359428260126151,
+      "confidence": "HIGH",
+      "center": [
+        -0.2635831832885742,
+        -0.06818852573633194,
+        0.8758575320243835
+      ]
+    },
+    {
+      "object": "node_0.293",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0005352353230894854,
+      "runner_distance": 0.018491166333357494,
+      "confidence": "HIGH",
+      "center": [
+        -0.2968760132789612,
+        -0.08254446089267731,
+        0.8264317512512207
+      ]
+    },
+    {
+      "object": "node_0.294",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0004990914122420994,
+      "runner_distance": 0.0007044634548947215,
+      "confidence": "LOW",
+      "center": [
+        -0.20611333847045898,
+        -0.1653706282377243,
+        0.8273323774337769
+      ]
+    },
+    {
+      "object": "node_0.295",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 10,
+      "faces": 10,
+      "mean_distance": 0.0002445559348416282,
+      "runner_distance": 0.044346746802330014,
+      "confidence": "HIGH",
+      "center": [
+        -0.025998501107096672,
+        -0.30432361364364624,
+        0.6394625902175903
+      ]
+    },
+    {
+      "object": "node_0.296",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.0002574135401768477,
+      "runner_distance": 0.04533056169748306,
+      "confidence": "HIGH",
+      "center": [
+        -0.026800429448485374,
+        -0.3016324043273926,
+        0.6420835852622986
+      ]
+    },
+    {
+      "object": "node_0.297",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 12,
+      "faces": 13,
+      "mean_distance": 0.0003328629240968439,
+      "runner_distance": 0.04722887960573038,
+      "confidence": "HIGH",
+      "center": [
+        -0.024884585291147232,
+        -0.3033810257911682,
+        0.6446312069892883
+      ]
+    },
+    {
+      "object": "node_0.298",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.000694688584189862,
+      "runner_distance": 0.04141527290145556,
+      "confidence": "HIGH",
+      "center": [
+        -0.02220233343541622,
+        -0.300478458404541,
+        0.6403560042381287
+      ]
+    },
+    {
+      "object": "node_0.299",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.0003290757350344263,
+      "runner_distance": 0.041676566536937444,
+      "confidence": "HIGH",
+      "center": [
+        0.02515457011759281,
+        -0.30117541551589966,
+        0.6425296068191528
+      ]
+    },
+    {
+      "object": "node_0.300",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 13,
+      "faces": 14,
+      "mean_distance": 0.0002986226369942485,
+      "runner_distance": 0.04429208028774995,
+      "confidence": "HIGH",
+      "center": [
+        0.024719461798667908,
+        -0.3004622161388397,
+        0.6462923288345337
+      ]
+    },
+    {
+      "object": "node_0.301",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 7,
+      "faces": 6,
+      "mean_distance": 0.00016213038382569981,
+      "runner_distance": 0.041676842740603855,
+      "confidence": "HIGH",
+      "center": [
+        0.02150299958884716,
+        -0.3039338290691376,
+        0.642516553401947
+      ]
+    },
+    {
+      "object": "node_0.302",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 9,
+      "faces": 8,
+      "mean_distance": 0.00017817140319999048,
+      "runner_distance": 0.04418771838148435,
+      "confidence": "HIGH",
+      "center": [
+        0.02074255608022213,
+        -0.30216747522354126,
+        0.6468490958213806
+      ]
+    },
+    {
+      "object": "node_0.303",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 21,
+      "faces": 20,
+      "mean_distance": 5.275313288794201e-05,
+      "runner_distance": 0.05681942279140154,
+      "confidence": "HIGH",
+      "center": [
+        0.022781047970056534,
+        -0.29031819105148315,
+        0.6707662343978882
+      ]
+    },
+    {
+      "object": "node_0.304",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00026221467608896393,
+      "runner_distance": 0.00026958758826367557,
+      "confidence": "LOW",
+      "center": [
+        -0.1863286793231964,
+        -0.199031800031662,
+        0.619748055934906
+      ]
+    },
+    {
+      "object": "node_0.305",
+      "semantic": "LEFT_EYE",
+      "reference_part": "part_10",
+      "vertices": 9,
+      "faces": 8,
+      "mean_distance": 0.0005387257778137508,
+      "runner_distance": 0.0024602534702151185,
+      "confidence": "LOW",
+      "center": [
+        -0.22465412318706512,
+        -0.1794465333223343,
+        0.685187041759491
+      ]
+    },
+    {
+      "object": "node_0.306",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 11,
+      "faces": 10,
+      "mean_distance": 0.0004445412664815442,
+      "runner_distance": 0.0017457819550062677,
+      "confidence": "LOW",
+      "center": [
+        -0.22562699019908905,
+        -0.17213284969329834,
+        0.7295940518379211
+      ]
+    },
+    {
+      "object": "node_0.307",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00021169874980841996,
+      "runner_distance": 0.0007138246631560227,
+      "confidence": "LOW",
+      "center": [
+        -0.1887093484401703,
+        -0.16700780391693115,
+        0.8506004214286804
+      ]
+    },
+    {
+      "object": "node_0.308",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00010269466019963147,
+      "runner_distance": 0.010463999176863581,
+      "confidence": "HIGH",
+      "center": [
+        -0.17173948884010315,
+        -0.18094563484191895,
+        0.8457435965538025
+      ]
+    },
+    {
+      "object": "node_0.309",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 19,
+      "faces": 19,
+      "mean_distance": 0.0003932568115427976,
+      "runner_distance": 0.00645664951011177,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.28414320945739746,
+        -0.07662911713123322,
+        0.8268351554870605
+      ]
+    },
+    {
+      "object": "node_0.310",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0006224554526852444,
+      "runner_distance": 0.0006446035331464373,
+      "confidence": "LOW",
+      "center": [
+        -0.24724899232387543,
+        -0.08725462853908539,
+        0.8642621040344238
+      ]
+    },
+    {
+      "object": "node_0.311",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.00031492703835413394,
+      "runner_distance": 0.0012659688405359962,
+      "confidence": "LOW",
+      "center": [
+        -0.25355803966522217,
+        -0.08284255862236023,
+        0.8602336049079895
+      ]
+    },
+    {
+      "object": "node_0.312",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 10,
+      "faces": 9,
+      "mean_distance": 0.0002471901174430968,
+      "runner_distance": 0.002106072485912591,
+      "confidence": "LOW",
+      "center": [
+        -0.2210984230041504,
+        -0.1631058305501938,
+        0.805990993976593
+      ]
+    },
+    {
+      "object": "node_0.313",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 10,
+      "faces": 8,
+      "mean_distance": 0.00033154559441754826,
+      "runner_distance": 0.001023714119219221,
+      "confidence": "LOW",
+      "center": [
+        -0.23540709912776947,
+        -0.1540021151304245,
+        0.7935271263122559
+      ]
+    },
+    {
+      "object": "node_0.314",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00022645210174232488,
+      "runner_distance": 0.0008981149203464156,
+      "confidence": "LOW",
+      "center": [
+        -0.20841200649738312,
+        -0.16889311373233795,
+        0.8139076232910156
+      ]
+    },
+    {
+      "object": "node_0.315",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0005684238958565402,
+      "runner_distance": 0.0006742490416703125,
+      "confidence": "LOW",
+      "center": [
+        -0.207163006067276,
+        -0.16813012957572937,
+        0.8182531595230103
+      ]
+    },
+    {
+      "object": "node_0.316",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 32,
+      "faces": 37,
+      "mean_distance": 0.0012095769636886189,
+      "runner_distance": 0.011205757273501149,
+      "confidence": "HIGH",
+      "center": [
+        0.09736785292625427,
+        -0.24369773268699646,
+        0.630199670791626
+      ]
+    },
+    {
+      "object": "node_0.317",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 24,
+      "faces": 30,
+      "mean_distance": 0.00038381932229943533,
+      "runner_distance": 0.011222704937002467,
+      "confidence": "HIGH",
+      "center": [
+        0.00019866667571477592,
+        -0.2929859161376953,
+        0.5492899417877197
+      ]
+    },
+    {
+      "object": "node_0.318",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00018700351938605309,
+      "runner_distance": 0.022893257439136505,
+      "confidence": "HIGH",
+      "center": [
+        -0.0013287500478327274,
+        -0.3055388629436493,
+        0.5709840059280396
+      ]
+    },
+    {
+      "object": "node_0.319",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.000551791898033116,
+      "runner_distance": 0.0011037366202799603,
+      "confidence": "LOW",
+      "center": [
+        -0.26401200890541077,
+        -0.13040472567081451,
+        0.7812965512275696
+      ]
+    },
+    {
+      "object": "node_0.320",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00013470975742772376,
+      "runner_distance": 0.007456726885720855,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.2617473304271698,
+        -0.13583460450172424,
+        0.7722575068473816
+      ]
+    },
+    {
+      "object": "node_0.321",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00010947939517791383,
+      "runner_distance": 0.035541755612939596,
+      "confidence": "HIGH",
+      "center": [
+        -0.13526999950408936,
+        -0.16493189334869385,
+        0.89328932762146
+      ]
+    },
+    {
+      "object": "node_0.322",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 6.413167056962266e-05,
+      "runner_distance": 0.07362653128802776,
+      "confidence": "HIGH",
+      "center": [
+        0.013896750286221504,
+        -0.23144538700580597,
+        0.8468590974807739
+      ]
+    },
+    {
+      "object": "node_0.323",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 6.226955216940648e-05,
+      "runner_distance": 0.09142451236645381,
+      "confidence": "HIGH",
+      "center": [
+        0.10950716584920883,
+        -0.1269974708557129,
+        0.9077234268188477
+      ]
+    },
+    {
+      "object": "node_0.324",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 32,
+      "faces": 45,
+      "mean_distance": 0.0008467494261878983,
+      "runner_distance": 0.00649771939981747,
+      "confidence": "MEDIUM",
+      "center": [
+        0.03359368443489075,
+        -0.2563702464103699,
+        0.5976119041442871
+      ]
+    },
+    {
+      "object": "node_0.325",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0002956866762057568,
+      "runner_distance": 0.0011838371225773396,
+      "confidence": "LOW",
+      "center": [
+        0.02885666862130165,
+        -0.25710612535476685,
+        0.591357946395874
+      ]
+    },
+    {
+      "object": "node_0.326",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0002022687792001913,
+      "runner_distance": 0.0069492715410888195,
+      "confidence": "MEDIUM",
+      "center": [
+        0.01767200045287609,
+        -0.2888871431350708,
+        0.5535903573036194
+      ]
+    },
+    {
+      "object": "node_0.327",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 6.06628291279776e-05,
+      "runner_distance": 0.05671829171478748,
+      "confidence": "HIGH",
+      "center": [
+        -0.02599800005555153,
+        -0.3044526278972626,
+        0.6549519896507263
+      ]
+    },
+    {
+      "object": "node_0.328",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0006272312457440421,
+      "runner_distance": 0.001524997487043341,
+      "confidence": "LOW",
+      "center": [
+        -0.24399733543395996,
+        -0.14976945519447327,
+        0.7863517999649048
+      ]
+    },
+    {
+      "object": "node_0.329",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0007303991733351722,
+      "runner_distance": 0.0010135181510122493,
+      "confidence": "LOW",
+      "center": [
+        -0.24199174344539642,
+        -0.14982737600803375,
+        0.7871083617210388
+      ]
+    },
+    {
+      "object": "node_0.330",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0010019425529511257,
+      "runner_distance": 0.0010866351779744339,
+      "confidence": "LOW",
+      "center": [
+        -0.24567049741744995,
+        -0.1477421224117279,
+        0.7846123576164246
+      ]
+    },
+    {
+      "object": "node_0.331",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0009362856537336484,
+      "runner_distance": 0.0014356633415445685,
+      "confidence": "LOW",
+      "center": [
+        -0.27351102232933044,
+        -0.10913952440023422,
+        0.7978734970092773
+      ]
+    },
+    {
+      "object": "node_0.332",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0003837881959043443,
+      "runner_distance": 0.0014021092792972922,
+      "confidence": "LOW",
+      "center": [
+        -0.27044838666915894,
+        -0.10589178651571274,
+        0.8046517372131348
+      ]
+    },
+    {
+      "object": "node_0.333",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00026815434951762046,
+      "runner_distance": 0.0013662890996783972,
+      "confidence": "LOW",
+      "center": [
+        -0.24482402205467224,
+        -0.14735311269760132,
+        0.7840977907180786
+      ]
+    },
+    {
+      "object": "node_0.334",
+      "semantic": "BODY_NECK",
+      "reference_part": "part_0",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0001039363208595508,
+      "runner_distance": 0.010966379816333452,
+      "confidence": "HIGH",
+      "center": [
+        0.0947413370013237,
+        -0.1388823688030243,
+        0.13449299335479736
+      ]
+    },
+    {
+      "object": "node_0.335",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0003499490170118709,
+      "runner_distance": 0.0010061509383376688,
+      "confidence": "LOW",
+      "center": [
+        -0.2654930055141449,
+        -0.1286664605140686,
+        0.7814507484436035
+      ]
+    },
+    {
+      "object": "node_0.336",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00014256543242178546,
+      "runner_distance": 0.010780914997061094,
+      "confidence": "HIGH",
+      "center": [
+        0.08305133879184723,
+        -0.24356946349143982,
+        0.7242603302001953
+      ]
+    },
+    {
+      "object": "node_0.337",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00020461600312652686,
+      "runner_distance": 0.010694745307167372,
+      "confidence": "HIGH",
+      "center": [
+        0.08096500486135483,
+        -0.24351513385772705,
+        0.7281357049942017
+      ]
+    },
+    {
+      "object": "node_0.338",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00018675312336805897,
+      "runner_distance": 0.011595304124057293,
+      "confidence": "HIGH",
+      "center": [
+        0.08553000539541245,
+        -0.24407479166984558,
+        0.7215360403060913
+      ]
+    },
+    {
+      "object": "node_0.339",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.000731053194613196,
+      "runner_distance": 0.000758867473147499,
+      "confidence": "LOW",
+      "center": [
+        -0.269145667552948,
+        -0.11543545126914978,
+        0.7936488389968872
+      ]
+    },
+    {
+      "object": "node_0.340",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0005944882383725295,
+      "runner_distance": 0.0009759699435865817,
+      "confidence": "LOW",
+      "center": [
+        -0.2694583535194397,
+        -0.1168372854590416,
+        0.7920814752578735
+      ]
+    },
+    {
+      "object": "node_0.341",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00013136546598010076,
+      "runner_distance": 0.003183028515195474,
+      "confidence": "MEDIUM",
+      "center": [
+        -0.27486133575439453,
+        -0.07489512860774994,
+        0.8307241201400757
+      ]
+    },
+    {
+      "object": "node_0.342",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.000576097733573988,
+      "runner_distance": 0.000732295658235671,
+      "confidence": "LOW",
+      "center": [
+        -0.27024921774864197,
+        -0.08091671764850616,
+        0.8354249000549316
+      ]
+    },
+    {
+      "object": "node_0.343",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 8,
+      "faces": 7,
+      "mean_distance": 0.0005297756142681465,
+      "runner_distance": 0.003184368892107159,
+      "confidence": "MEDIUM",
+      "center": [
+        0.027884498238563538,
+        -0.2631031274795532,
+        0.6027138233184814
+      ]
+    },
+    {
+      "object": "node_0.344",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0002530309109715745,
+      "runner_distance": 0.0009719995043269592,
+      "confidence": "LOW",
+      "center": [
+        -0.2311679869890213,
+        -0.15573953092098236,
+        0.7949795722961426
+      ]
+    },
+    {
+      "object": "node_0.345",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0003530742881897216,
+      "runner_distance": 0.0005686777567461831,
+      "confidence": "LOW",
+      "center": [
+        -0.009155667386949062,
+        -0.2860884368419647,
+        0.595944344997406
+      ]
+    },
+    {
+      "object": "node_0.346",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0002432937308185501,
+      "runner_distance": 0.0020936821965733543,
+      "confidence": "LOW",
+      "center": [
+        -0.0077953338623046875,
+        -0.28823578357696533,
+        0.5967289805412292
+      ]
+    },
+    {
+      "object": "node_0.347",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0003597969383311768,
+      "runner_distance": 0.0015981905938436587,
+      "confidence": "LOW",
+      "center": [
+        -0.019365333020687103,
+        -0.25707411766052246,
+        0.6107693910598755
+      ]
+    },
+    {
+      "object": "node_0.348",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 7.266607038521518e-05,
+      "runner_distance": 0.013396756413082281,
+      "confidence": "HIGH",
+      "center": [
+        -0.2453826665878296,
+        -0.1493281126022339,
+        0.8232735395431519
+      ]
+    },
+    {
+      "object": "node_0.349",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00029567596114551026,
+      "runner_distance": 0.0005610456573776901,
+      "confidence": "LOW",
+      "center": [
+        -0.24929332733154297,
+        -0.08285113424062729,
+        0.8637768030166626
+      ]
+    },
+    {
+      "object": "node_0.350",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0006784782162867486,
+      "runner_distance": 0.0017715377810721595,
+      "confidence": "LOW",
+      "center": [
+        -0.2707776725292206,
+        -0.08107446134090424,
+        0.836861789226532
+      ]
+    },
+    {
+      "object": "node_0.351",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 9.116221796527195e-05,
+      "runner_distance": 0.011092289350926876,
+      "confidence": "HIGH",
+      "center": [
+        -0.24187833070755005,
+        -0.14939913153648376,
+        0.8235001564025879
+      ]
+    },
+    {
+      "object": "node_0.352",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 8,
+      "faces": 7,
+      "mean_distance": 0.00023933564125400153,
+      "runner_distance": 0.013616033713333309,
+      "confidence": "HIGH",
+      "center": [
+        -0.2422882467508316,
+        -0.1558697521686554,
+        0.8169866800308228
+      ]
+    },
+    {
+      "object": "node_0.353",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00011755132618418429,
+      "runner_distance": 0.018024160293862224,
+      "confidence": "HIGH",
+      "center": [
+        -0.16606250405311584,
+        -0.22972360253334045,
+        0.6021475195884705
+      ]
+    },
+    {
+      "object": "node_0.354",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00013622508777189068,
+      "runner_distance": 0.0599001320078969,
+      "confidence": "HIGH",
+      "center": [
+        -0.2459772527217865,
+        -0.1887151002883911,
+        0.5867945551872253
+      ]
+    },
+    {
+      "object": "node_0.355",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00014485691417576163,
+      "runner_distance": 0.08109967783093452,
+      "confidence": "HIGH",
+      "center": [
+        -0.2674402594566345,
+        -0.15832608938217163,
+        0.5850000977516174
+      ]
+    },
+    {
+      "object": "node_0.356",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 6.663105423285743e-05,
+      "runner_distance": 0.0694404199719429,
+      "confidence": "HIGH",
+      "center": [
+        -0.19840700924396515,
+        -0.2165205031633377,
+        0.5475130677223206
+      ]
+    },
+    {
+      "object": "node_0.357",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00022609135582266995,
+      "runner_distance": 0.08870613823334376,
+      "confidence": "HIGH",
+      "center": [
+        -0.27543434500694275,
+        -0.141440749168396,
+        0.5917236804962158
+      ]
+    },
+    {
+      "object": "node_0.358",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 5.803195914008289e-05,
+      "runner_distance": 0.04381490871310234,
+      "confidence": "HIGH",
+      "center": [
+        -0.23061372339725494,
+        -0.20001953840255737,
+        0.5972506403923035
+      ]
+    },
+    {
+      "object": "node_0.359",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 10,
+      "faces": 8,
+      "mean_distance": 0.00020547227977658623,
+      "runner_distance": 0.027860343270003796,
+      "confidence": "HIGH",
+      "center": [
+        -0.07173329591751099,
+        -0.26986420154571533,
+        0.6394907236099243
+      ]
+    },
+    {
+      "object": "node_0.360",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00013625872694926025,
+      "runner_distance": 0.04706227034330368,
+      "confidence": "HIGH",
+      "center": [
+        -0.03136350214481354,
+        -0.2767956256866455,
+        0.724312424659729
+      ]
+    },
+    {
+      "object": "node_0.361",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00012676788828684947,
+      "runner_distance": 0.049367491900920865,
+      "confidence": "HIGH",
+      "center": [
+        -0.02979860082268715,
+        -0.28249114751815796,
+        0.6828287839889526
+      ]
+    },
+    {
+      "object": "node_0.362",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 7.562660775874974e-05,
+      "runner_distance": 0.05952494293451309,
+      "confidence": "HIGH",
+      "center": [
+        -0.03772760182619095,
+        -0.2654441297054291,
+        0.784004271030426
+      ]
+    },
+    {
+      "object": "node_0.363",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 8.56128181112581e-05,
+      "runner_distance": 0.06274695694446564,
+      "confidence": "HIGH",
+      "center": [
+        -0.014905248768627644,
+        -0.3030698597431183,
+        0.6666370034217834
+      ]
+    },
+    {
+      "object": "node_0.364",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 8,
+      "faces": 6,
+      "mean_distance": 0.00031751197820995003,
+      "runner_distance": 0.014962329529225826,
+      "confidence": "HIGH",
+      "center": [
+        -0.10240575671195984,
+        -0.2286238819360733,
+        0.7890401482582092
+      ]
+    },
+    {
+      "object": "node_0.365",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00031127305919653736,
+      "runner_distance": 0.022244142834097147,
+      "confidence": "HIGH",
+      "center": [
+        -0.10444375872612,
+        -0.23066988587379456,
+        0.7980872988700867
+      ]
+    },
+    {
+      "object": "node_0.366",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 6.756893769003607e-05,
+      "runner_distance": 0.04595518857240677,
+      "confidence": "HIGH",
+      "center": [
+        -0.10385700315237045,
+        -0.19502732157707214,
+        0.8741247057914734
+      ]
+    },
+    {
+      "object": "node_0.367",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 4.5095087989466266e-05,
+      "runner_distance": 0.04032722748816013,
+      "confidence": "HIGH",
+      "center": [
+        -0.07658299803733826,
+        -0.23247814178466797,
+        0.8317642211914062
+      ]
+    },
+    {
+      "object": "node_0.368",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 15,
+      "faces": 15,
+      "mean_distance": 0.00014330372699381162,
+      "runner_distance": 0.01901012941574057,
+      "confidence": "HIGH",
+      "center": [
+        -0.19963125884532928,
+        -0.1768277883529663,
+        0.7867372632026672
+      ]
+    },
+    {
+      "object": "node_0.369",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 5.2191711438354106e-05,
+      "runner_distance": 0.030550998449325562,
+      "confidence": "HIGH",
+      "center": [
+        -0.25468799471855164,
+        -0.156158909201622,
+        0.6686744689941406
+      ]
+    },
+    {
+      "object": "node_0.370",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 7.719048653598293e-05,
+      "runner_distance": 0.04288623575121164,
+      "confidence": "HIGH",
+      "center": [
+        -0.271100252866745,
+        -0.14748311042785645,
+        0.6861633062362671
+      ]
+    },
+    {
+      "object": "node_0.371",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.0002172095216034601,
+      "runner_distance": 0.07334584991137187,
+      "confidence": "HIGH",
+      "center": [
+        -0.006014000158756971,
+        -0.27453213930130005,
+        0.7593287229537964
+      ]
+    },
+    {
+      "object": "node_0.372",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 8.674734272062778e-05,
+      "runner_distance": 0.0903969258069992,
+      "confidence": "HIGH",
+      "center": [
+        -0.012699000537395477,
+        -0.2571161389350891,
+        0.808620274066925
+      ]
+    },
+    {
+      "object": "node_0.373",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 8,
+      "faces": 6,
+      "mean_distance": 0.00021383118837547954,
+      "runner_distance": 0.11011571157723665,
+      "confidence": "HIGH",
+      "center": [
+        -0.3170236349105835,
+        -0.06957060098648071,
+        0.6679332256317139
+      ]
+    },
+    {
+      "object": "node_0.374",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00022424340713769197,
+      "runner_distance": 0.11430301815271378,
+      "confidence": "HIGH",
+      "center": [
+        -0.3301372230052948,
+        -0.02817089669406414,
+        0.6888126730918884
+      ]
+    },
+    {
+      "object": "node_0.375",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00021638936232193373,
+      "runner_distance": 0.06764891650527716,
+      "confidence": "HIGH",
+      "center": [
+        -0.3197689950466156,
+        -0.02897460386157036,
+        0.755401074886322
+      ]
+    },
+    {
+      "object": "node_0.376",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00010984886466758326,
+      "runner_distance": 0.01394125702790916,
+      "confidence": "HIGH",
+      "center": [
+        -0.2715272605419159,
+        -0.131068617105484,
+        0.7598456144332886
+      ]
+    },
+    {
+      "object": "node_0.377",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00012940045598952565,
+      "runner_distance": 0.020943425130099058,
+      "confidence": "HIGH",
+      "center": [
+        -0.2820642292499542,
+        -0.12164461612701416,
+        0.750550389289856
+      ]
+    },
+    {
+      "object": "node_0.378",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0002553692029323429,
+      "runner_distance": 0.056967733427882195,
+      "confidence": "HIGH",
+      "center": [
+        -0.3150642514228821,
+        -0.02930135652422905,
+        0.7752463221549988
+      ]
+    },
+    {
+      "object": "node_0.379",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0002139718308171723,
+      "runner_distance": 0.08353492617607117,
+      "confidence": "HIGH",
+      "center": [
+        -0.32395225763320923,
+        -0.03151509910821915,
+        0.7279423475265503
+      ]
+    },
+    {
+      "object": "node_0.380",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00020615999528672546,
+      "runner_distance": 0.13320098320643106,
+      "confidence": "HIGH",
+      "center": [
+        -0.31949132680892944,
+        -0.06184009835124016,
+        0.6454047560691833
+      ]
+    },
+    {
+      "object": "node_0.381",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00014309042853710707,
+      "runner_distance": 0.12789392657577991,
+      "confidence": "HIGH",
+      "center": [
+        -0.29879677295684814,
+        -0.08994284272193909,
+        0.6016270518302917
+      ]
+    },
+    {
+      "object": "node_0.382",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00021689528997133797,
+      "runner_distance": 0.1365705281496048,
+      "confidence": "HIGH",
+      "center": [
+        -0.33424752950668335,
+        -0.01408892497420311,
+        0.6716639995574951
+      ]
+    },
+    {
+      "object": "node_0.383",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00037406293267849833,
+      "runner_distance": 0.16143664345145226,
+      "confidence": "HIGH",
+      "center": [
+        -0.33645549416542053,
+        0.03369741141796112,
+        0.6840233206748962
+      ]
+    },
+    {
+      "object": "node_0.384",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0003052625805139542,
+      "runner_distance": 0.12952861338853836,
+      "confidence": "HIGH",
+      "center": [
+        -0.33459562063217163,
+        -0.002075093099847436,
+        0.6922387480735779
+      ]
+    },
+    {
+      "object": "node_0.385",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00025095588110464934,
+      "runner_distance": 0.10067050158977509,
+      "confidence": "HIGH",
+      "center": [
+        -0.3276006877422333,
+        -0.0017702660989016294,
+        0.7372680902481079
+      ]
+    },
+    {
+      "object": "node_0.386",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.00025980880794425804,
+      "runner_distance": 0.04278755964090427,
+      "confidence": "HIGH",
+      "center": [
+        -0.3058181703090668,
+        -0.02101944386959076,
+        0.8048286437988281
+      ]
+    },
+    {
+      "object": "node_0.387",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00028410679078660905,
+      "runner_distance": 0.19744348153471947,
+      "confidence": "HIGH",
+      "center": [
+        -0.3289937376976013,
+        0.023519670590758324,
+        0.6233267784118652
+      ]
+    },
+    {
+      "object": "node_0.388",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 0.0002567863391180124,
+      "runner_distance": 0.187668719461986,
+      "confidence": "HIGH",
+      "center": [
+        -0.32013770937919617,
+        -0.022032801061868668,
+        0.6046178340911865
+      ]
+    },
+    {
+      "object": "node_0.389",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00025428877052036114,
+      "runner_distance": 0.18361425399780273,
+      "confidence": "HIGH",
+      "center": [
+        -0.33233052492141724,
+        0.0149791669100523,
+        0.634314775466919
+      ]
+    },
+    {
+      "object": "node_0.390",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00015857400867389516,
+      "runner_distance": 0.13485352993011473,
+      "confidence": "HIGH",
+      "center": [
+        -0.29170218110084534,
+        -0.08779948204755783,
+        0.5814946889877319
+      ]
+    },
+    {
+      "object": "node_0.391",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.000202619718038477,
+      "runner_distance": 0.11414913088083267,
+      "confidence": "HIGH",
+      "center": [
+        -0.2950397729873657,
+        -0.10274308919906616,
+        0.6088480949401855
+      ]
+    },
+    {
+      "object": "node_0.392",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0002196635614382103,
+      "runner_distance": 0.0332690910436213,
+      "confidence": "HIGH",
+      "center": [
+        -0.04857875034213066,
+        -0.2882051169872284,
+        0.6072545051574707
+      ]
+    },
+    {
+      "object": "node_0.393",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0002634725853567943,
+      "runner_distance": 0.043152383714914325,
+      "confidence": "HIGH",
+      "center": [
+        -0.04998620226979256,
+        -0.2940073311328888,
+        0.6206371784210205
+      ]
+    },
+    {
+      "object": "node_0.394",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0002543934999266639,
+      "runner_distance": 0.05940395295619964,
+      "confidence": "HIGH",
+      "center": [
+        -0.2686043977737427,
+        -0.14923511445522308,
+        0.6324962973594666
+      ]
+    },
+    {
+      "object": "node_0.395",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00022128415488017103,
+      "runner_distance": 0.05161994447310766,
+      "confidence": "HIGH",
+      "center": [
+        -0.3083780109882355,
+        -0.010461109690368176,
+        0.8038058280944824
+      ]
+    },
+    {
+      "object": "node_0.396",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00023268512935222438,
+      "runner_distance": 0.04422100012501081,
+      "confidence": "HIGH",
+      "center": [
+        -0.30880069732666016,
+        -0.0305294431746006,
+        0.7932084798812866
+      ]
+    },
+    {
+      "object": "node_0.397",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00020881277669104747,
+      "runner_distance": 0.028642726130783558,
+      "confidence": "HIGH",
+      "center": [
+        -0.2989790141582489,
+        -0.08653536438941956,
+        0.7618207931518555
+      ]
+    },
+    {
+      "object": "node_0.398",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0002192000756622292,
+      "runner_distance": 0.03882774757221341,
+      "confidence": "HIGH",
+      "center": [
+        -0.30255600810050964,
+        -0.0887381061911583,
+        0.7419867515563965
+      ]
+    },
+    {
+      "object": "node_0.399",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 7,
+      "faces": 6,
+      "mean_distance": 0.0003045074595969969,
+      "runner_distance": 0.015290982622121061,
+      "confidence": "HIGH",
+      "center": [
+        0.024366430938243866,
+        -0.2962096929550171,
+        0.558487594127655
+      ]
+    },
+    {
+      "object": "node_0.400",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 8.628674295323435e-05,
+      "runner_distance": 0.02815796099603176,
+      "confidence": "HIGH",
+      "center": [
+        -0.23616619408130646,
+        -0.18688252568244934,
+        0.8005355000495911
+      ]
+    },
+    {
+      "object": "node_0.401",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00018585205398267136,
+      "runner_distance": 0.004561186116188764,
+      "confidence": "MEDIUM",
+      "center": [
+        0.05426880344748497,
+        -0.2467491179704666,
+        0.7017062306404114
+      ]
+    },
+    {
+      "object": "node_0.402",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00012435806129360572,
+      "runner_distance": 0.00509699983522296,
+      "confidence": "MEDIUM",
+      "center": [
+        0.06120600178837776,
+        -0.2467019110918045,
+        0.6808398365974426
+      ]
+    },
+    {
+      "object": "node_0.403",
+      "semantic": "RIGHT_EYE",
+      "reference_part": "part_4",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 6.001523316475262e-05,
+      "runner_distance": 0.010595378000289202,
+      "confidence": "HIGH",
+      "center": [
+        0.0923466607928276,
+        -0.24451479315757751,
+        0.6834949254989624
+      ]
+    },
+    {
+      "object": "node_0.404",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 11,
+      "faces": 11,
+      "mean_distance": 0.00022995297149464022,
+      "runner_distance": 0.005636356358908498,
+      "confidence": "MEDIUM",
+      "center": [
+        0.060819000005722046,
+        -0.24776539206504822,
+        0.6606729030609131
+      ]
+    },
+    {
+      "object": "node_0.405",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0007145043489288127,
+      "runner_distance": 0.0018360239977482707,
+      "confidence": "LOW",
+      "center": [
+        0.049425799399614334,
+        -0.24398672580718994,
+        0.7062309980392456
+      ]
+    },
+    {
+      "object": "node_0.406",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 5.261745294167971e-05,
+      "runner_distance": 0.007390402723103762,
+      "confidence": "MEDIUM",
+      "center": [
+        0.04642966389656067,
+        -0.24942879378795624,
+        0.7040016651153564
+      ]
+    },
+    {
+      "object": "node_0.407",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 11,
+      "faces": 10,
+      "mean_distance": 0.00011533165847636569,
+      "runner_distance": 0.018006575293838978,
+      "confidence": "HIGH",
+      "center": [
+        0.052238546311855316,
+        -0.24433040618896484,
+        0.765487015247345
+      ]
+    },
+    {
+      "object": "node_0.408",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 0.0001129652470505486,
+      "runner_distance": 0.012927351674685875,
+      "confidence": "HIGH",
+      "center": [
+        0.044759999960660934,
+        -0.2525891065597534,
+        0.7133287191390991
+      ]
+    },
+    {
+      "object": "node_0.409",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 2.6096523606611298e-05,
+      "runner_distance": 0.042677462100982666,
+      "confidence": "HIGH",
+      "center": [
+        0.04201219975948334,
+        -0.2830985486507416,
+        0.6613079905509949
+      ]
+    },
+    {
+      "object": "node_0.410",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00015668963442294626,
+      "runner_distance": 0.061981575563549995,
+      "confidence": "HIGH",
+      "center": [
+        0.007382249925285578,
+        -0.271703839302063,
+        0.7610050439834595
+      ]
+    },
+    {
+      "object": "node_0.411",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0001918474836202222,
+      "runner_distance": 0.03658538265153766,
+      "confidence": "HIGH",
+      "center": [
+        0.027599750086665154,
+        -0.26714661717414856,
+        0.7313390374183655
+      ]
+    },
+    {
+      "object": "node_0.412",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00014002800207890687,
+      "runner_distance": 0.027739946730434895,
+      "confidence": "HIGH",
+      "center": [
+        0.03885124996304512,
+        -0.25925934314727783,
+        0.7466242909431458
+      ]
+    },
+    {
+      "object": "node_0.413",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.0001341867355222348,
+      "runner_distance": 0.0404999777674675,
+      "confidence": "HIGH",
+      "center": [
+        0.04635780304670334,
+        -0.24323754012584686,
+        0.8012796640396118
+      ]
+    },
+    {
+      "object": "node_0.414",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 7.873037247918546e-05,
+      "runner_distance": 0.05382734686136246,
+      "confidence": "HIGH",
+      "center": [
+        0.03310580179095268,
+        -0.22610394656658173,
+        0.8472145199775696
+      ]
+    },
+    {
+      "object": "node_0.415",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 4.3893343047329836e-05,
+      "runner_distance": 0.013529813382774591,
+      "confidence": "HIGH",
+      "center": [
+        0.07505950331687927,
+        -0.21135491132736206,
+        0.8411821126937866
+      ]
+    },
+    {
+      "object": "node_0.416",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 8.708792953863546e-05,
+      "runner_distance": 0.03036723875751098,
+      "confidence": "HIGH",
+      "center": [
+        0.05732650309801102,
+        -0.21696315705776215,
+        0.8467756509780884
+      ]
+    },
+    {
+      "object": "node_0.417",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 5.481685646676245e-05,
+      "runner_distance": 0.010570224490948021,
+      "confidence": "HIGH",
+      "center": [
+        0.11366932839155197,
+        -0.1928829550743103,
+        0.8130137920379639
+      ]
+    },
+    {
+      "object": "node_0.418",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 9.475022238802921e-05,
+      "runner_distance": 0.0038141778932185844,
+      "confidence": "MEDIUM",
+      "center": [
+        0.08867799490690231,
+        -0.21059338748455048,
+        0.7956048846244812
+      ]
+    },
+    {
+      "object": "node_0.419",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 8,
+      "faces": 6,
+      "mean_distance": 0.00011320664327740815,
+      "runner_distance": 0.02399566234089434,
+      "confidence": "HIGH",
+      "center": [
+        0.18677961826324463,
+        -0.14792925119400024,
+        0.7771296501159668
+      ]
+    },
+    {
+      "object": "node_0.420",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00010883362992899492,
+      "runner_distance": 0.0452399991452694,
+      "confidence": "HIGH",
+      "center": [
+        0.08372819423675537,
+        -0.26791390776634216,
+        0.5998826026916504
+      ]
+    },
+    {
+      "object": "node_0.421",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0002156295577151468,
+      "runner_distance": 0.008307038515340537,
+      "confidence": "HIGH",
+      "center": [
+        0.03378850221633911,
+        -0.2792761027812958,
+        0.5744037628173828
+      ]
+    },
+    {
+      "object": "node_0.422",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00011820033032563514,
+      "runner_distance": 0.04559310451149941,
+      "confidence": "HIGH",
+      "center": [
+        0.18290798366069794,
+        -0.2187711000442505,
+        0.591477632522583
+      ]
+    },
+    {
+      "object": "node_0.423",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.0001083588012988912,
+      "runner_distance": 0.03680742345750332,
+      "confidence": "HIGH",
+      "center": [
+        0.16422949731349945,
+        -0.22929459810256958,
+        0.5972627401351929
+      ]
+    },
+    {
+      "object": "node_0.424",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00014237455077363846,
+      "runner_distance": 0.06081990599632263,
+      "confidence": "HIGH",
+      "center": [
+        0.2151491940021515,
+        -0.19296570122241974,
+        0.5897222757339478
+      ]
+    },
+    {
+      "object": "node_0.425",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 7.164032012951793e-05,
+      "runner_distance": 0.04815188609063625,
+      "confidence": "HIGH",
+      "center": [
+        0.22640174627304077,
+        -0.1742801070213318,
+        0.6250300407409668
+      ]
+    },
+    {
+      "object": "node_0.426",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 4.6740708967263345e-05,
+      "runner_distance": 0.0431663053376334,
+      "confidence": "HIGH",
+      "center": [
+        0.22927716374397278,
+        -0.15607111155986786,
+        0.6457632184028625
+      ]
+    },
+    {
+      "object": "node_0.427",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 6.550492389578721e-05,
+      "runner_distance": 0.08772238157689571,
+      "confidence": "HIGH",
+      "center": [
+        0.24770300090312958,
+        -0.1383773386478424,
+        0.5982666015625
+      ]
+    },
+    {
+      "object": "node_0.428",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 5.887693328077148e-05,
+      "runner_distance": 0.04921245574951172,
+      "confidence": "HIGH",
+      "center": [
+        0.23792549967765808,
+        -0.1227990984916687,
+        0.684834897518158
+      ]
+    },
+    {
+      "object": "node_0.429",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 3.841435356359094e-05,
+      "runner_distance": 0.07977765301863353,
+      "confidence": "HIGH",
+      "center": [
+        0.2556811571121216,
+        -0.10067027062177658,
+        0.6702169179916382
+      ]
+    },
+    {
+      "object": "node_0.430",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 6.83076330460608e-05,
+      "runner_distance": 0.06165037006139755,
+      "confidence": "HIGH",
+      "center": [
+        0.2445216029882431,
+        -0.12205250561237335,
+        0.6617631912231445
+      ]
+    },
+    {
+      "object": "node_0.431",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 13,
+      "faces": 11,
+      "mean_distance": 5.77860251164216e-05,
+      "runner_distance": 0.07245432069668403,
+      "confidence": "HIGH",
+      "center": [
+        0.2294863760471344,
+        -0.1023365780711174,
+        0.7721424102783203
+      ]
+    },
+    {
+      "object": "node_0.432",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 3.5972769637737656e-05,
+      "runner_distance": 0.04924717918038368,
+      "confidence": "HIGH",
+      "center": [
+        0.23551900684833527,
+        -0.1350221037864685,
+        0.6594134569168091
+      ]
+    },
+    {
+      "object": "node_0.433",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 4.788525886093945e-05,
+      "runner_distance": 0.030810638951758545,
+      "confidence": "HIGH",
+      "center": [
+        0.13398467004299164,
+        -0.15971814095973969,
+        0.8565234541893005
+      ]
+    },
+    {
+      "object": "node_0.434",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 4.0580574932391755e-05,
+      "runner_distance": 0.06064702304346221,
+      "confidence": "HIGH",
+      "center": [
+        0.1787417232990265,
+        -0.12706513702869415,
+        0.833404004573822
+      ]
+    },
+    {
+      "object": "node_0.435",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 3.0117477493263323e-05,
+      "runner_distance": 0.04321298189461231,
+      "confidence": "HIGH",
+      "center": [
+        0.14799149334430695,
+        -0.14455464482307434,
+        0.8570818901062012
+      ]
+    },
+    {
+      "object": "node_0.436",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 7,
+      "faces": 5,
+      "mean_distance": 3.5258006261886165e-05,
+      "runner_distance": 0.09922331465142113,
+      "confidence": "HIGH",
+      "center": [
+        0.20465072989463806,
+        -0.09299327433109283,
+        0.8286688327789307
+      ]
+    },
+    {
+      "object": "node_0.437",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 2.0242437858541962e-05,
+      "runner_distance": 0.09643508195877075,
+      "confidence": "HIGH",
+      "center": [
+        0.14682640135288239,
+        -0.10370933264493942,
+        0.8927149772644043
+      ]
+    },
+    {
+      "object": "node_0.438",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 8.344296202267287e-05,
+      "runner_distance": 0.12934258952736855,
+      "confidence": "HIGH",
+      "center": [
+        0.17071950435638428,
+        -0.06705588102340698,
+        0.8930394053459167
+      ]
+    },
+    {
+      "object": "node_0.439",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 1.5892682085905108e-05,
+      "runner_distance": 0.12505373544991016,
+      "confidence": "HIGH",
+      "center": [
+        0.22536425292491913,
+        -0.061545368283987045,
+        0.8221818804740906
+      ]
+    },
+    {
+      "object": "node_0.440",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 2.9177270243962992e-05,
+      "runner_distance": 0.15903220772743226,
+      "confidence": "HIGH",
+      "center": [
+        0.22269399464130402,
+        -0.034195318818092346,
+        0.8472477197647095
+      ]
+    },
+    {
+      "object": "node_0.441",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 6,
+      "faces": 4,
+      "mean_distance": 8.82881195138907e-05,
+      "runner_distance": 0.0898508553703626,
+      "confidence": "HIGH",
+      "center": [
+        0.25386133790016174,
+        -0.11140444129705429,
+        0.6255989074707031
+      ]
+    },
+    {
+      "object": "node_0.442",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 9.11060837097466e-05,
+      "runner_distance": 0.09824375212192535,
+      "confidence": "HIGH",
+      "center": [
+        0.253040611743927,
+        -0.11071629822254181,
+        0.609191358089447
+      ]
+    },
+    {
+      "object": "node_0.443",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 4.5945445890538394e-05,
+      "runner_distance": 0.11789647862315178,
+      "confidence": "HIGH",
+      "center": [
+        0.2611449956893921,
+        -0.08459559082984924,
+        0.6105698347091675
+      ]
+    },
+    {
+      "object": "node_0.444",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 5.8446738421480404e-05,
+      "runner_distance": 0.07091175206005573,
+      "confidence": "HIGH",
+      "center": [
+        0.11838249862194061,
+        -0.13915187120437622,
+        0.8919071555137634
+      ]
+    },
+    {
+      "object": "node_0.445",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 7.459389786390602e-05,
+      "runner_distance": 0.012331586796790361,
+      "confidence": "HIGH",
+      "center": [
+        0.09090825170278549,
+        -0.1973954141139984,
+        0.8502765893936157
+      ]
+    },
+    {
+      "object": "node_0.446",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 8.283276474685408e-05,
+      "runner_distance": 0.025089408736675978,
+      "confidence": "HIGH",
+      "center": [
+        0.09243675321340561,
+        -0.18843138217926025,
+        0.8622843027114868
+      ]
+    },
+    {
+      "object": "node_0.447",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 5.0435619982636126e-05,
+      "runner_distance": 0.015537670503060022,
+      "confidence": "HIGH",
+      "center": [
+        0.1623450070619583,
+        -0.15990611910820007,
+        0.7909837961196899
+      ]
+    },
+    {
+      "object": "node_0.448",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 1.5175261978583876e-05,
+      "runner_distance": 0.09595168195664883,
+      "confidence": "HIGH",
+      "center": [
+        0.23610800504684448,
+        -0.08050361275672913,
+        0.7838685512542725
+      ]
+    },
+    {
+      "object": "node_0.449",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 1.400330226412431e-05,
+      "runner_distance": 0.1407861610253652,
+      "confidence": "HIGH",
+      "center": [
+        0.2263253629207611,
+        -0.04793645069003105,
+        0.8313401937484741
+      ]
+    },
+    {
+      "object": "node_0.450",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 8.114557810282956e-05,
+      "runner_distance": 0.14227116107940674,
+      "confidence": "HIGH",
+      "center": [
+        0.2805596888065338,
+        -0.037754759192466736,
+        0.6654403805732727
+      ]
+    },
+    {
+      "object": "node_0.451",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 5.0950433615071236e-05,
+      "runner_distance": 0.1413053810596466,
+      "confidence": "HIGH",
+      "center": [
+        0.2781418263912201,
+        -0.04408789426088333,
+        0.6468172669410706
+      ]
+    },
+    {
+      "object": "node_0.452",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 7.420028805427137e-05,
+      "runner_distance": 0.1098808515816927,
+      "confidence": "HIGH",
+      "center": [
+        0.2693762481212616,
+        -0.06987309455871582,
+        0.6707750558853149
+      ]
+    },
+    {
+      "object": "node_0.453",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 6.287570431595668e-05,
+      "runner_distance": 0.13510588308175406,
+      "confidence": "HIGH",
+      "center": [
+        0.2785646915435791,
+        -0.04360076040029526,
+        0.6714991331100464
+      ]
+    },
+    {
+      "object": "node_0.454",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 4.071178409503773e-05,
+      "runner_distance": 0.16829771300156912,
+      "confidence": "HIGH",
+      "center": [
+        0.22973132133483887,
+        -0.021464450284838676,
+        0.8421061038970947
+      ]
+    },
+    {
+      "object": "node_0.455",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 9.825343386182794e-05,
+      "runner_distance": 0.1303766518831253,
+      "confidence": "HIGH",
+      "center": [
+        0.27634474635124207,
+        -0.04408710077404976,
+        0.6893130540847778
+      ]
+    },
+    {
+      "object": "node_0.456",
+      "semantic": "HEAD",
+      "reference_part": "part_2",
+      "vertices": 5,
+      "faces": 3,
+      "mean_distance": 0.00012776957810274326,
+      "runner_distance": 0.007792769838124514,
+      "confidence": "MEDIUM",
+      "center": [
+        0.1523430198431015,
+        -0.1690095216035843,
+        0.7915046811103821
+      ]
+    },
+    {
+      "object": "node_0.457",
+      "semantic": "FLOWER",
+      "reference_part": "part_6",
+      "vertices": 8,
+      "faces": 6,
+      "mean_distance": 8.066646805104938e-05,
+      "runner_distance": 0.02617143699899316,
+      "confidence": "HIGH",
+      "center": [
+        -0.31449663639068604,
+        -0.10712936520576477,
+        0.7759641408920288
+      ]
+    },
+    {
+      "object": "node_0.458",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 3,
+      "faces": 1,
+      "mean_distance": 0.00016748047346482053,
+      "runner_distance": 0.020015414183338482,
+      "confidence": "HIGH",
+      "center": [
+        -0.007913666777312756,
+        -0.30414915084838867,
+        0.5599290132522583
+      ]
+    },
+    {
+      "object": "node_0.459",
+      "semantic": "TONGUE",
+      "reference_part": "part_3",
+      "vertices": 4,
+      "faces": 2,
+      "mean_distance": 0.00011327892570989206,
+      "runner_distance": 0.020894845016300678,
+      "confidence": "HIGH",
+      "center": [
+        -0.0069184997119009495,
+        -0.30416062474250793,
+        0.5697927474975586
+      ]
+    }
+  ],
+  "semantic_to_controller": {
+    "HEAD": "HEAD",
+    "BODY_NECK": "BODY_NECK",
+    "COIL_BASE": "COIL_BASE",
+    "TAIL": "TAIL_ROOT_or_TAIL_TIP",
+    "RIGHT_EYE": "EYE_R",
+    "LEFT_EYE": "EYE_L",
+    "FLOWER": "HEAD",
+    "RIGHT_BROW": "HEAD",
+    "LEFT_BROW": "HEAD",
+    "TONGUE": "TONGUE",
+    "MEDALLION": "MEDALLION"
+  }
+}

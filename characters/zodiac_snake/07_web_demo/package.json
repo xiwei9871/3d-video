@@ -1,0 +1,12 @@
+{
+  "name": "zodiac-snake-character-v1-threejs-runtime",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 4174 --bind 127.0.0.1",
+    "capture": "playwright-cli --raw eval \"JSON.stringify(window.__snakeRuntime.getMetrics())\" > review/runtime_metrics_raw.txt && python3 finalize_runtime_reports.py"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  }
+}
