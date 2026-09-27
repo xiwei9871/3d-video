@@ -1,0 +1,52 @@
+[
+  {
+    "character_id": "zodiac_snake",
+    "run_id": "20260927T155003Z_4e4c3bec",
+    "status": "WAITING_H1",
+    "current_gate": "H1",
+    "elapsed_seconds": 0.051,
+    "manual_intervention_count": 0,
+    "stage_names": [
+      "reference_generation",
+      "visual_asset_generation",
+      "component_split",
+      "archive_inputs",
+      "g0_g1_evidence"
+    ],
+    "factory_run": "characters/zodiac_snake/factory_runs/20260927T155003Z_4e4c3bec/factory_run.json"
+  },
+  {
+    "character_id": "zodiac_rabbit",
+    "run_id": "20260927T155003Z_f5ba0b9f",
+    "status": "WAITING_H1",
+    "current_gate": "H1",
+    "elapsed_seconds": 0.051,
+    "manual_intervention_count": 0,
+    "stage_names": [
+      "reference_generation",
+      "visual_asset_generation",
+      "component_split",
+      "archive_inputs",
+      "g0_g1_evidence"
+    ],
+    "factory_run": "characters/zodiac_rabbit/factory_runs/20260927T155003Z_f5ba0b9f/factory_run.json"
+  },
+  {
+    "character_id": "zodiac_dragon",
+    "run_id": "20260927T155346Z_74d82410",
+    "status": "COMPLETE",
+    "current_gate": "H3",
+    "elapsed_seconds": 19.563,
+    "manual_intervention_count": 3,
+    "stage_names": [
+      "reference_generation",
+      "visual_asset_generation",
+      "component_split",
+      "archive_inputs",
+      "g0_g1_evidence",
+      "g1_5_semantic_review",
+      "g2_g6_component_puppet"
+    ],
+    "factory_run": "characters/zodiac_dragon/factory_runs/20260927T155346Z_74d82410/factory_run.json"
+  }
+]

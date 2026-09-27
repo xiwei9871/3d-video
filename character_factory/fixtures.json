@@ -1,0 +1,44 @@
+{
+  "zodiac_snake": {
+    "display_name": "Zodiac Snake V1",
+    "source_assets": [
+      {"role": "visual_master_50k", "path": "experiments/snake-b-route/raw/snake_unsplit_50k.glb"},
+      {"role": "component_reference", "path": "20260924110430_581b611c.glb"}
+    ],
+    "config": "characters/zodiac_snake/character_config.json",
+    "mapping": "characters/zodiac_snake/component_mapping.json",
+    "existing": {
+      "pipeline_report": "characters/zodiac_snake/benchmark/v1_2_regression_pipeline_report.json",
+      "semantic_audit": "characters/zodiac_snake/04_rig/rebuild/v1_2_regression/semantic_ownership_audit.json",
+      "runtime_gate": "characters/zodiac_snake/06_export/zodiac_snake_character_v1_runtime.glb"
+    }
+  },
+  "zodiac_rabbit": {
+    "display_name": "Zodiac Rabbit V1",
+    "source_assets": [
+      {"role": "visual_master_50k", "path": "characters/zodiac_rabbit/01_visual_master/rabbit_source_50k.glb"},
+      {"role": "component_reference", "path": "characters/zodiac_rabbit/02_components/rabbit_source_b.glb"}
+    ],
+    "config": "characters/zodiac_rabbit/character_config.json",
+    "mapping": "characters/zodiac_rabbit/component_mapping.json",
+    "existing": {
+      "pipeline_report": "characters/zodiac_rabbit/benchmark/v1_2_regression_pipeline_report.json",
+      "semantic_audit": "characters/zodiac_rabbit/04_rig/rebuild/v1_2_regression/semantic_ownership_audit.json",
+      "runtime_gate": "characters/zodiac_rabbit/06_export/zodiac_rabbit_character_v1_runtime.glb"
+    }
+  },
+  "zodiac_dragon": {
+    "display_name": "Zodiac Dragon V1",
+    "source_assets": [
+      {"role": "visual_master_50k", "path": "characters/zodiac_dragon/01_visual_master/dragon_source_b.glb"},
+      {"role": "component_reference", "path": "characters/zodiac_dragon/02_components/dragon_source_a.glb"}
+    ],
+    "config": "characters/zodiac_dragon/character_config.json",
+    "mapping": "characters/zodiac_dragon/component_mapping.json",
+    "existing": {
+      "pipeline_report": "characters/zodiac_dragon/benchmark/v1_2_rebuild_pipeline_report.json",
+      "semantic_audit": "characters/zodiac_dragon/04_rig/rebuild/v1_2_final/semantic_ownership_audit.json",
+      "runtime_gate": "characters/zodiac_dragon/06_export/v1_2_final/runtime_gate.json"
+    }
+  }
+}

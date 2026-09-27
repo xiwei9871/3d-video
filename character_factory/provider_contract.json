@@ -1,0 +1,16 @@
+{
+  "submit": {
+    "method": "POST",
+    "job_id_path": "job_id",
+    "status_path": "status"
+  },
+  "poll": {
+    "status_path": "status",
+    "terminal_success": ["succeeded", "completed", "done"],
+    "terminal_failure": ["failed", "error", "cancelled"],
+    "asset_url_path": "asset_url"
+  },
+  "download": {
+    "timeout_seconds": 120
+  }
+}
