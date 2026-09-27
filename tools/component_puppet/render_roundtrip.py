@@ -15,6 +15,7 @@ def parse_args():
     parser.add_argument("--input", required=True)
     parser.add_argument("--output-dir", required=True)
     parser.add_argument("--manifest", required=True)
+    parser.add_argument("--config")
     argv = sys.argv[sys.argv.index("--") + 1 :] if "--" in sys.argv else sys.argv[1:]
     return parser.parse_args(argv)
 
@@ -62,15 +63,24 @@ def main():
     args = parse_args()
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    action_names = ["snake_head_tilt", "snake_body_sway", "snake_tail_wag"]
+    if args.config:
+        config = json.loads(Path(args.config).read_text())
+        action_names = config.get("roundtrip_actions") or [
+            config.get("actions", {}).get("head_tilt"),
+            config.get("actions", {}).get("body_sway"),
+            config.get("actions", {}).get("tail_wag"),
+        ]
+        action_names = [name for name in action_names if name]
     bpy.ops.wm.read_factory_settings(use_empty=True)
     bpy.ops.import_scene.gltf(filepath=str(args.input))
-    objects = [obj for obj in bpy.context.scene.objects if obj.type == "MESH" and obj.name.startswith("node_0")]
+    objects = [obj for obj in bpy.context.scene.objects if obj.type == "MESH" and (obj.name.startswith("node_0") or obj.name.startswith("RUNTIME_"))]
     arm = next((obj for obj in bpy.context.scene.objects if obj.type == "ARMATURE"), None)
-    if arm is None or len(objects) != 460:
-        raise RuntimeError(f"Expected armature and 460 component meshes, got armature={arm is not None}, meshes={len(objects)}")
+    if arm is None or not objects:
+        raise RuntimeError(f"Expected armature and component meshes, got armature={arm is not None}, meshes={len(objects)}")
     setup(bpy.context.scene, objects)
     rendered = []
-    for name in ["snake_head_tilt", "snake_body_sway", "snake_tail_wag"]:
+    for name in action_names:
         action = bpy.data.actions.get(name)
         if action is None:
             raise RuntimeError(f"Missing action {name}")

@@ -31,6 +31,7 @@ def parse_args():
     parser.add_argument("--metrics-output", required=True)
     parser.add_argument("--output", required=True)
     parser.add_argument("--fps", type=float, default=30.0)
+    parser.add_argument("--config")
     argv = sys.argv[sys.argv.index("--") + 1 :] if "--" in sys.argv else sys.argv[1:]
     return parser.parse_args(argv)
 
@@ -185,15 +186,30 @@ def file_size(path):
 
 def main():
     args = parse_args()
+    expected_actions = list(DEFAULT_ACTIONS)
+    expected_bones = set()
+    if args.config:
+        config = json.loads(Path(args.config).read_text())
+        expected_actions = [
+            name for name in config.get("actions", {}).values()
+            if not config.get("action_specs", {}).get(name, {}).get("fallback")
+        ]
+        for value in config.get("controllers", {}).values():
+            expected_bones.update(value if isinstance(value, list) else [value])
+    if not expected_bones:
+        expected_bones = {
+            "ROOT", "COIL_BASE", "BODY_NECK", "HEAD", "EYE_L", "EYE_R",
+            "TONGUE", "MEDALLION", "TAIL_ROOT", "TAIL_TIP",
+        }
     before = load_blend(args.before_blend)
-    before_hashes = action_hashes(args.before_blend, DEFAULT_ACTIONS)
+    before_hashes = action_hashes(args.before_blend, expected_actions)
     after = load_blend(args.after_blend)
-    after_hashes = action_hashes(args.after_blend, DEFAULT_ACTIONS)
+    after_hashes = action_hashes(args.after_blend, expected_actions)
 
     before_ranges = before["mesh_stats"]["actions"]
     after_ranges = after["mesh_stats"]["actions"]
     hashes = {}
-    for name in ["neutral", *DEFAULT_ACTIONS]:
+    for name in ["neutral", *expected_actions]:
         before_value = before_hashes.get(name)
         after_value = after_hashes.get(name)
         if name == "neutral":
@@ -225,11 +241,11 @@ def main():
         and "Material.001" in after_materials
         and len(after["mesh_stats"]["images"]) >= 3,
         "action_regression": all(item["equal"] for item in hashes.values())
-        and set(DEFAULT_ACTIONS) <= set(after_ranges),
+        and set(expected_actions) <= set(after_ranges),
         "glb_roundtrip": imported["component_mesh_objects"] == after["mesh_stats"]["mesh_objects"]
         and imported["bone_parented_components"] == imported["component_mesh_objects"]
-        and set(after["bones"][0]) <= set(imported["bones"])
-        and set(DEFAULT_ACTIONS) <= set(imported["actions"])
+        and expected_bones <= set(imported["bones"])
+        and set(expected_actions) <= set(imported["actions"])
         and len(imported["materials"]) >= 1
         and len(imported["images"]) >= 3,
         "finite_transforms": before["finite_transforms"] and after["finite_transforms"],

@@ -1,0 +1,116 @@
+{
+  "pipeline": "component_puppet_character_v1",
+  "project_root": "/Users/xiwei/video making",
+  "blender": "/opt/homebrew/bin/blender",
+  "inputs": {
+    "config": "/Users/xiwei/video making/characters/zodiac_snake/character_config.json",
+    "mapping": "/Users/xiwei/video making/characters/zodiac_snake/component_mapping.json",
+    "source": "/Users/xiwei/video making/experiments/snake-b-route/raw/snake_unsplit_50k.glb"
+  },
+  "outputs": {
+    "clean_rig": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild_regression_final/clean_rig.blend",
+    "clean_assigned": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild_regression_final/clean_assigned.blend",
+    "clean_actions": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild_regression_final/clean_actions.blend",
+    "validation": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild_regression_final/character_validation.json",
+    "glb": "/Users/xiwei/video making/characters/zodiac_snake/06_export/regression_final/zodiac_snake_character_v1.glb",
+    "roundtrip": "/Users/xiwei/video making/characters/zodiac_snake/06_export/regression_final/roundtrip_validation.json"
+  },
+  "steps": [
+    {
+      "script": "tools/component_puppet/build_rig.py",
+      "elapsed_seconds": 1.885,
+      "returncode": 0,
+      "last_output_lines": [
+        "10:34:05 | INFO: Data are loaded, start creating Blender stuff",
+        "10:34:05 | INFO: Blender create Mesh node node_0",
+        "10:34:05 | INFO: glTF import finished in 0.05s",
+        "Info: Saved as \"clean_rig.blend\"",
+        "{'output': '/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild_regression_final/clean_rig.blend', 'pieces': 460, 'bones': ['ROOT', 'COIL_BASE', 'BODY_NECK', 'HEAD', 'EYE_L', 'EYE_R', 'TONGUE', 'MEDALLION', 'TAIL_ROOT', 'TAIL_TIP']}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/assign_components.py",
+      "elapsed_seconds": 0.578,
+      "returncode": 0,
+      "last_output_lines": [
+        "00:00.259  blend            | Read blend: \"/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild_regression_final/clean_rig.blend\"",
+        "Info: Saved as \"clean_assigned.blend\"",
+        "{'output': '/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild_regression_final/clean_assigned.blend', 'assigned_objects': 460, 'groups': {'TAIL': 18, 'COIL_BASE': 42, 'HEAD': 180, 'MEDALLION': 55, 'TONGUE': 19, 'BODY_NECK': 42, 'FLOWER': 65, 'RIGHT_BROW': 6, 'RIGHT_EYE': 15, 'LEFT_BROW': 6, 'LEFT_EYE': 12}}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/build_actions.py",
+      "elapsed_seconds": 0.554,
+      "returncode": 0,
+      "last_output_lines": [
+        "00:00.245  blend            | Read blend: \"/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild_regression_final/clean_assigned.blend\"",
+        "Info: Saved as \"clean_actions.blend\"",
+        "actions ['snake_body_sway', 'snake_bounce', 'snake_head_shake', 'snake_head_tilt', 'snake_idle', 'snake_tail_wag', 'snake_tongue_flick']",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/validate_character.py",
+      "elapsed_seconds": 0.508,
+      "returncode": 0,
+      "last_output_lines": [
+        "    \"materials_present\": true,",
+        "    \"no_nan_transforms\": true",
+        "  },",
+        "  \"status\": \"PASS\"",
+        "}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/export_character.py",
+      "elapsed_seconds": 1.817,
+      "returncode": 0,
+      "last_output_lines": [
+        "10:34:08 | INFO: Extracting primitive: node_0.045",
+        "10:34:08 | INFO: Primitives created: 1",
+        "10:34:08 | INFO: Finished glTF 2.0 export in 1.2265660762786865 s",
+        "",
+        "/Users/xiwei/video making/characters/zodiac_snake/06_export/regression_final/zodiac_snake_character_v1.glb",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "characters/zodiac_snake/06_export/roundtrip_check.py",
+      "elapsed_seconds": 0.753,
+      "returncode": 0,
+      "last_output_lines": [
+        "    \"Original 50K material images are counted after import; shader-node equivalence is reviewed separately.\",",
+        "    \"Blender's glTF importer can create helper meshes for armature display; they are excluded from component_mesh_objects.\",",
+        "    \"glTF stores animation time in seconds, so Blender may display imported keyframes at its current FPS (24 here) instead of the authored 30fps frame numbers.\"",
+        "  ]",
+        "}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    }
+  ],
+  "elapsed_seconds": 6.095,
+  "manual_intervention_count": 0,
+  "validation_status": "PASS",
+  "roundtrip_status": "PASS",
+  "status": "PASS",
+  "human_review_items": [
+    "TailWag remains a rigid component boundary review item.",
+    "Blink remains a documented fallback because the supplied segmentation has no eyelid component.",
+    "Fresh GLB import is validated in Blender; Three.js runtime is intentionally out of scope for this gate."
+  ]
+}

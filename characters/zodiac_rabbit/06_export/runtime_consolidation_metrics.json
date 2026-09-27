@@ -1,0 +1,94 @@
+{
+  "before": {
+    "mesh_objects": 888,
+    "vertices": 33636,
+    "polygons": 50394,
+    "triangles": 50394,
+    "materials": [
+      "Material.001"
+    ],
+    "images": [
+      "texture_pbr_20250901",
+      "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "texture_pbr_20250901_normal"
+    ],
+    "actions": {
+      "rabbit_bounce": [
+        1.0,
+        30.0
+      ],
+      "rabbit_carrot_happy": [
+        1.0,
+        36.0
+      ],
+      "rabbit_ear_wiggle": [
+        1.0,
+        30.0
+      ],
+      "rabbit_head_shake": [
+        1.0,
+        30.0
+      ],
+      "rabbit_head_tilt": [
+        1.0,
+        30.0
+      ],
+      "rabbit_idle": [
+        1.0,
+        90.0
+      ]
+    },
+    "blend_size_bytes": 28995702,
+    "glb_size_bytes": 29987384,
+    "bone_count": 11
+  },
+  "after": {
+    "mesh_objects": 10,
+    "vertices": 33636,
+    "polygons": 50394,
+    "triangles": 50394,
+    "materials": [
+      "Material.001"
+    ],
+    "images": [
+      "texture_pbr_20250901",
+      "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "texture_pbr_20250901_normal"
+    ],
+    "actions": {
+      "rabbit_bounce": [
+        1.0,
+        30.0
+      ],
+      "rabbit_carrot_happy": [
+        1.0,
+        36.0
+      ],
+      "rabbit_ear_wiggle": [
+        1.0,
+        30.0
+      ],
+      "rabbit_head_shake": [
+        1.0,
+        30.0
+      ],
+      "rabbit_head_tilt": [
+        1.0,
+        30.0
+      ],
+      "rabbit_idle": [
+        1.0,
+        90.0
+      ]
+    },
+    "blend_size_bytes": 28636631,
+    "glb_size_bytes": 29159444,
+    "bone_count": 11
+  },
+  "delta": {
+    "mesh_objects": -878,
+    "materials": 0,
+    "triangles": 0,
+    "glb_size_bytes": -827940
+  }
+}

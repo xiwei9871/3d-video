@@ -1,0 +1,252 @@
+{
+  "input_glb": "/Users/xiwei/video making/characters/zodiac_rabbit/06_export/zodiac_rabbit_character_v1.glb",
+  "source_blend": "/Users/xiwei/video making/characters/zodiac_rabbit/04_rig/rebuild/clean_actions.blend",
+  "source": {
+    "label": "authored_blend",
+    "armature_objects": 1,
+    "mesh_objects": 888,
+    "component_mesh_objects": 888,
+    "helper_mesh_objects": [],
+    "bones": [
+      "ACCESSORY_CTRL",
+      "ARM_L_CTRL",
+      "ARM_R_CTRL",
+      "BODY_CTRL",
+      "CARROT_CTRL",
+      "EAR_L_CTRL",
+      "EAR_R_CTRL",
+      "EYE_R_CTRL",
+      "HEAD_CTRL",
+      "ROOT",
+      "TAIL_CTRL"
+    ],
+    "bone_parent_map": {
+      "ROOT": null,
+      "BODY_CTRL": "ROOT",
+      "HEAD_CTRL": "BODY_CTRL",
+      "EAR_L_CTRL": "HEAD_CTRL",
+      "EAR_R_CTRL": "HEAD_CTRL",
+      "EYE_R_CTRL": "HEAD_CTRL",
+      "ARM_L_CTRL": "BODY_CTRL",
+      "ARM_R_CTRL": "BODY_CTRL",
+      "CARROT_CTRL": "BODY_CTRL",
+      "TAIL_CTRL": "BODY_CTRL",
+      "ACCESSORY_CTRL": "BODY_CTRL"
+    },
+    "bone_parented_mesh_objects": 888,
+    "armature_parented_mesh_objects": 0,
+    "materials": [
+      "Material.001"
+    ],
+    "images": [
+      "texture_pbr_20250901",
+      "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "texture_pbr_20250901_normal"
+    ],
+    "actions": {
+      "rabbit_bounce": [
+        1.0,
+        30.0
+      ],
+      "rabbit_carrot_happy": [
+        1.0,
+        36.0
+      ],
+      "rabbit_ear_wiggle": [
+        1.0,
+        30.0
+      ],
+      "rabbit_head_shake": [
+        1.0,
+        30.0
+      ],
+      "rabbit_head_tilt": [
+        1.0,
+        30.0
+      ],
+      "rabbit_idle": [
+        1.0,
+        90.0
+      ]
+    },
+    "bounds": {
+      "min": [
+        -0.39295393228530884,
+        -0.2527520954608917,
+        -1.3050813763015867e-08
+      ],
+      "max": [
+        0.357327938079834,
+        0.2700739800930023,
+        0.9942899942398071
+      ],
+      "size": [
+        0.7502818703651428,
+        0.522826075553894,
+        0.9942899942398071
+      ]
+    },
+    "finite_transforms": true,
+    "fps": 30
+  },
+  "imported": {
+    "label": "fresh_glb_import",
+    "armature_objects": 1,
+    "mesh_objects": 889,
+    "component_mesh_objects": 888,
+    "helper_mesh_objects": [
+      "Icosphere"
+    ],
+    "bones": [
+      "ACCESSORY_CTRL",
+      "ARM_L_CTRL",
+      "ARM_R_CTRL",
+      "BODY_CTRL",
+      "CARROT_CTRL",
+      "EAR_L_CTRL",
+      "EAR_R_CTRL",
+      "EYE_R_CTRL",
+      "HEAD_CTRL",
+      "ROOT",
+      "TAIL_CTRL"
+    ],
+    "bone_parent_map": {
+      "ROOT": null,
+      "BODY_CTRL": "ROOT",
+      "ACCESSORY_CTRL": "BODY_CTRL",
+      "ARM_L_CTRL": "BODY_CTRL",
+      "ARM_R_CTRL": "BODY_CTRL",
+      "CARROT_CTRL": "BODY_CTRL",
+      "HEAD_CTRL": "BODY_CTRL",
+      "EAR_L_CTRL": "HEAD_CTRL",
+      "EAR_R_CTRL": "HEAD_CTRL",
+      "EYE_R_CTRL": "HEAD_CTRL",
+      "TAIL_CTRL": "BODY_CTRL"
+    },
+    "bone_parented_mesh_objects": 888,
+    "armature_parented_mesh_objects": 0,
+    "materials": [
+      "Material.001"
+    ],
+    "images": [
+      "texture_pbr_20250901",
+      "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "texture_pbr_20250901_normal"
+    ],
+    "actions": {
+      "rabbit_bounce": [
+        0.8000000715255737,
+        24.0
+      ],
+      "rabbit_carrot_happy": [
+        0.8000000715255737,
+        28.80000114440918
+      ],
+      "rabbit_ear_wiggle": [
+        0.8000000715255737,
+        24.0
+      ],
+      "rabbit_head_shake": [
+        0.8000000715255737,
+        24.0
+      ],
+      "rabbit_head_tilt": [
+        0.8000000715255737,
+        24.0
+      ],
+      "rabbit_idle": [
+        0.8000000715255737,
+        72.0
+      ]
+    },
+    "bounds": {
+      "min": [
+        -0.9510578513145447,
+        -0.9999999403953552,
+        -1.0
+      ],
+      "max": [
+        0.9510578513145447,
+        0.9999999403953552,
+        1.0
+      ],
+      "size": [
+        1.9021157026290894,
+        1.9999998807907104,
+        2.0
+      ]
+    },
+    "finite_transforms": true,
+    "fps": 24
+  },
+  "checks": {
+    "armature_present": true,
+    "bone_names": true,
+    "component_mesh_count": true,
+    "actions_present": true,
+    "bone_parent_relationships": true,
+    "materials_present": true,
+    "pbr_images_present": true,
+    "finite_transforms": true,
+    "action_time_ranges": true
+  },
+  "status": "PASS",
+  "action_time_ranges_seconds": {
+    "rabbit_bounce": [
+      0.033333336313565574,
+      1.0
+    ],
+    "rabbit_carrot_happy": [
+      0.033333336313565574,
+      1.2000000476837158
+    ],
+    "rabbit_ear_wiggle": [
+      0.033333336313565574,
+      1.0
+    ],
+    "rabbit_head_shake": [
+      0.033333336313565574,
+      1.0
+    ],
+    "rabbit_head_tilt": [
+      0.033333336313565574,
+      1.0
+    ],
+    "rabbit_idle": [
+      0.033333336313565574,
+      3.0
+    ]
+  },
+  "source_action_time_ranges_seconds": {
+    "rabbit_bounce": [
+      0.03333333333333333,
+      1.0
+    ],
+    "rabbit_carrot_happy": [
+      0.03333333333333333,
+      1.2
+    ],
+    "rabbit_ear_wiggle": [
+      0.03333333333333333,
+      1.0
+    ],
+    "rabbit_head_shake": [
+      0.03333333333333333,
+      1.0
+    ],
+    "rabbit_head_tilt": [
+      0.03333333333333333,
+      1.0
+    ],
+    "rabbit_idle": [
+      0.03333333333333333,
+      3.0
+    ]
+  },
+  "limitations": [
+    "Fresh Blender import validates glTF scene/action survival; it does not certify Three.js runtime compatibility.",
+    "Original 50K material images are counted after import; shader-node equivalence is reviewed separately.",
+    "Blender's glTF importer can create helper meshes for armature display; they are excluded from component_mesh_objects.",
+    "glTF stores animation time in seconds, so Blender may display imported keyframes at its current FPS (24 here) instead of the authored 30fps frame numbers."
+  ]
+}

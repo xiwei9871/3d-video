@@ -1,0 +1,33 @@
+{
+  "gate": "G0 ASSET AUDIT",
+  "status": "PASS",
+  "visual_source": {
+    "path": "characters/zodiac_rabbit/01_visual_master/rabbit_source_50k.glb",
+    "sha256": "66277b2709e6faa7062702803ab814113695e1cdfdf366c3a8016c5a1c0a996e",
+    "vertices": 33636,
+    "triangles": 50394,
+    "mesh_objects": 1,
+    "connected_components": 888,
+    "materials": 1,
+    "material_name": "Material.001",
+    "uv_layers": 1,
+    "pbr_images": 3,
+    "degenerate_faces": 0,
+    "invalid_vertices": 0
+  },
+  "component_reference": {
+    "path": "characters/zodiac_rabbit/02_components/rabbit_source_b.glb",
+    "sha256": "537db806ce6b87207fc2a1619ffe66d331504e2d4e23e28b922e261de7832f04",
+    "mesh_objects": 12,
+    "vertices": 34360,
+    "triangles": 68680,
+    "degenerate_faces": 2,
+    "used_for": "semantic mapping only"
+  },
+  "rejected_input": {
+    "path": "20260926115338_6298f48d.fbx",
+    "reason": "snake auxiliary mesh; not rabbit 50K source",
+    "used_in_pipeline": false
+  },
+  "status_note": "PASS; component-reference degenerate faces are reference-only and are not copied into the visual source."
+}

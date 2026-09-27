@@ -1,0 +1,49 @@
+{
+  "source_blend": "characters/zodiac_rabbit/04_rig/rebuild/clean_actions.blend",
+  "static_actions": [
+    {
+      "label": "Idle",
+      "action": "rabbit_idle",
+      "frame": 46,
+      "path": "characters/zodiac_rabbit/04_rig/review/character_v1/poses/Idle.png"
+    },
+    {
+      "label": "HeadTilt",
+      "action": "rabbit_head_tilt",
+      "frame": 16,
+      "path": "characters/zodiac_rabbit/04_rig/review/character_v1/poses/HeadTilt.png"
+    },
+    {
+      "label": "HeadShake",
+      "action": "rabbit_head_shake",
+      "frame": 16,
+      "path": "characters/zodiac_rabbit/04_rig/review/character_v1/poses/HeadShake.png"
+    },
+    {
+      "label": "EarWiggle",
+      "action": "rabbit_ear_wiggle",
+      "frame": 16,
+      "path": "characters/zodiac_rabbit/04_rig/review/character_v1/poses/EarWiggle.png"
+    },
+    {
+      "label": "Bounce",
+      "action": "rabbit_bounce",
+      "frame": 16,
+      "path": "characters/zodiac_rabbit/04_rig/review/character_v1/poses/Bounce.png"
+    },
+    {
+      "label": "CarrotHappy",
+      "action": "rabbit_carrot_happy",
+      "frame": 18,
+      "path": "characters/zodiac_rabbit/04_rig/review/character_v1/poses/CarrotHappy.png"
+    }
+  ],
+  "contact_sheet": "characters/zodiac_rabbit/04_rig/review/character_v1/rabbit_actions_contact_sheet.png",
+  "preview_action": "AN_ComponentPuppet_V1_Preview",
+  "preview_frames": 60,
+  "fps": 30,
+  "preview_frame_dir": "characters/zodiac_rabbit/05_animations/component_puppet_v1/preview_frames",
+  "material_policy": "Original Material.001 PBR retained; segmentation colors are not rendered.",
+  "status": "HUMAN_REVIEW",
+  "character": "zodiac_rabbit"
+}

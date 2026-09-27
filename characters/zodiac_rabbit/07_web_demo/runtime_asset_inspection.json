@@ -1,0 +1,80 @@
+{
+  "generated_utc": "2026-09-26T16:23:06.782826+00:00",
+  "asset_url": "./public/zodiac_rabbit_character_v1_runtime.glb",
+  "asset_file": "public/zodiac_rabbit_character_v1_runtime.glb",
+  "glb_load_status": 200,
+  "glb_size_bytes": 29159444,
+  "scene_mesh_count": 10,
+  "skinned_mesh_count": 0,
+  "bone_count": 11,
+  "bone_names": [
+    "ACCESSORY_CTRL",
+    "ARM_L_CTRL",
+    "ARM_R_CTRL",
+    "BODY_CTRL",
+    "CARROT_CTRL",
+    "EAR_L_CTRL",
+    "EAR_R_CTRL",
+    "EYE_R_CTRL",
+    "HEAD_CTRL",
+    "ROOT",
+    "TAIL_CTRL"
+  ],
+  "triangles": 50394,
+  "materials": [
+    "Material.001"
+  ],
+  "texture_count": 3,
+  "three_revision": "180",
+  "animation_clip_count": 6,
+  "animation_clip_names": [
+    "rabbit_bounce",
+    "rabbit_carrot_happy",
+    "rabbit_ear_wiggle",
+    "rabbit_head_shake",
+    "rabbit_head_tilt",
+    "rabbit_idle"
+  ],
+  "animation_clips": [
+    {
+      "name": "rabbit_bounce",
+      "duration_seconds": 1,
+      "tracks": 33
+    },
+    {
+      "name": "rabbit_carrot_happy",
+      "duration_seconds": 1.2,
+      "tracks": 33
+    },
+    {
+      "name": "rabbit_ear_wiggle",
+      "duration_seconds": 1,
+      "tracks": 33
+    },
+    {
+      "name": "rabbit_head_shake",
+      "duration_seconds": 1,
+      "tracks": 33
+    },
+    {
+      "name": "rabbit_head_tilt",
+      "duration_seconds": 1,
+      "tracks": 33
+    },
+    {
+      "name": "rabbit_idle",
+      "duration_seconds": 3,
+      "tracks": 33
+    }
+  ],
+  "semantic_action_mapping": {
+    "bounce": "rabbit_bounce",
+    "carrot_happy": "rabbit_carrot_happy",
+    "ear_wiggle": "rabbit_ear_wiggle",
+    "head_shake": "rabbit_head_shake",
+    "head_tilt": "rabbit_head_tilt",
+    "idle": "rabbit_idle"
+  },
+  "expected_semantics_present": true,
+  "status": "PASS"
+}

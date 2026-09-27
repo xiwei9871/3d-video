@@ -1,0 +1,149 @@
+{
+  "character_id": "zodiac_rabbit",
+  "display_name": "生肖兔宝宝",
+  "rig_type": "component_puppet_v1",
+  "source_high_50k": "characters/zodiac_rabbit/01_visual_master/rabbit_source_50k.glb",
+  "component_reference": "characters/zodiac_rabbit/02_components/rabbit_source_b.glb",
+  "material_policy": "preserve_source_material; segmentation colors are audit-only",
+  "status": {
+    "overall": "PASS",
+    "checkpoint": "RABBIT_CHARACTER_V1_HUMAN_REVIEW",
+    "gates": {
+      "G0_asset_audit": "PASS",
+      "G1_component_map": "PASS",
+      "G2_puppet_build": "PASS",
+      "G3_core_actions": "PASS",
+      "G4_visual_deformation_qa": "PASS",
+      "G5_export_roundtrip": "PASS",
+      "G5_5_runtime_asset": "PASS",
+      "G6_threejs_runtime": "PASS"
+    }
+  },
+  "controllers": {
+    "root": "ROOT",
+    "body": "BODY_CTRL",
+    "head": "HEAD_CTRL",
+    "ear_l": "EAR_L_CTRL",
+    "ear_r": "EAR_R_CTRL",
+    "arm_l": "ARM_L_CTRL",
+    "arm_r": "ARM_R_CTRL",
+    "carrot": "CARROT_CTRL",
+    "tail": "TAIL_CTRL",
+    "eye_r": "EYE_R_CTRL",
+    "accessory": "ACCESSORY_CTRL"
+  },
+  "semantic_controllers": {
+    "HEAD": "HEAD_CTRL",
+    "BODY": "BODY_CTRL",
+    "EAR_L": "EAR_L_CTRL",
+    "EAR_R": "EAR_R_CTRL",
+    "ARM_L": "ARM_L_CTRL",
+    "ARM_R": "ARM_R_CTRL",
+    "CARROT": "CARROT_CTRL",
+    "TAIL": "TAIL_CTRL",
+    "EYE_R": "EYE_R_CTRL",
+    "ACCESSORY": "ACCESSORY_CTRL",
+    "FLOWER": "HEAD_CTRL"
+  },
+  "components": {
+    "head": {"mode": "rigid", "controller": "HEAD_CTRL"},
+    "body": {"mode": "rigid_puppet", "controller": "BODY_CTRL"},
+    "ear_l": {"mode": "rigid", "controller": "EAR_L_CTRL"},
+    "ear_r": {"mode": "rigid", "controller": "EAR_R_CTRL"},
+    "arm_l": {"mode": "rigid", "controller": "ARM_L_CTRL"},
+    "arm_r": {"mode": "rigid", "controller": "ARM_R_CTRL"},
+    "carrot": {"mode": "rigid_prop", "controller": "CARROT_CTRL"},
+    "tail": {"mode": "rigid", "controller": "TAIL_CTRL"},
+    "eye_r": {"mode": "rigid", "controller": "EYE_R_CTRL"},
+    "accessory": {"mode": "rigid", "controller": "ACCESSORY_CTRL"}
+  },
+  "bone_layout": [
+    {"name": "ROOT", "head": [0, 0, 0], "tail": [0, 0, 0.05]},
+    {"name": "BODY_CTRL", "head": [0, 0, 0.05], "tail": [0, 0, 0.30], "parent": "ROOT"},
+    {"name": "HEAD_CTRL", "head": [0, 0, 0.30], "tail": [0, 0, 0.60], "parent": "BODY_CTRL"},
+    {"name": "EAR_L_CTRL", "head": [-0.13, 0, 0.58], "tail": [-0.16, 0, 0.78], "parent": "HEAD_CTRL"},
+    {"name": "EAR_R_CTRL", "head": [0.13, 0, 0.58], "tail": [0.16, 0, 0.78], "parent": "HEAD_CTRL"},
+    {"name": "EYE_R_CTRL", "head": [0.10, -0.18, 0.45], "tail": [0.10, -0.22, 0.45], "parent": "HEAD_CTRL"},
+    {"name": "ARM_L_CTRL", "head": [-0.16, -0.12, 0.28], "tail": [-0.25, -0.18, 0.28], "parent": "BODY_CTRL"},
+    {"name": "ARM_R_CTRL", "head": [0.16, -0.12, 0.28], "tail": [0.25, -0.18, 0.28], "parent": "BODY_CTRL"},
+    {"name": "CARROT_CTRL", "head": [0, -0.25, 0.25], "tail": [0, -0.34, 0.25], "parent": "BODY_CTRL"},
+    {"name": "TAIL_CTRL", "head": [0, 0.22, 0.18], "tail": [0, 0.34, 0.24], "parent": "BODY_CTRL"},
+    {"name": "ACCESSORY_CTRL", "head": [0, 0, 0.25], "tail": [0, 0, 0.36], "parent": "BODY_CTRL"}
+  ],
+  "actions": {
+    "idle": "rabbit_idle",
+    "head_tilt": "rabbit_head_tilt",
+    "head_shake": "rabbit_head_shake",
+    "ear_wiggle": "rabbit_ear_wiggle",
+    "bounce": "rabbit_bounce",
+    "character_action": "rabbit_carrot_happy",
+    "blink": "rabbit_blink"
+  },
+  "qa_actions": [
+    ["Idle", "rabbit_idle"],
+    ["HeadTilt", "rabbit_head_tilt"],
+    ["HeadShake", "rabbit_head_shake"],
+    ["EarWiggle", "rabbit_ear_wiggle"],
+    ["Bounce", "rabbit_bounce"],
+    ["CarrotHappy", "rabbit_carrot_happy"]
+  ],
+  "roundtrip_actions": ["rabbit_head_tilt", "rabbit_ear_wiggle", "rabbit_carrot_happy"],
+  "action_specs": {
+    "rabbit_idle": {
+      "duration_frames": 90,
+      "fps": 30,
+      "keys": {
+        "HEAD_CTRL": [[1, 0, 0, 0], [45, 0.02, 0.01, 0], [90, 0, 0, 0]],
+        "EAR_L_CTRL": [[1, 0, 0, 0], [45, 0.015, 0, 0], [90, 0, 0, 0]],
+        "EAR_R_CTRL": [[1, 0, 0, 0], [45, -0.01, 0, 0], [90, 0, 0, 0]]
+      }
+    },
+    "rabbit_head_tilt": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {"HEAD_CTRL": [[1, 0, 0, 0], [15, 0.16, 0, 0.12], [30, 0, 0, 0]]}
+    },
+    "rabbit_head_shake": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {"HEAD_CTRL": [[1, 0, 0, 0], [8, 0, 0.18, 0], [16, 0, -0.18, 0], [30, 0, 0, 0]]}
+    },
+    "rabbit_ear_wiggle": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {
+        "EAR_L_CTRL": [[1, 0, 0, 0], [8, 0.18, 0, 0], [16, -0.12, 0, 0], [30, 0, 0, 0]],
+        "EAR_R_CTRL": [[1, 0, 0, 0], [12, -0.12, 0, 0], [20, 0.16, 0, 0], [30, 0, 0, 0]]
+      }
+    },
+    "rabbit_bounce": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {
+        "EAR_L_CTRL": [[1, 0, 0, 0], [8, 0.08, 0, 0], [16, 0, 0, 0], [30, 0, 0, 0]],
+        "EAR_R_CTRL": [[1, 0, 0, 0], [10, -0.06, 0, 0], [18, 0, 0, 0], [30, 0, 0, 0]]
+      },
+      "location_keys": {
+        "BODY_CTRL": [[1, 0, 0, 0], [6, 0, -0.025, 0], [12, 0, 0.045, 0], [20, 0, 0.01, 0], [30, 0, 0, 0]]
+      }
+    },
+    "rabbit_carrot_happy": {
+      "duration_frames": 36,
+      "fps": 30,
+      "keys": {
+        "CARROT_CTRL": [[1, 0, 0, 0], [14, -0.12, 0, 0.12], [24, 0.05, 0, -0.05], [36, 0, 0, 0]],
+        "ARM_L_CTRL": [[1, 0, 0, 0], [14, 0.08, 0, 0], [24, -0.04, 0, 0], [36, 0, 0, 0]],
+        "ARM_R_CTRL": [[1, 0, 0, 0], [14, -0.08, 0, 0], [24, 0.04, 0, 0], [36, 0, 0, 0]],
+        "HEAD_CTRL": [[1, 0, 0, 0], [14, 0.04, 0, 0], [24, 0, -0.04, 0], [36, 0, 0, 0]]
+      },
+      "location_keys": {"CARROT_CTRL": [[1, 0, 0, 0], [14, 0, 0.035, 0], [24, 0, 0.02, 0], [36, 0, 0, 0]]}
+    },
+    "rabbit_blink": {"duration_frames": 12, "fps": 30, "fallback": "not_implemented_no_eyelid_component", "keys": {}}
+  },
+  "notes": [
+    "Rabbit is a rigid component puppet; no full-body smooth skinning is used.",
+    "Part 1 and Part 9 are grouped as one CARROT motion component because the split separates carrot body and leafy top.",
+    "Part 7 is the available right eye component; the left eyelid/eye is integrated into HEAD and Blink remains fallback.",
+    "The supplied FBX was rejected as a snake auxiliary asset and is not used."
+  ]
+}

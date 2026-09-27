@@ -29,6 +29,7 @@ def parse_args():
     parser.add_argument("--output-dir", required=True)
     parser.add_argument("--preview-frames", required=True)
     parser.add_argument("--manifest", required=True)
+    parser.add_argument("--config")
     argv = sys.argv[sys.argv.index("--") + 1 :] if "--" in sys.argv else sys.argv[1:]
     return parser.parse_args(argv)
 
@@ -155,7 +156,7 @@ def key_preview_pose(arm, frame, values):
         bone.keyframe_insert("location", frame=frame)
 
 
-def build_preview_action(arm):
+def build_preview_action(arm, config=None):
     action = bpy.data.actions.get("AN_ComponentPuppet_V1_Preview")
     if action:
         bpy.data.actions.remove(action)
@@ -164,7 +165,34 @@ def build_preview_action(arm):
     arm.animation_data_create()
     arm.animation_data.action = action
     deg = math.radians
-    frames = {
+    if config:
+        c = config.get("controllers", {})
+        frames = {1: {}, 8: {}, 16: {}, 24: {}, 32: {}, 40: {}, 48: {}, 56: {}, 60: {}}
+        def add(frame, key, rotation=None, location=None):
+            if key in arm.pose.bones:
+                frames[frame][key] = {}
+                if rotation is not None: frames[frame][key]["rotation"] = rotation
+                if location is not None: frames[frame][key]["location"] = location
+        head = c.get("head")
+        body = c.get("body") or c.get("body_neck")
+        ear_l = c.get("ear_l")
+        ear_r = c.get("ear_r")
+        carrot = c.get("carrot")
+        arm_l = c.get("arm_l")
+        arm_r = c.get("arm_r")
+        tail = c.get("tail")
+        if head: add(8, head, rotation=(0.0, deg(8), 0.0)); add(56, head, rotation=(0.0, 0.0, deg(10)))
+        if body: add(16, body, rotation=(0.0, deg(-7), 0.0)); add(32, body, location=(0.0, 0.035, 0.0))
+        if ear_l: add(24, ear_l, rotation=(deg(10), 0.0, 0.0))
+        if ear_r: add(24, ear_r, rotation=(deg(-8), 0.0, 0.0))
+        if carrot: add(40, carrot, rotation=(0.0, 0.0, deg(12)))
+        if arm_l: add(40, arm_l, rotation=(deg(6), 0.0, 0.0))
+        if arm_r: add(40, arm_r, rotation=(deg(-6), 0.0, 0.0))
+        if tail: add(48, tail, rotation=(0.0, deg(12), 0.0))
+    else:
+        frames = None
+    if frames is None:
+      frames = {
         1: {},
         6: {"HEAD": {"rotation": (0.0, deg(8.0), 0.0)}},
         12: {},
@@ -181,7 +209,7 @@ def build_preview_action(arm):
         52: {},
         56: {"HEAD": {"rotation": (0.0, 0.0, deg(10.0))}},
         60: {},
-    }
+      }
     for frame, values in frames.items():
         key_preview_pose(arm, frame, values)
     fcurves = []
@@ -204,6 +232,7 @@ def main():
     preview_dir = Path(args.preview_frames)
     preview_dir.mkdir(parents=True, exist_ok=True)
     bpy.ops.wm.open_mainfile(filepath=str(args.blend))
+    config = json.loads(Path(args.config).read_text()) if args.config else None
     scene = bpy.context.scene
     arm = next((obj for obj in scene.objects if obj.type == "ARMATURE"), None)
     objects = [obj for obj in scene.objects if obj.type == "MESH"]
@@ -214,7 +243,10 @@ def main():
     pose_dir = output_dir / "poses"
     pose_dir.mkdir(exist_ok=True)
     static = []
-    for label, action_name in ACTION_ORDER:
+    action_order = ACTION_ORDER
+    if config and config.get("qa_actions"):
+        action_order = [(str(item[0]), str(item[1])) for item in config["qa_actions"]]
+    for label, action_name in action_order:
         path = pose_dir / f"{label}.png"
         frame = render_action(scene, arm, action_name, path)
         static.append({"label": label, "action": action_name, "frame": frame, "path": str(path)})
@@ -222,7 +254,7 @@ def main():
     contact_path = output_dir / "snake_actions_contact_sheet.png"
     make_contact_sheet([Path(row["path"]) for row in static], contact_path)
 
-    preview_action = build_preview_action(arm)
+    preview_action = build_preview_action(arm, config)
     scene.frame_start = 1
     scene.frame_end = 60
     scene.render.resolution_x = 512

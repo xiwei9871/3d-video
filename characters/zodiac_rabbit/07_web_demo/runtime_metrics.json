@@ -1,0 +1,342 @@
+{
+  "generated_utc": "2026-09-26T16:23:06.782826+00:00",
+  "environment": {
+    "browser_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": [
+      1280,
+      720
+    ],
+    "device_pixel_ratio": 1,
+    "renderer": "THREE.WebGLRenderer / Three.js r180",
+    "test_host": "127.0.0.1 static HTTP server; local browser run, not a remote production network"
+  },
+  "load": {
+    "response_status": 200,
+    "transfer_bytes": 29159444,
+    "fetch_to_arraybuffer_ms": 20.9,
+    "body_read_ms": 16.9,
+    "resource_network_ms": 14.5,
+    "encoded_body_bytes": 29159444,
+    "transfer_size_bytes": 29159744,
+    "parse_ms": 142.9,
+    "first_visible_ms": 333.1
+  },
+  "first_visible_ms": 333.1,
+  "renderer_info_after_last_frame": {
+    "calls": 10,
+    "triangles": 50394,
+    "points": 0,
+    "lines": 0,
+    "geometries": 10,
+    "textures": 3,
+    "canvas_width": 1280,
+    "canvas_height": 645
+  },
+  "renderer_info_by_action": [
+    {
+      "semantic": "idle",
+      "duration_ms": 1409.3,
+      "samples": 85,
+      "average_fps": 60.314,
+      "average_frame_time_ms": 16.58,
+      "average_draw_calls": 10,
+      "average_triangles": 50394,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 10,
+      "textures": 3
+    },
+    {
+      "semantic": "head_shake",
+      "duration_ms": 1400,
+      "samples": 85,
+      "average_fps": 60.714,
+      "average_frame_time_ms": 16.471,
+      "average_draw_calls": 10,
+      "average_triangles": 50394,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 10,
+      "textures": 3
+    },
+    {
+      "semantic": "ear_wiggle",
+      "duration_ms": 1416.5,
+      "samples": 85,
+      "average_fps": 60.007,
+      "average_frame_time_ms": 16.665,
+      "average_draw_calls": 10,
+      "average_triangles": 50394,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 10,
+      "textures": 3
+    },
+    {
+      "semantic": "carrot_happy",
+      "duration_ms": 1400,
+      "samples": 85,
+      "average_fps": 60.714,
+      "average_frame_time_ms": 16.471,
+      "average_draw_calls": 10,
+      "average_triangles": 50394,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 10,
+      "textures": 3
+    },
+    {
+      "semantic": "bounce",
+      "duration_ms": 1416.4,
+      "samples": 86,
+      "average_fps": 60.717,
+      "average_frame_time_ms": 16.47,
+      "average_draw_calls": 10,
+      "average_triangles": 50394,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 10,
+      "textures": 3
+    }
+  ],
+  "frame_rate_summary": {
+    "min_average_fps": 60.007,
+    "max_average_fps": 60.717,
+    "mean_average_fps": 60.493,
+    "min_draw_calls": 10,
+    "max_draw_calls": 10
+  },
+  "idle_loop": {
+    "started_ms": 353.1000003814697,
+    "elapsed_ms": 490853.09999990463,
+    "root_baseline": [
+      0,
+      0,
+      0
+    ],
+    "max_root_drift": 0,
+    "root_position_track_count": 1,
+    "boundary": {
+      "duration_seconds": 3,
+      "max_position_delta": 0,
+      "max_rotation_delta_degrees": 0.03179,
+      "root_start": [
+        0,
+        0,
+        0
+      ],
+      "root_end": [
+        0,
+        0,
+        0
+      ],
+      "root_boundary_drift": 0,
+      "pass": true
+    }
+  },
+  "interaction_events": [
+    {
+      "type": "autoplay",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 183.7000002861023
+    },
+    {
+      "type": "idle_boundary_audit_restore",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 31565.60000038147
+    },
+    {
+      "type": "benchmark",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 31566.400000095367
+    },
+    {
+      "type": "benchmark",
+      "semantic": "head_shake",
+      "clip": "rabbit_head_shake",
+      "time_ms": 32977
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 33992.2000002861
+    },
+    {
+      "type": "benchmark",
+      "semantic": "ear_wiggle",
+      "clip": "rabbit_ear_wiggle",
+      "time_ms": 34376.2000002861
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 35375.40000009537
+    },
+    {
+      "type": "benchmark",
+      "semantic": "carrot_happy",
+      "clip": "rabbit_carrot_happy",
+      "time_ms": 35792.90000009537
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 37008.5
+    },
+    {
+      "type": "benchmark",
+      "semantic": "bounce",
+      "clip": "rabbit_bounce",
+      "time_ms": 37192.7000002861
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 38208.5
+    },
+    {
+      "type": "button",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 80444.2000002861
+    },
+    {
+      "type": "button",
+      "semantic": "head_tilt",
+      "clip": "rabbit_head_tilt",
+      "time_ms": 81674.90000009537
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 82689.2000002861
+    },
+    {
+      "type": "button",
+      "semantic": "head_shake",
+      "clip": "rabbit_head_shake",
+      "time_ms": 83007.90000009537
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 84022.40000009537
+    },
+    {
+      "type": "button",
+      "semantic": "ear_wiggle",
+      "clip": "rabbit_ear_wiggle",
+      "time_ms": 84341.10000038147
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 85339.60000038147
+    },
+    {
+      "type": "button",
+      "semantic": "bounce",
+      "clip": "rabbit_bounce",
+      "time_ms": 85774.7000002861
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 86772.80000019073
+    },
+    {
+      "type": "button",
+      "semantic": "carrot_happy",
+      "clip": "rabbit_carrot_happy",
+      "time_ms": 87124.7000002861
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 88339.10000038147
+    },
+    {
+      "type": "hover",
+      "semantic": "head_tilt",
+      "clip": "rabbit_head_tilt",
+      "time_ms": 116075
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 116976.10000038147
+    },
+    {
+      "type": "hover",
+      "semantic": "head_tilt",
+      "clip": "rabbit_head_tilt",
+      "time_ms": 152178.30000019073
+    },
+    {
+      "type": "click",
+      "semantic": "bounce",
+      "clip": "rabbit_bounce",
+      "time_ms": 152180.80000019073
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 153079.2000002861
+    },
+    {
+      "type": "hover",
+      "semantic": "head_tilt",
+      "clip": "rabbit_head_tilt",
+      "time_ms": 388694.5
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 389595.40000009537
+    },
+    {
+      "type": "hover",
+      "semantic": "head_tilt",
+      "clip": "rabbit_head_tilt",
+      "time_ms": 418612.5
+    },
+    {
+      "type": "click",
+      "semantic": "bounce",
+      "clip": "rabbit_bounce",
+      "time_ms": 418614
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "rabbit_idle",
+      "time_ms": 419513.2000002861
+    }
+  ],
+  "performance_method": "renderer.info sampled after each WebGLRenderer.render call; 1.4s window per Idle/HeadShake/BodySway/TailWag/Bounce state",
+  "limitations": [
+    "Load timing is measured on localhost with a warm browser process; deployment cold-cache network timing is not measured.",
+    "FPS reflects this desktop HeadlessChrome 153 run at 1280x720 CSS pixels and DPR 1.",
+    "No texture compression, geometry reduction, Draco, Meshopt, or KTX2 optimization was applied."
+  ]
+}

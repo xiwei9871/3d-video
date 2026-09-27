@@ -1,0 +1,32 @@
+{
+  "before": "characters/zodiac_rabbit/04_rig/rebuild/clean_actions.blend",
+  "after": "characters/zodiac_rabbit/04_rig/rebuild/runtime_consolidated.blend",
+  "original_outputs": [
+    "characters/zodiac_rabbit/06_export/review/consolidation/original_neutral.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/original_rabbit_idle.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/original_rabbit_head_tilt.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/original_rabbit_head_shake.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/original_rabbit_ear_wiggle.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/original_rabbit_bounce.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/original_rabbit_carrot_happy.png"
+  ],
+  "consolidated_outputs": [
+    "characters/zodiac_rabbit/06_export/review/consolidation/consolidated_neutral.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/consolidated_rabbit_idle.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/consolidated_rabbit_head_tilt.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/consolidated_rabbit_head_shake.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/consolidated_rabbit_ear_wiggle.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/consolidated_rabbit_bounce.png",
+    "characters/zodiac_rabbit/06_export/review/consolidation/consolidated_rabbit_carrot_happy.png"
+  ],
+  "actions": [
+    "rabbit_idle",
+    "rabbit_head_tilt",
+    "rabbit_head_shake",
+    "rabbit_ear_wiggle",
+    "rabbit_bounce",
+    "rabbit_carrot_happy"
+  ],
+  "camera_policy": "same orthographic camera and lights derived from original neutral bounds",
+  "status": "HUMAN_REVIEW"
+}

@@ -1,0 +1,42 @@
+{
+  "character": "zodiac_rabbit",
+  "pipeline_version": "component_puppet_v1",
+  "status": "PASS_HUMAN_REVIEW",
+  "source_50k": {
+    "path": "01_visual_master/rabbit_source_50k.glb",
+    "sha256": "66277b2709e6faa7062702803ab814113695e1cdfdf366c3a8016c5a1c0a996e",
+    "vertices": 33636,
+    "triangles": 50394,
+    "material": "Material.001",
+    "pbr_images": 3
+  },
+  "component_reference": {
+    "path": "02_components/rabbit_source_b.glb",
+    "sha256": "537db806ce6b87207fc2a1619ffe66d331504e2d4e23e28b922e261de7832f04",
+    "parts": 12
+  },
+  "runtime": {
+    "blend": "04_rig/rebuild/runtime_consolidated.blend",
+    "glb": "06_export/zodiac_rabbit_character_v1_runtime.glb",
+    "mesh_objects": 10,
+    "bones": 11,
+    "actions": 6,
+    "triangles": 50394,
+    "draw_calls_desktop": 10,
+    "fps_desktop": "60.007–60.717"
+  },
+  "gates": {
+    "G0_asset_audit": "PASS",
+    "G1_component_map": "PASS",
+    "G2_puppet_build": "PASS",
+    "G3_core_actions": "PASS",
+    "G4_visual_qa": "PASS",
+    "G5_export_roundtrip": "PASS",
+    "G5_5_runtime_asset": "PASS",
+    "G6_threejs_runtime": "PASS"
+  },
+  "known_limitations": [
+    "Blink remains a fallback because no production eyelid component was supplied.",
+    "Human time and uninterrupted total elapsed time were not measured due input correction and task interruption."
+  ]
+}

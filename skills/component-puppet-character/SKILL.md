@@ -3,7 +3,7 @@ name: component-puppet-character
 description: Build and validate a modular character animation layer from a textured GLB by combining rigid component parenting, minimal deformation, morph targets, and small semantic action clips.
 ---
 
-# Component Puppet Character
+# Component Puppet Character Skill V1.1
 
 Use this Skill when a character needs readable actions but continuous full-body skinning is unstable, unnecessarily expensive, or visually inappropriate. The method keeps high-value visual geometry and its original materials while moving only semantic modules with a small controller rig.
 
@@ -186,7 +186,25 @@ Run this gate after Character V1 actions and the authored GLB roundtrip pass.
 
 The target is usually 8–15 runtime mesh objects. A successful consolidation must keep triangle count, UV coverage, material/image inventory, action timing, and controller ownership unchanged. This is an object-count/draw-call preparation gate, not a license to retopologize or redesign the rig.
 
-## First reference implementation — Zodiac Snake V1
+## Generic Tool V1.1 capabilities
+
+The reusable tools support the following config-driven capabilities:
+
+- **config-driven bone layout** via `bone_layout`;
+- **semantic controller aliases** via `semantic_controllers`;
+- **config-driven actions** via rotation and location key specs;
+- **character-derived export naming** from `character_id`;
+- **config-aware validation** for controller lists, action sets and component counts;
+- **config-driven QA** action lists and preview controls;
+- **config-driven roundtrip** expected bones, actions and component counts;
+- **consolidation regression** using controller-owned runtime groups and multi-frame evaluated hashes;
+- **configurable runtime evidence actions** for imported GLB review.
+
+Generic code must not contain Rabbit geometry branches, hard-coded Rabbit coordinates, or Rabbit object names. Character-specific geometry semantics belong in `character_config.json`, `component_mapping.json` and evidence scripts.
+
+## Reference implementations
+
+### Zodiac Snake V1
 
 The snake is the first reference implementation of this Skill. Its measured pipeline is:
 
@@ -204,6 +222,35 @@ The snake is the first reference implementation of this Skill. Its measured pipe
 ```
 
 The clean rebuild baseline is 5.683 seconds with 0 manual interventions. These are reference measurements, not hard budgets for other characters.
+
+```text
+49,916 triangles
+10 Puppet controls
+7 actions
+9 runtime meshes
+9 draw calls
+approximately 60 FPS
+```
+
+### Zodiac Rabbit V1
+
+Rabbit is the second reference implementation. It verifies that a different topology — head, ears, body, arms, carrot, tail and accessory — can use the same pipeline through config and semantic mapping.
+
+```text
+33,636 vertices
+50,394 triangles
+11 Puppet controls
+6 core actions
+10 runtime meshes
+10 draw calls
+approximately 60 FPS
+ROOT drift = 0
+clean rebuild = 6.167 seconds
+0 manual interventions after config/mapping and generic capability fixes
+end-to-end elapsed production ≈ 2 hours, operator-reported estimate
+```
+
+The two reference implementations establish the design rule: motion requirements determine rig complexity, while rigid semantic ownership remains the default.
 
 ## Lessons learned
 

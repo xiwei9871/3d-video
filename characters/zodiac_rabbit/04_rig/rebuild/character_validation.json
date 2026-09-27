@@ -1,0 +1,74 @@
+{
+  "blend": "/Users/xiwei/video making/characters/zodiac_rabbit/04_rig/rebuild/clean_actions.blend",
+  "controllers": {
+    "required": [
+      "ACCESSORY_CTRL",
+      "ARM_L_CTRL",
+      "ARM_R_CTRL",
+      "BODY_CTRL",
+      "CARROT_CTRL",
+      "EAR_L_CTRL",
+      "EAR_R_CTRL",
+      "EYE_R_CTRL",
+      "HEAD_CTRL",
+      "ROOT",
+      "TAIL_CTRL"
+    ],
+    "present": [
+      "ACCESSORY_CTRL",
+      "ARM_L_CTRL",
+      "ARM_R_CTRL",
+      "BODY_CTRL",
+      "CARROT_CTRL",
+      "EAR_L_CTRL",
+      "EAR_R_CTRL",
+      "EYE_R_CTRL",
+      "HEAD_CTRL",
+      "ROOT",
+      "TAIL_CTRL"
+    ],
+    "missing": []
+  },
+  "mesh_objects": 888,
+  "parented_component_objects": 888,
+  "materials": 888,
+  "images": 3,
+  "actions": {
+    "rabbit_bounce": [
+      1.0,
+      30.0
+    ],
+    "rabbit_carrot_happy": [
+      1.0,
+      36.0
+    ],
+    "rabbit_ear_wiggle": [
+      1.0,
+      30.0
+    ],
+    "rabbit_head_shake": [
+      1.0,
+      30.0
+    ],
+    "rabbit_head_tilt": [
+      1.0,
+      30.0
+    ],
+    "rabbit_idle": [
+      1.0,
+      90.0
+    ]
+  },
+  "frame_range": [
+    1,
+    90
+  ],
+  "checks": {
+    "controllers": true,
+    "components_parented": true,
+    "actions_present": true,
+    "materials_present": true,
+    "no_nan_transforms": true
+  },
+  "status": "PASS"
+}

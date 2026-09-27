@@ -12,12 +12,18 @@ def main():
     groups={}
     components=cfg.get('components',{})
     controllers=cfg.get('controllers',{})
+    semantic_controllers=cfg.get('semantic_controllers',{})
     def component_controller(name, default=None):
         spec=components.get(name.lower(),{})
         if isinstance(spec,dict):
             return spec.get('controller') or spec.get('follow') or default
         return default
     def controller(semantic,row):
+        direct=semantic_controllers.get(semantic)
+        if isinstance(direct,str):
+            return direct
+        if isinstance(direct,dict) and direct.get('controller'):
+            return direct['controller']
         if semantic=='TAIL':
             tail=components.get('tail',{}).get('controllers',[])
             if len(tail)>=2:

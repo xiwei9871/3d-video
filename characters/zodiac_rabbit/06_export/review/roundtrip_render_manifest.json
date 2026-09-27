@@ -1,0 +1,22 @@
+{
+  "input_glb": "characters/zodiac_rabbit/06_export/zodiac_rabbit_character_v1_runtime.glb",
+  "rendered": [
+    {
+      "action": "rabbit_head_tilt",
+      "frame": 12,
+      "path": "characters/zodiac_rabbit/06_export/review/rabbit_head_tilt_roundtrip.png"
+    },
+    {
+      "action": "rabbit_ear_wiggle",
+      "frame": 12,
+      "path": "characters/zodiac_rabbit/06_export/review/rabbit_ear_wiggle_roundtrip.png"
+    },
+    {
+      "action": "rabbit_carrot_happy",
+      "frame": 15,
+      "path": "characters/zodiac_rabbit/06_export/review/rabbit_carrot_happy_roundtrip.png"
+    }
+  ],
+  "component_mesh_count": 10,
+  "status": "HUMAN_REVIEW"
+}

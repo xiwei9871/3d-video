@@ -1,0 +1,233 @@
+{
+  "before_blend": "characters/zodiac_rabbit/04_rig/rebuild/clean_actions.blend",
+  "after_blend": "characters/zodiac_rabbit/04_rig/rebuild/runtime_consolidated.blend",
+  "before_glb": "characters/zodiac_rabbit/06_export/zodiac_rabbit_character_v1.glb",
+  "after_glb": "characters/zodiac_rabbit/06_export/zodiac_rabbit_character_v1_runtime.glb",
+  "metrics": "characters/zodiac_rabbit/06_export/runtime_consolidation_metrics.json",
+  "checks": {
+    "semantic_mesh_consolidation": true,
+    "pbr_preservation": true,
+    "action_regression": true,
+    "glb_roundtrip": true,
+    "finite_transforms": true
+  },
+  "labels": {
+    "SEMANTIC_MESH_CONSOLIDATION": "PASS",
+    "PBR_PRESERVATION": "PASS",
+    "ACTION_REGRESSION": "PASS",
+    "GLB_ROUNDTRIP": "PASS"
+  },
+  "action_hashes": {
+    "neutral": {
+      "before": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+      "after": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+      "equal": true
+    },
+    "rabbit_idle": {
+      "frames": [
+        1,
+        23,
+        46,
+        68,
+        90
+      ],
+      "before": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "23": "aa084dd72ab935f59f2f75dcb14115ac83992c5920d7acb41af461d2cdf78243",
+        "46": "a72892f62cbf011d6f28fd8c93169ab1f4a8171c704f8c492f6bb7a673b33d02",
+        "68": "0a09083035c08a1ff408db2002da0798b891567c717e0c72477e059730ed62c8",
+        "90": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "after": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "23": "aa084dd72ab935f59f2f75dcb14115ac83992c5920d7acb41af461d2cdf78243",
+        "46": "a72892f62cbf011d6f28fd8c93169ab1f4a8171c704f8c492f6bb7a673b33d02",
+        "68": "0a09083035c08a1ff408db2002da0798b891567c717e0c72477e059730ed62c8",
+        "90": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "equal": true
+    },
+    "rabbit_head_tilt": {
+      "frames": [
+        1,
+        8,
+        16,
+        23,
+        30
+      ],
+      "before": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "8": "c1c568e343239a9d773d66e8e4078f2f1813f73326448e1bb50c60f8871515f8",
+        "16": "de883d2d4e6ef549ae768ecee4b5538e2d9f703d52bfc8e7e96713671d186e81",
+        "23": "f5fcc0546d2ff2f67673f454802f31f6bfd1c9b530b9adfdfb92f44a9f8baf01",
+        "30": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "after": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "8": "c1c568e343239a9d773d66e8e4078f2f1813f73326448e1bb50c60f8871515f8",
+        "16": "de883d2d4e6ef549ae768ecee4b5538e2d9f703d52bfc8e7e96713671d186e81",
+        "23": "f5fcc0546d2ff2f67673f454802f31f6bfd1c9b530b9adfdfb92f44a9f8baf01",
+        "30": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "equal": true
+    },
+    "rabbit_head_shake": {
+      "frames": [
+        1,
+        8,
+        16,
+        23,
+        30
+      ],
+      "before": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "8": "b415b8054bc6824a689b933e091610678ce202a1c95a480acd64db3c0a054245",
+        "16": "806c670e9c27bf02aa21dc3d49dd908cec05d2a4f4a8d4bfd7202cff0c014581",
+        "23": "51ec19bf69e44098fe9084723ff8088fcadea92b704b6b801cda0034412e0eba",
+        "30": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "after": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "8": "b415b8054bc6824a689b933e091610678ce202a1c95a480acd64db3c0a054245",
+        "16": "806c670e9c27bf02aa21dc3d49dd908cec05d2a4f4a8d4bfd7202cff0c014581",
+        "23": "51ec19bf69e44098fe9084723ff8088fcadea92b704b6b801cda0034412e0eba",
+        "30": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "equal": true
+    },
+    "rabbit_ear_wiggle": {
+      "frames": [
+        1,
+        8,
+        16,
+        23,
+        30
+      ],
+      "before": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "8": "c09f6b90ba6a48ac8f9e49031eb5b49c5c3136c4892bd7d84b5fff1fae100e1a",
+        "16": "211e0218e64dd96f226286870a4fd2c85d1c4cb9399368ddb1d3beb50597805a",
+        "23": "6d0fbc976f67fefd3947a9f3c46e7bd550eb6be589cd3b4f58f5fc56619e661e",
+        "30": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "after": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "8": "c09f6b90ba6a48ac8f9e49031eb5b49c5c3136c4892bd7d84b5fff1fae100e1a",
+        "16": "211e0218e64dd96f226286870a4fd2c85d1c4cb9399368ddb1d3beb50597805a",
+        "23": "6d0fbc976f67fefd3947a9f3c46e7bd550eb6be589cd3b4f58f5fc56619e661e",
+        "30": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "equal": true
+    },
+    "rabbit_bounce": {
+      "frames": [
+        1,
+        8,
+        16,
+        23,
+        30
+      ],
+      "before": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "8": "7e242f6e01689edabc88b8207211d8ce1997484b83f68fdc45cb69460088c464",
+        "16": "08a58d6fa31757a843a916db0a07e79bd1a712d91f961005dbfdc5931bac62f3",
+        "23": "d23e5286c7666f5df690366638a75f507f210f3e65401a508b5c080a696cc483",
+        "30": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "after": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "8": "7e242f6e01689edabc88b8207211d8ce1997484b83f68fdc45cb69460088c464",
+        "16": "08a58d6fa31757a843a916db0a07e79bd1a712d91f961005dbfdc5931bac62f3",
+        "23": "d23e5286c7666f5df690366638a75f507f210f3e65401a508b5c080a696cc483",
+        "30": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "equal": true
+    },
+    "rabbit_carrot_happy": {
+      "frames": [
+        1,
+        10,
+        18,
+        27,
+        36
+      ],
+      "before": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "10": "4fff79e1de4713c2113006ced70495abc62554702bf14826ab61b91f0a9ad687",
+        "18": "6acf97f67a87b2897c33b55dd930d7d309d55d4cb9a030b099ad10f03c422539",
+        "27": "25daee40cb3aa2730e43ba43d17ccf6b4759399cd9a13816e77eec04d2f1e381",
+        "36": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "after": {
+        "1": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b",
+        "10": "4fff79e1de4713c2113006ced70495abc62554702bf14826ab61b91f0a9ad687",
+        "18": "6acf97f67a87b2897c33b55dd930d7d309d55d4cb9a030b099ad10f03c422539",
+        "27": "25daee40cb3aa2730e43ba43d17ccf6b4759399cd9a13816e77eec04d2f1e381",
+        "36": "19c56750affc5f8f0e7ba686c90c703bce6e865be4a313751eba88e18e4eda9b"
+      },
+      "equal": true
+    }
+  },
+  "roundtrip": {
+    "component_mesh_objects": 10,
+    "all_mesh_objects": 11,
+    "helper_mesh_objects": [
+      "Icosphere"
+    ],
+    "bones": [
+      "ACCESSORY_CTRL",
+      "ARM_L_CTRL",
+      "ARM_R_CTRL",
+      "BODY_CTRL",
+      "CARROT_CTRL",
+      "EAR_L_CTRL",
+      "EAR_R_CTRL",
+      "EYE_R_CTRL",
+      "HEAD_CTRL",
+      "ROOT",
+      "TAIL_CTRL"
+    ],
+    "actions": {
+      "rabbit_bounce": [
+        0.8000000715255737,
+        24.0
+      ],
+      "rabbit_carrot_happy": [
+        0.8000000715255737,
+        28.80000114440918
+      ],
+      "rabbit_ear_wiggle": [
+        0.8000000715255737,
+        24.0
+      ],
+      "rabbit_head_shake": [
+        0.8000000715255737,
+        24.0
+      ],
+      "rabbit_head_tilt": [
+        0.8000000715255737,
+        24.0
+      ],
+      "rabbit_idle": [
+        0.8000000715255737,
+        72.0
+      ]
+    },
+    "fps": 24,
+    "materials": [
+      "Material.001"
+    ],
+    "images": [
+      "texture_pbr_20250901",
+      "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "texture_pbr_20250901_normal"
+    ],
+    "bone_parented_components": 10
+  },
+  "status": "PASS",
+  "human_review": [
+    "Review neutral and six-action comparison sheets at normal webpage viewing distance.",
+    "TailWag remains a normal-distance visual review item; no close-up sculpting pass was performed.",
+    "Blink remains the documented fallback and was not changed."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "pipeline": "component_puppet_character_v1",
+  "project_root": "/Users/xiwei/video making",
+  "blender": "/opt/homebrew/bin/blender",
+  "inputs": {
+    "config": "/Users/xiwei/video making/characters/zodiac_rabbit/character_config.json",
+    "mapping": "/Users/xiwei/video making/characters/zodiac_rabbit/component_mapping.json",
+    "source": "/Users/xiwei/video making/characters/zodiac_rabbit/01_visual_master/rabbit_source_50k.glb"
+  },
+  "outputs": {
+    "clean_rig": "/Users/xiwei/video making/characters/zodiac_rabbit/04_rig/rebuild/clean_rig.blend",
+    "clean_assigned": "/Users/xiwei/video making/characters/zodiac_rabbit/04_rig/rebuild/clean_assigned.blend",
+    "clean_actions": "/Users/xiwei/video making/characters/zodiac_rabbit/04_rig/rebuild/clean_actions.blend",
+    "validation": "/Users/xiwei/video making/characters/zodiac_rabbit/04_rig/rebuild/character_validation.json",
+    "glb": "/Users/xiwei/video making/characters/zodiac_rabbit/06_export/zodiac_rabbit_character_v1.glb",
+    "roundtrip": "/Users/xiwei/video making/characters/zodiac_rabbit/06_export/roundtrip_validation.json"
+  },
+  "steps": [
+    {
+      "script": "tools/component_puppet/build_rig.py",
+      "elapsed_seconds": 0.814,
+      "returncode": 0,
+      "last_output_lines": [
+        "23:23:29 | INFO: Data are loaded, start creating Blender stuff",
+        "23:23:29 | INFO: Blender create Mesh node node_0",
+        "23:23:29 | INFO: glTF import finished in 0.05s",
+        "Info: Saved as \"clean_rig.blend\"",
+        "{'output': '/Users/xiwei/video making/characters/zodiac_rabbit/04_rig/rebuild/clean_rig.blend', 'pieces': 888, 'bones': ['ROOT', 'BODY_CTRL', 'HEAD_CTRL', 'EAR_L_CTRL', 'EAR_R_CTRL', 'EYE_R_CTRL', 'ARM_L_CTRL', 'ARM_R_CTRL', 'CARROT_CTRL', 'TAIL_CTRL', 'ACCESSORY_CTRL']}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/assign_components.py",
+      "elapsed_seconds": 0.619,
+      "returncode": 0,
+      "last_output_lines": [
+        "00:00.251  blend            | Read blend: \"/Users/xiwei/video making/characters/zodiac_rabbit/04_rig/rebuild/clean_rig.blend\"",
+        "Info: Saved as \"clean_assigned.blend\"",
+        "{'output': '/Users/xiwei/video making/characters/zodiac_rabbit/04_rig/rebuild/clean_assigned.blend', 'assigned_objects': 888, 'groups': {'EAR_R': 130, 'EAR_L': 23, 'CARROT': 84, 'ARM_L': 14, 'HEAD': 240, 'ACCESSORY': 91, 'ARM_R': 21, 'BODY': 189, 'FLOWER': 47, 'TAIL': 41, 'EYE_R': 8}}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/build_actions.py",
+      "elapsed_seconds": 0.606,
+      "returncode": 0,
+      "last_output_lines": [
+        "00:00.252  blend            | Read blend: \"/Users/xiwei/video making/characters/zodiac_rabbit/04_rig/rebuild/clean_assigned.blend\"",
+        "Info: Saved as \"clean_actions.blend\"",
+        "actions ['rabbit_bounce', 'rabbit_carrot_happy', 'rabbit_ear_wiggle', 'rabbit_head_shake', 'rabbit_head_tilt', 'rabbit_idle']",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/validate_character.py",
+      "elapsed_seconds": 0.521,
+      "returncode": 0,
+      "last_output_lines": [
+        "    \"materials_present\": true,",
+        "    \"no_nan_transforms\": true",
+        "  },",
+        "  \"status\": \"PASS\"",
+        "}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/export_character.py",
+      "elapsed_seconds": 2.695,
+      "returncode": 0,
+      "last_output_lines": [
+        "23:23:33 | INFO: Extracting primitive: node_0.616",
+        "23:23:33 | INFO: Primitives created: 1",
+        "23:23:34 | INFO: Finished glTF 2.0 export in 2.105196952819824 s",
+        "",
+        "/Users/xiwei/video making/characters/zodiac_rabbit/06_export/zodiac_rabbit_character_v1.glb",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "characters/zodiac_snake/06_export/roundtrip_check.py",
+      "elapsed_seconds": 0.911,
+      "returncode": 0,
+      "last_output_lines": [
+        "    \"Original 50K material images are counted after import; shader-node equivalence is reviewed separately.\",",
+        "    \"Blender's glTF importer can create helper meshes for armature display; they are excluded from component_mesh_objects.\",",
+        "    \"glTF stores animation time in seconds, so Blender may display imported keyframes at its current FPS (24 here) instead of the authored 30fps frame numbers.\"",
+        "  ]",
+        "}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    }
+  ],
+  "elapsed_seconds": 6.167,
+  "manual_intervention_count": 0,
+  "validation_status": "PASS",
+  "roundtrip_status": "PASS",
+  "status": "PASS",
+  "human_review_items": [
+    "TailWag remains a rigid component boundary review item.",
+    "Blink remains a documented fallback because the supplied segmentation has no eyelid component.",
+    "Fresh GLB import is validated in Blender; Three.js runtime is intentionally out of scope for this gate."
+  ]
+}

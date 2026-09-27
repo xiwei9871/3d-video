@@ -20,6 +20,7 @@ def args():
     p = argparse.ArgumentParser()
     p.add_argument("--review-dir", required=True, type=Path)
     p.add_argument("--ffmpeg", default="ffmpeg")
+    p.add_argument("--actions", default=",".join(ACTIONS))
     return p.parse_args()
 
 
@@ -47,6 +48,7 @@ def compose(ffmpeg, inputs, output, columns, rows, cell=384):
 def main():
     parsed = args()
     review = parsed.review_dir
+    actions = [item for item in parsed.actions.split(',') if item]
     compose(
         parsed.ffmpeg,
         [review / "original_neutral.png", review / "consolidated_neutral.png"],
@@ -56,14 +58,14 @@ def main():
         512,
     )
     action_inputs = []
-    for action in ACTIONS:
+    for action in actions:
         action_inputs.extend([review / f"original_{action}.png", review / f"consolidated_{action}.png"])
     compose(
         parsed.ffmpeg,
         action_inputs,
         review / "original_vs_consolidated_actions.png",
         2,
-        len(ACTIONS),
+        len(actions),
         384,
     )
     print({"neutral": str(review / "original_vs_consolidated_neutral.png"), "actions": str(review / "original_vs_consolidated_actions.png")})

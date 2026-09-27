@@ -1,0 +1,98 @@
+{
+  "benchmark": "SECOND CHARACTER REPLICATION BENCHMARK",
+  "character": "zodiac_rabbit",
+  "started_utc": "2026-09-26 14:14:59 UTC",
+  "inputs": [
+    {
+      "path": "characters/zodiac_rabbit/02_components/rabbit_source_b.glb",
+      "sha256": "537db806ce6b87207fc2a1619ffe66d331504e2d4e23e28b922e261de7832f04",
+      "size_bytes": 1799804
+    },
+    {
+      "path": "characters/zodiac_rabbit/01_visual_master/rabbit_source_50k.glb",
+      "sha256": "66277b2709e6faa7062702803ab814113695e1cdfdf366c3a8016c5a1c0a996e",
+      "size_bytes": 29190586,
+      "role": "accepted_50k_visual_source"
+    }
+  ],
+  "rule": "Reuse existing generic tools before modifying tools/component_puppet/*.",
+  "input_corrections": [
+    {
+      "time_utc": "2026-09-26 14:40:18 UTC",
+      "rejected_input": "20260926115338_6298f48d.fbx",
+      "reason": "visual audit showed snake auxiliary mesh, 4,031 vertices / 8,068 triangles, no material or UV; not a rabbit 50K source.",
+      "failure_count": 1,
+      "used_in_pipeline": false
+    },
+    {
+      "accepted_input": "31c7c92b84fb1b2156070a51df1046ca.glb",
+      "path": "characters/zodiac_rabbit/01_visual_master/rabbit_source_50k.glb",
+      "sha256": "66277b2709e6faa7062702803ab814113695e1cdfdf366c3a8016c5a1c0a996e",
+      "size_bytes": 29190586,
+      "reason": "audit confirms 33,636 vertices, 50,394 triangles, Material.001, three PBR images, one UV layer."
+    }
+  ],
+  "final_gates": {
+    "G0": "PASS",
+    "G1": "PASS",
+    "G2": "PASS",
+    "G3": "PASS",
+    "G4": "PASS",
+    "G5": "PASS",
+    "G5_5": "PASS",
+    "G6": "PASS",
+    "rabbit_character_v1": "PASS",
+    "benchmark": "PASS_WITH_TIME_BASELINE_LIMITATION"
+  },
+  "automation_baseline": {
+    "clean_rebuild_export_roundtrip_seconds": 6.167,
+    "manual_interventions_after_generic_fix": 0,
+    "human_time": "UNKNOWN / NOT MEASURED",
+    "uninterrupted_total_elapsed": "UNKNOWN / NOT MEASURED"
+  },
+  "generic_tool_changes": {
+    "count_files": 9,
+    "rabbit_only_hacks": 0,
+    "files": [
+      "build_rig.py",
+      "assign_components.py",
+      "validate_character.py",
+      "render_qa.py",
+      "roundtrip_check.py",
+      "validate_consolidation.py",
+      "render_consolidation_review.py",
+      "compose_consolidation_review.py",
+      "render_roundtrip.py"
+    ],
+    "summary": "Config-driven bone layouts, semantic aliases, expected action/bone sets, and configurable QA action lists."
+  },
+  "failure_log": [
+    {
+      "stage": "G0",
+      "failure": "Wrong supplementary FBX was a snake auxiliary mesh, not rabbit 50K",
+      "count": 1,
+      "resolved_by": "correct textured rabbit GLB supplied by user",
+      "generic_change": false
+    },
+    {
+      "stage": "G2",
+      "failure": "Existing hardcoded snake bone layout lacked HEAD_CTRL",
+      "count": 1,
+      "resolved_by": "generic config-driven bone_layout and semantic_controllers",
+      "generic_change": true
+    }
+  ],
+  "reuse_summary": {
+    "character_specific": "character_config.json, component_mapping.json, audit and review evidence",
+    "generic_reused": "rebuild, assign, action authoring, validation, export, roundtrip, consolidation, browser QA structure",
+    "rabbit_runtime": "10 meshes, 11 bones, 6 clips, 10 draw calls, approximately 60 FPS"
+  },
+  "snake_regression": {
+    "status": "PASS",
+    "validation_status": "PASS",
+    "roundtrip_status": "PASS",
+    "elapsed_seconds": 8.587,
+    "manual_intervention_count": 0,
+    "isolated_outputs": "characters/zodiac_snake/04_rig/rebuild_regression_check"
+  }
+}

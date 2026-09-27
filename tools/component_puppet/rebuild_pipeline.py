@@ -59,12 +59,14 @@ def main():
     config = root / args.config
     mapping = root / args.mapping
     source = root / args.source
+    config_data = json.loads(config.read_text())
+    character_id = config_data.get("character_id", "character")
     paths = {
         "clean_rig": rebuild / "clean_rig.blend",
         "clean_assigned": rebuild / "clean_assigned.blend",
         "clean_actions": rebuild / "clean_actions.blend",
         "validation": rebuild / "character_validation.json",
-        "glb": export / "zodiac_snake_character_v1.glb",
+        "glb": export / f"{character_id}_character_v1.glb",
         "roundtrip": export / "roundtrip_validation.json",
     }
     steps = []
@@ -113,7 +115,7 @@ def main():
         run_blender(
             args.blender,
             "characters/zodiac_snake/06_export/roundtrip_check.py",
-            [("--input", paths["glb"]), ("--source-blend", paths["clean_actions"]), ("--output", paths["roundtrip"])],
+            [("--input", paths["glb"]), ("--source-blend", paths["clean_actions"]), ("--config", config), ("--output", paths["roundtrip"])],
             root,
         )
     )

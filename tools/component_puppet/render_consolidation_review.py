@@ -27,6 +27,7 @@ def parse_args():
     parser.add_argument("--after", required=True)
     parser.add_argument("--output-dir", required=True)
     parser.add_argument("--manifest", required=True)
+    parser.add_argument("--config")
     argv = sys.argv[sys.argv.index("--") + 1 :] if "--" in sys.argv else sys.argv[1:]
     return parser.parse_args(argv)
 
@@ -92,7 +93,7 @@ def setup_render(scene, objects, target, ortho_scale):
     scene.camera = camera
 
 
-def render_file(path, side, output_dir, target, ortho_scale):
+def render_file(path, side, output_dir, target, ortho_scale, action_names):
     bpy.ops.wm.open_mainfile(filepath=str(path))
     scene = bpy.context.scene
     objects = meshes()
@@ -105,7 +106,7 @@ def render_file(path, side, output_dir, target, ortho_scale):
     scene.render.filepath = str(neutral)
     bpy.ops.render.render(write_still=True)
     outputs.append(str(neutral))
-    for action_name in ACTIONS:
+    for action_name in action_names:
         action = bpy.data.actions.get(action_name)
         if action is None:
             raise RuntimeError(f"Missing {action_name} in {path}")
@@ -123,19 +124,25 @@ def main():
     args = parse_args()
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    if args.config:
+        config = json.loads(Path(args.config).read_text())
+        action_names = list(config.get("actions", {}).values())
+        action_names = [name for name in action_names if not config.get("action_specs", {}).get(name, {}).get("fallback")]
+    else:
+        action_names = ACTIONS
     bpy.ops.wm.open_mainfile(filepath=str(args.before))
     original_objects = meshes()
     lo, hi = bounds(original_objects)
     target = (lo + hi) * 0.5
     ortho_scale = max(hi.x - lo.x, hi.z - lo.z) * 1.38
-    before_outputs = render_file(args.before, "original", output_dir, target, ortho_scale)
-    after_outputs = render_file(args.after, "consolidated", output_dir, target, ortho_scale)
+    before_outputs = render_file(args.before, "original", output_dir, target, ortho_scale, action_names)
+    after_outputs = render_file(args.after, "consolidated", output_dir, target, ortho_scale, action_names)
     manifest = {
         "before": str(args.before),
         "after": str(args.after),
         "original_outputs": before_outputs,
         "consolidated_outputs": after_outputs,
-        "actions": ACTIONS,
+        "actions": action_names,
         "camera_policy": "same orthographic camera and lights derived from original neutral bounds",
         "status": "HUMAN_REVIEW",
     }

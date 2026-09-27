@@ -1,0 +1,1104 @@
+{
+  "actions": [],
+  "blender": {
+    "background": true,
+    "build_hash": "9e2066aef7ef",
+    "version": "5.2.1 LTS",
+    "version_tuple": [
+      5,
+      2,
+      1
+    ]
+  },
+  "hard_gate_pass": true,
+  "input": "/Users/xiwei/video making/characters/zodiac_rabbit/02_components/rabbit_source_b.glb",
+  "issues": [
+    {
+      "code": "degenerate_faces",
+      "count": 2,
+      "severity": "warning"
+    }
+  ],
+  "material_details": [
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.001",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.002",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.003",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.004",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.005",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.006",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.007",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.008",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.009",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.010",
+      "node_count": 3,
+      "use_nodes": true
+    },
+    {
+      "image_texture_nodes": 0,
+      "images": [],
+      "name": "DefaultMaterial.011",
+      "node_count": 3,
+      "use_nodes": true
+    }
+  ],
+  "materials": [
+    "DefaultMaterial",
+    "DefaultMaterial.001",
+    "DefaultMaterial.002",
+    "DefaultMaterial.003",
+    "DefaultMaterial.004",
+    "DefaultMaterial.005",
+    "DefaultMaterial.006",
+    "DefaultMaterial.007",
+    "DefaultMaterial.008",
+    "DefaultMaterial.009",
+    "DefaultMaterial.010",
+    "DefaultMaterial.011"
+  ],
+  "meshes": [
+    {
+      "boundary_edges": 0,
+      "connected_components": 2,
+      "data_name": "part_0",
+      "degenerate_faces": 0,
+      "edges": 3141,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_0",
+      "non_manifold_edges": 0,
+      "polygons": 2094,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 2094,
+      "source_polygons": 2094,
+      "source_vertices": 1051,
+      "triangles": 2094,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 1051,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.029258,
+          -0.249,
+          0.267592
+        ],
+        [
+          0.155964,
+          -0.121854,
+          0.416125
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_1",
+      "degenerate_faces": 0,
+      "edges": 2997,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_1",
+      "non_manifold_edges": 0,
+      "polygons": 1998,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 1998,
+      "source_polygons": 1998,
+      "source_vertices": 1001,
+      "triangles": 1998,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 1001,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.037778,
+          0.036373,
+          0.237728
+        ],
+        [
+          0.037853,
+          0.101735,
+          0.305992
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_10",
+      "degenerate_faces": 0,
+      "edges": 10167,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.010"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_10",
+      "non_manifold_edges": 0,
+      "polygons": 6778,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 6778,
+      "source_polygons": 6778,
+      "source_vertices": 3385,
+      "triangles": 6778,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 3385,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.155748,
+          -0.127232,
+          0.175194
+        ],
+        [
+          0.155527,
+          0.124854,
+          0.332124
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_11",
+      "degenerate_faces": 0,
+      "edges": 2997,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.011"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_11",
+      "non_manifold_edges": 0,
+      "polygons": 1998,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 1998,
+      "source_polygons": 1998,
+      "source_vertices": 1001,
+      "triangles": 1998,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 1001,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.121221,
+          -0.225059,
+          0.214908
+        ],
+        [
+          0.00392,
+          -0.083182,
+          0.324551
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_2",
+      "degenerate_faces": 0,
+      "edges": 2997,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.002"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_2",
+      "non_manifold_edges": 0,
+      "polygons": 1998,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 1998,
+      "source_polygons": 1998,
+      "source_vertices": 1001,
+      "triangles": 1998,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 1001,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          0.033047,
+          -0.23172,
+          0.209123
+        ],
+        [
+          0.151631,
+          -0.052726,
+          0.323336
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_3",
+      "degenerate_faces": 0,
+      "edges": 10722,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.003"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_3",
+      "non_manifold_edges": 0,
+      "polygons": 7148,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 7148,
+      "source_polygons": 7148,
+      "source_vertices": 3576,
+      "triangles": 7148,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 3576,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          0.032882,
+          0.010215,
+          0.634412
+        ],
+        [
+          0.347699,
+          0.27471,
+          0.984473
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_4",
+      "degenerate_faces": 0,
+      "edges": 13923,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.004"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_4",
+      "non_manifold_edges": 0,
+      "polygons": 9282,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 9282,
+      "source_polygons": 9282,
+      "source_vertices": 4643,
+      "triangles": 9282,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 4643,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.156971,
+          -0.132501,
+          5.5e-05
+        ],
+        [
+          0.164002,
+          0.137013,
+          0.277092
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_5",
+      "degenerate_faces": 2,
+      "edges": 34560,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.005"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_5",
+      "non_manifold_edges": 0,
+      "polygons": 23040,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 23040,
+      "source_polygons": 23040,
+      "source_vertices": 11522,
+      "triangles": 23040,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 11522,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.27152,
+          -0.228673,
+          0.122833
+        ],
+        [
+          0.290329,
+          0.177425,
+          0.716358
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_6",
+      "degenerate_faces": 0,
+      "edges": 11190,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.006"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_6",
+      "non_manifold_edges": 0,
+      "polygons": 7460,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 7460,
+      "source_polygons": 7460,
+      "source_vertices": 3732,
+      "triangles": 7460,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 3732,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.376116,
+          0.00981,
+          0.632569
+        ],
+        [
+          -0.015584,
+          0.206738,
+          0.935958
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_7",
+      "degenerate_faces": 0,
+      "edges": 2997,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.007"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_7",
+      "non_manifold_edges": 0,
+      "polygons": 1998,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 1998,
+      "source_polygons": 1998,
+      "source_vertices": 1001,
+      "triangles": 1998,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 1001,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          0.059908,
+          -0.162421,
+          0.482781
+        ],
+        [
+          0.144956,
+          -0.103322,
+          0.567385
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_8",
+      "degenerate_faces": 0,
+      "edges": 4332,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.008"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_8",
+      "non_manifold_edges": 0,
+      "polygons": 2888,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 2888,
+      "source_polygons": 2888,
+      "source_vertices": 1446,
+      "triangles": 2888,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 1446,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.090837,
+          0.10232,
+          0.070529
+        ],
+        [
+          0.08427,
+          0.266848,
+          0.230696
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 0,
+      "connected_components": 1,
+      "data_name": "part_9",
+      "degenerate_faces": 0,
+      "edges": 2997,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "DefaultMaterial.009"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "part_9",
+      "non_manifold_edges": 0,
+      "polygons": 1998,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 1998,
+      "source_polygons": 1998,
+      "source_vertices": 1001,
+      "triangles": 1998,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "vertices": 1001,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.061225,
+          -0.20762,
+          0.135231
+        ],
+        [
+          0.087496,
+          -0.122564,
+          0.327417
+        ]
+      ],
+      "zero_length_edges": 0
+    }
+  ],
+  "objects": [
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.185222,
+        0.127146,
+        0.148533
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_0",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.075631,
+        0.065362,
+        0.068265
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_1",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.311275,
+        0.252086,
+        0.15693
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_10",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.125141,
+        0.141878,
+        0.109643
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_11",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.118585,
+        0.178993,
+        0.114213
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_2",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.314817,
+        0.264496,
+        0.350061
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_3",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.320973,
+        0.269514,
+        0.277036
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_4",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.56185,
+        0.406097,
+        0.593525
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_5",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.360532,
+        0.196928,
+        0.303389
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_6",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.085048,
+        0.059099,
+        0.084604
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_7",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.175107,
+        0.164528,
+        0.160168
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_8",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.148721,
+        0.085057,
+        0.192186
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part_9",
+      "parent": "world",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "world",
+      "parent": null,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "EMPTY"
+    }
+  ],
+  "scene": {
+    "bounds": {
+      "dimensions": [
+        0.723815,
+        0.52371,
+        0.984418
+      ],
+      "max": [
+        0.347699,
+        0.27471,
+        0.984473
+      ],
+      "min": [
+        -0.376116,
+        -0.249,
+        5.5e-05
+      ]
+    },
+    "fps": 24.0,
+    "frame_end": 250,
+    "frame_start": 1,
+    "name": "Scene"
+  },
+  "schema_version": 3,
+  "totals": {
+    "actions": 0,
+    "armatures": 0,
+    "bones": 0,
+    "boundary_edges": 0,
+    "cameras": 0,
+    "constraints": 0,
+    "degenerate_faces": 2,
+    "edges": 103020,
+    "flat_polygons": 0,
+    "geometry_nodes_modifiers": 0,
+    "images": 0,
+    "invalid_vertices": 0,
+    "isolated_vertices": 0,
+    "lights": 0,
+    "materials": 12,
+    "mesh_objects": 12,
+    "missing_material_faces": 0,
+    "node_materials": 12,
+    "non_manifold_edges": 0,
+    "objects": 13,
+    "polygons": 68680,
+    "refinement_modifiers": 0,
+    "rigid_body_objects": 0,
+    "shape_keys": 0,
+    "simulation_modifiers": 0,
+    "smooth_polygons": 68680,
+    "textured_materials": 0,
+    "triangles": 68680,
+    "uv_mapped_meshes": 0,
+    "vertices": 34360,
+    "weighted_meshes": 0,
+    "wire_edges": 0,
+    "zero_length_edges": 0
+  }
+}

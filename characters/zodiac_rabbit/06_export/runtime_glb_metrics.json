@@ -1,0 +1,903 @@
+{
+  "actions": [
+    {
+      "frame_end": 24.0,
+      "frame_start": 0.8,
+      "name": "rabbit_bounce",
+      "users": 2
+    },
+    {
+      "frame_end": 28.8,
+      "frame_start": 0.8,
+      "name": "rabbit_carrot_happy",
+      "users": 1
+    },
+    {
+      "frame_end": 24.0,
+      "frame_start": 0.8,
+      "name": "rabbit_ear_wiggle",
+      "users": 1
+    },
+    {
+      "frame_end": 24.0,
+      "frame_start": 0.8,
+      "name": "rabbit_head_shake",
+      "users": 1
+    },
+    {
+      "frame_end": 24.0,
+      "frame_start": 0.8,
+      "name": "rabbit_head_tilt",
+      "users": 1
+    },
+    {
+      "frame_end": 72.0,
+      "frame_start": 0.8,
+      "name": "rabbit_idle",
+      "users": 1
+    }
+  ],
+  "blender": {
+    "background": true,
+    "build_hash": "9e2066aef7ef",
+    "version": "5.2.1 LTS",
+    "version_tuple": [
+      5,
+      2,
+      1
+    ]
+  },
+  "hard_gate_pass": true,
+  "input": "/Users/xiwei/video making/characters/zodiac_rabbit/06_export/zodiac_rabbit_character_v1_runtime.glb",
+  "issues": [],
+  "material_details": [
+    {
+      "image_texture_nodes": 3,
+      "images": [
+        "texture_pbr_20250901",
+        "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+        "texture_pbr_20250901_normal"
+      ],
+      "name": "Material.001",
+      "node_count": 7,
+      "use_nodes": true
+    }
+  ],
+  "materials": [
+    "Material.001"
+  ],
+  "meshes": [
+    {
+      "boundary_edges": 1773,
+      "connected_components": 91,
+      "data_name": "node_0.059",
+      "degenerate_faces": 0,
+      "edges": 7026,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "Material.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "RUNTIME_ACCESSORY_CTRL",
+      "non_manifold_edges": 1773,
+      "polygons": 4093,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 4093,
+      "source_polygons": 4093,
+      "source_vertices": 3021,
+      "triangles": 4093,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "vertices": 3021,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.173297,
+          -0.148693,
+          0.154897
+        ],
+        [
+          0.1637,
+          0.135347,
+          0.350067
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 404,
+      "connected_components": 14,
+      "data_name": "node_0.173",
+      "degenerate_faces": 0,
+      "edges": 2050,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "Material.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "RUNTIME_ARM_L_CTRL",
+      "non_manifold_edges": 404,
+      "polygons": 1232,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 1232,
+      "source_polygons": 1232,
+      "source_vertices": 831,
+      "triangles": 1232,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "vertices": 831,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.13573,
+          -0.245846,
+          0.188585
+        ],
+        [
+          -0.011046,
+          -0.078772,
+          0.344034
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 465,
+      "connected_components": 21,
+      "data_name": "node_0.068",
+      "degenerate_faces": 0,
+      "edges": 2067,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "Material.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "RUNTIME_ARM_R_CTRL",
+      "non_manifold_edges": 465,
+      "polygons": 1223,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 1223,
+      "source_polygons": 1223,
+      "source_vertices": 857,
+      "triangles": 1223,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "vertices": 857,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          0.033151,
+          -0.243321,
+          0.188488
+        ],
+        [
+          0.148233,
+          -0.010284,
+          0.331757
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 2765,
+      "connected_components": 189,
+      "data_name": "node_0.250",
+      "degenerate_faces": 0,
+      "edges": 12637,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "Material.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "RUNTIME_BODY_CTRL",
+      "non_manifold_edges": 2765,
+      "polygons": 7503,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 7503,
+      "source_polygons": 7503,
+      "source_vertices": 5301,
+      "triangles": 7503,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "vertices": 5301,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.17472,
+          -0.154252,
+          -0.00125
+        ],
+        [
+          0.169474,
+          0.15227,
+          0.262251
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 928,
+      "connected_components": 84,
+      "data_name": "node_0.038",
+      "degenerate_faces": 0,
+      "edges": 3500,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "Material.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "RUNTIME_CARROT_CTRL",
+      "non_manifold_edges": 928,
+      "polygons": 2024,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 2024,
+      "source_polygons": 2024,
+      "source_vertices": 1555,
+      "triangles": 2024,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "vertices": 1555,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.072572,
+          -0.22371,
+          0.11859
+        ],
+        [
+          0.070512,
+          0.091378,
+          0.377467
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 1046,
+      "connected_components": 23,
+      "data_name": "node_0.029",
+      "degenerate_faces": 0,
+      "edges": 9589,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "Material.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "RUNTIME_EAR_L_CTRL",
+      "non_manifold_edges": 1046,
+      "polygons": 6044,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 6044,
+      "source_polygons": 6044,
+      "source_vertices": 3566,
+      "triangles": 6044,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "vertices": 3566,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.393018,
+          0.014862,
+          0.653413
+        ],
+        [
+          -0.029093,
+          0.228309,
+          0.951178
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 1496,
+      "connected_components": 130,
+      "data_name": "node_0.006",
+      "degenerate_faces": 0,
+      "edges": 9226,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "Material.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "RUNTIME_EAR_R_CTRL",
+      "non_manifold_edges": 1496,
+      "polygons": 5652,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 5652,
+      "source_polygons": 5652,
+      "source_vertices": 3700,
+      "triangles": 5652,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "vertices": 3700,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          0.034203,
+          0.026858,
+          0.652019
+        ],
+        [
+          0.357424,
+          0.270804,
+          0.993019
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 53,
+      "connected_components": 8,
+      "data_name": "node_0.570",
+      "degenerate_faces": 0,
+      "edges": 91,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "Material.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "RUNTIME_EYE_R_CTRL",
+      "non_manifold_edges": 53,
+      "polygons": 43,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 43,
+      "source_polygons": 43,
+      "source_vertices": 56,
+      "triangles": 43,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "vertices": 56,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          0.062201,
+          -0.183382,
+          0.508709
+        ],
+        [
+          0.152421,
+          -0.108547,
+          0.564354
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 5304,
+      "connected_components": 287,
+      "data_name": "node_0.042",
+      "degenerate_faces": 0,
+      "edges": 30255,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "Material.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "RUNTIME_HEAD_CTRL",
+      "non_manifold_edges": 5304,
+      "polygons": 18402,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 18402,
+      "source_polygons": 18402,
+      "source_vertices": 12110,
+      "triangles": 18402,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "vertices": 12110,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.303017,
+          -0.252752,
+          0.124892
+        ],
+        [
+          0.322612,
+          0.216323,
+          0.725318
+        ]
+      ],
+      "zero_length_edges": 0
+    },
+    {
+      "boundary_edges": 1128,
+      "connected_components": 41,
+      "data_name": "node_0.259",
+      "degenerate_faces": 0,
+      "edges": 6831,
+      "flat_polygons": 0,
+      "invalid_vertices": 0,
+      "isolated_vertices": 0,
+      "material_slots": [
+        "Material.001"
+      ],
+      "missing_material_faces": 0,
+      "modifiers": [],
+      "name": "RUNTIME_TAIL_CTRL",
+      "non_manifold_edges": 1128,
+      "polygons": 4178,
+      "refinement_modifiers": [],
+      "shape_keys": 0,
+      "smooth_polygon_ratio": 1.0,
+      "smooth_polygons": 4178,
+      "source_polygons": 4178,
+      "source_vertices": 2689,
+      "triangles": 4178,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "vertices": 2689,
+      "weighted_vertices": 0,
+      "wire_edges": 0,
+      "world_bounds": [
+        [
+          -0.084258,
+          0.10946,
+          0.072106
+        ],
+        [
+          0.097206,
+          0.258645,
+          0.231464
+        ]
+      ],
+      "zero_length_edges": 0
+    }
+  ],
+  "objects": [
+    {
+      "action": "rabbit_bounce",
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.415295,
+        0.518623,
+        0.649045
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "ARM_ComponentPuppet",
+      "parent": null,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "ARMATURE"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.336997,
+        0.19517,
+        0.28404
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        -0.45,
+        0.0
+      ],
+      "name": "RUNTIME_ACCESSORY_CTRL",
+      "parent": "ARM_ComponentPuppet",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.124684,
+        0.155449,
+        0.167074
+      ],
+      "hidden_render": false,
+      "location": [
+        0.011094,
+        -0.399692,
+        -0.28
+      ],
+      "name": "RUNTIME_ARM_L_CTRL",
+      "parent": "ARM_ComponentPuppet",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.115082,
+        0.143269,
+        0.233037
+      ],
+      "hidden_render": false,
+      "location": [
+        -0.011094,
+        -0.399692,
+        -0.28
+      ],
+      "name": "RUNTIME_ARM_R_CTRL",
+      "parent": "ARM_ComponentPuppet",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.344194,
+        0.263501,
+        0.306522
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        -0.25,
+        0.0
+      ],
+      "name": "RUNTIME_BODY_CTRL",
+      "parent": "ARM_ComponentPuppet",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.143084,
+        0.258877,
+        0.315088
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        -0.45,
+        -0.25
+      ],
+      "name": "RUNTIME_CARROT_CTRL",
+      "parent": "ARM_ComponentPuppet",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.36371,
+        0.297019,
+        0.212465
+      ],
+      "hidden_render": false,
+      "location": [
+        0.042054,
+        -0.847622,
+        0.006308
+      ],
+      "name": "RUNTIME_EAR_L_CTRL",
+      "parent": "ARM_ComponentPuppet",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.323077,
+        0.340524,
+        0.243313
+      ],
+      "hidden_render": false,
+      "location": [
+        -0.042054,
+        -0.847622,
+        0.006308
+      ],
+      "name": "RUNTIME_EAR_R_CTRL",
+      "parent": "ARM_ComponentPuppet",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.09022,
+        0.055645,
+        0.074835
+      ],
+      "hidden_render": false,
+      "location": [
+        0.1,
+        -0.434755,
+        -0.45
+      ],
+      "name": "RUNTIME_EYE_R_CTRL",
+      "parent": "ARM_ComponentPuppet",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.625629,
+        0.600426,
+        0.469075
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        -0.554755,
+        0.0
+      ],
+      "name": "RUNTIME_HEAD_CTRL",
+      "parent": "ARM_ComponentPuppet",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    },
+    {
+      "action": null,
+      "collections": [
+        "Scene Collection"
+      ],
+      "dimensions": [
+        0.181464,
+        0.159358,
+        0.149185
+      ],
+      "hidden_render": false,
+      "location": [
+        0.0,
+        -0.477272,
+        -0.06261
+      ],
+      "name": "RUNTIME_TAIL_CTRL",
+      "parent": "ARM_ComponentPuppet",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "transform_is_finite": true,
+      "type": "MESH"
+    }
+  ],
+  "scene": {
+    "bounds": {
+      "dimensions": [
+        0.750442,
+        0.523556,
+        0.994269
+      ],
+      "max": [
+        0.357424,
+        0.270804,
+        0.993019
+      ],
+      "min": [
+        -0.393018,
+        -0.252752,
+        -0.00125
+      ]
+    },
+    "fps": 24.0,
+    "frame_end": 250,
+    "frame_start": 1,
+    "name": "Scene"
+  },
+  "schema_version": 3,
+  "totals": {
+    "actions": 6,
+    "armatures": 1,
+    "bones": 11,
+    "boundary_edges": 15362,
+    "cameras": 0,
+    "constraints": 0,
+    "degenerate_faces": 0,
+    "edges": 83272,
+    "flat_polygons": 0,
+    "geometry_nodes_modifiers": 0,
+    "images": 3,
+    "invalid_vertices": 0,
+    "isolated_vertices": 0,
+    "lights": 0,
+    "materials": 1,
+    "mesh_objects": 10,
+    "missing_material_faces": 0,
+    "node_materials": 1,
+    "non_manifold_edges": 15362,
+    "objects": 11,
+    "polygons": 50394,
+    "refinement_modifiers": 0,
+    "rigid_body_objects": 0,
+    "shape_keys": 0,
+    "simulation_modifiers": 0,
+    "smooth_polygons": 50394,
+    "textured_materials": 1,
+    "triangles": 50394,
+    "uv_mapped_meshes": 10,
+    "vertices": 33686,
+    "weighted_meshes": 0,
+    "wire_edges": 0,
+    "zero_length_edges": 0
+  }
+}
