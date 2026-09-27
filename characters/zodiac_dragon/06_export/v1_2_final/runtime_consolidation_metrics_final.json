@@ -1,0 +1,102 @@
+{
+  "before": {
+    "mesh_objects": 1639,
+    "vertices": 38856,
+    "polygons": 50856,
+    "triangles": 50856,
+    "materials": [
+      "Material.001"
+    ],
+    "images": [
+      "texture_pbr_20250901",
+      "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "texture_pbr_20250901_normal"
+    ],
+    "actions": {
+      "dragon_bounce": [
+        1.0,
+        30.0
+      ],
+      "dragon_head_shake": [
+        1.0,
+        30.0
+      ],
+      "dragon_head_tilt": [
+        1.0,
+        30.0
+      ],
+      "dragon_idle": [
+        1.0,
+        90.0
+      ],
+      "dragon_proud": [
+        1.0,
+        36.0
+      ],
+      "dragon_roar": [
+        1.0,
+        36.0
+      ],
+      "dragon_tail_wag": [
+        1.0,
+        30.0
+      ]
+    },
+    "blend_size_bytes": 37541424,
+    "glb_size_bytes": 38351248,
+    "bone_count": 14
+  },
+  "after": {
+    "mesh_objects": 12,
+    "vertices": 38856,
+    "polygons": 50856,
+    "triangles": 50856,
+    "materials": [
+      "Material.001"
+    ],
+    "images": [
+      "texture_pbr_20250901",
+      "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "texture_pbr_20250901_normal"
+    ],
+    "actions": {
+      "dragon_bounce": [
+        1.0,
+        30.0
+      ],
+      "dragon_head_shake": [
+        1.0,
+        30.0
+      ],
+      "dragon_head_tilt": [
+        1.0,
+        30.0
+      ],
+      "dragon_idle": [
+        1.0,
+        90.0
+      ],
+      "dragon_proud": [
+        1.0,
+        36.0
+      ],
+      "dragon_roar": [
+        1.0,
+        36.0
+      ],
+      "dragon_tail_wag": [
+        1.0,
+        30.0
+      ]
+    },
+    "blend_size_bytes": 36818278,
+    "glb_size_bytes": 36810788,
+    "bone_count": 14
+  },
+  "delta": {
+    "mesh_objects": -1627,
+    "materials": 0,
+    "triangles": 0,
+    "glb_size_bytes": -1540460
+  }
+}

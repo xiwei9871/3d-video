@@ -1,0 +1,541 @@
+{
+  "gate": "G1.5 SEMANTIC OWNERSHIP / ACTION ELIGIBILITY",
+  "blend": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_assigned.blend",
+  "config": "/Users/xiwei/video making/characters/zodiac_snake/character_config.json",
+  "mapping": "/Users/xiwei/video making/characters/zodiac_snake/component_mapping.json",
+  "available_semantic_components": [
+    "BODY_NECK",
+    "COIL_BASE",
+    "FLOWER",
+    "HEAD",
+    "LEFT_BROW",
+    "LEFT_EYE",
+    "MEDALLION",
+    "RIGHT_BROW",
+    "RIGHT_EYE",
+    "TAIL",
+    "TONGUE"
+  ],
+  "component_presence": {
+    "HEAD_BASE": {
+      "present": false,
+      "object_count": 0
+    },
+    "HORN_L": {
+      "present": false,
+      "object_count": 0
+    },
+    "HORN_R": {
+      "present": false,
+      "object_count": 0
+    },
+    "WHISKER_L": {
+      "present": false,
+      "object_count": 0
+    },
+    "WHISKER_R": {
+      "present": false,
+      "object_count": 0
+    },
+    "MANE": {
+      "present": false,
+      "object_count": 0
+    },
+    "EAR_L": {
+      "present": false,
+      "object_count": 0
+    },
+    "EAR_R": {
+      "present": false,
+      "object_count": 0
+    },
+    "EYE_L": {
+      "present": false,
+      "object_count": 0
+    },
+    "EYE_R": {
+      "present": false,
+      "object_count": 0
+    },
+    "TONGUE": {
+      "present": true,
+      "object_count": 19
+    },
+    "BODY": {
+      "present": false,
+      "object_count": 0
+    },
+    "ARM_L": {
+      "present": false,
+      "object_count": 0
+    },
+    "ARM_R": {
+      "present": false,
+      "object_count": 0
+    },
+    "LEG_L": {
+      "present": false,
+      "object_count": 0
+    },
+    "LEG_R": {
+      "present": false,
+      "object_count": 0
+    },
+    "TAIL": {
+      "present": true,
+      "object_count": 18
+    },
+    "TAIL_TIP": {
+      "present": false,
+      "object_count": 0
+    },
+    "WING_L": {
+      "present": false,
+      "object_count": 0
+    },
+    "WING_R": {
+      "present": false,
+      "object_count": 0
+    }
+  },
+  "ownership": [
+    {
+      "object_name": "42 objects",
+      "source_component_id": [
+        "part_0"
+      ],
+      "semantic_label": "BODY_NECK",
+      "controller": "BODY_NECK",
+      "config_controller": null,
+      "parent_controller": "COIL_BASE",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 42,
+      "face_count": 9175
+    },
+    {
+      "object_name": "42 objects",
+      "source_component_id": [
+        "part_9"
+      ],
+      "semantic_label": "COIL_BASE",
+      "controller": "COIL_BASE",
+      "config_controller": null,
+      "parent_controller": "ROOT",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 42,
+      "face_count": 16278
+    },
+    {
+      "object_name": "65 objects",
+      "source_component_id": [
+        "part_6"
+      ],
+      "semantic_label": "FLOWER",
+      "controller": "HEAD",
+      "config_controller": null,
+      "parent_controller": "BODY_NECK",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 65,
+      "face_count": 2724
+    },
+    {
+      "object_name": "180 objects",
+      "source_component_id": [
+        "part_2"
+      ],
+      "semantic_label": "HEAD",
+      "controller": "HEAD",
+      "config_controller": null,
+      "parent_controller": "BODY_NECK",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 180,
+      "face_count": 15159
+    },
+    {
+      "object_name": "6 objects",
+      "source_component_id": [
+        "part_8"
+      ],
+      "semantic_label": "LEFT_BROW",
+      "controller": "HEAD",
+      "config_controller": null,
+      "parent_controller": "BODY_NECK",
+      "motion_mode": "rigid",
+      "confidence": "MEDIUM",
+      "object_count": 6,
+      "face_count": 217
+    },
+    {
+      "object_name": "12 objects",
+      "source_component_id": [
+        "part_10"
+      ],
+      "semantic_label": "LEFT_EYE",
+      "controller": "EYE_L",
+      "config_controller": null,
+      "parent_controller": "HEAD",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 12,
+      "face_count": 743
+    },
+    {
+      "object_name": "55 objects",
+      "source_component_id": [
+        "part_7"
+      ],
+      "semantic_label": "MEDALLION",
+      "controller": "MEDALLION",
+      "config_controller": null,
+      "parent_controller": "BODY_NECK",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 55,
+      "face_count": 1016
+    },
+    {
+      "object_name": "6 objects",
+      "source_component_id": [
+        "part_1"
+      ],
+      "semantic_label": "RIGHT_BROW",
+      "controller": "HEAD",
+      "config_controller": null,
+      "parent_controller": "BODY_NECK",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 6,
+      "face_count": 165
+    },
+    {
+      "object_name": "15 objects",
+      "source_component_id": [
+        "part_4"
+      ],
+      "semantic_label": "RIGHT_EYE",
+      "controller": "EYE_R",
+      "config_controller": null,
+      "parent_controller": "HEAD",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 15,
+      "face_count": 517
+    },
+    {
+      "object_name": "18 objects",
+      "source_component_id": [
+        "part_5"
+      ],
+      "semantic_label": "TAIL",
+      "controller": "TAIL_ROOT",
+      "config_controller": null,
+      "parent_controller": "COIL_BASE",
+      "motion_mode": "rigid",
+      "confidence": "MEDIUM",
+      "object_count": 18,
+      "face_count": 3566
+    },
+    {
+      "object_name": "19 objects",
+      "source_component_id": [
+        "part_3"
+      ],
+      "semantic_label": "TONGUE",
+      "controller": "TONGUE",
+      "config_controller": null,
+      "parent_controller": "HEAD",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 19,
+      "face_count": 356
+    }
+  ],
+  "head_assembly": {
+    "members": [
+      "FLOWER",
+      "HEAD",
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "RIGHT_BROW",
+      "RIGHT_EYE",
+      "TONGUE"
+    ],
+    "present_members": [
+      "FLOWER",
+      "HEAD",
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "RIGHT_BROW",
+      "RIGHT_EYE",
+      "TONGUE"
+    ],
+    "missing_members": [],
+    "base_semantic": "HEAD",
+    "head_base_controller": "HEAD",
+    "status": "PASS"
+  },
+  "action_eligibility": {
+    "snake_idle": {
+      "required_components": [
+        "BODY_NECK",
+        "HEAD"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "snake_head_shake": {
+      "required_components": [
+        "HEAD"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "snake_head_tilt": {
+      "required_components": [
+        "HEAD"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "snake_body_sway": {
+      "required_components": [
+        "BODY_NECK"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "snake_tail_wag": {
+      "required_components": [
+        "TAIL"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "snake_tongue_flick": {
+      "required_components": [
+        "TONGUE"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "snake_bounce": {
+      "required_components": [
+        "COIL_BASE"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "snake_blink": {
+      "required_components": [
+        "EYELID_L",
+        "EYELID_R",
+        "LEFT_EYE",
+        "RIGHT_EYE"
+      ],
+      "missing_components": [
+        "EYELID_L",
+        "EYELID_R"
+      ],
+      "eligible": false,
+      "declared_ineligible": true,
+      "status": "FALLBACK",
+      "valid": true,
+      "reason": "No production eyelid component is present"
+    }
+  },
+  "controller_isolation": {
+    "HEAD": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "FLOWER",
+        "HEAD",
+        "LEFT_BROW",
+        "LEFT_EYE",
+        "RIGHT_BROW",
+        "RIGHT_EYE",
+        "TONGUE"
+      ],
+      "moved_semantics": [
+        "FLOWER",
+        "HEAD",
+        "LEFT_BROW",
+        "LEFT_EYE",
+        "RIGHT_BROW",
+        "RIGHT_EYE",
+        "TONGUE"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "BODY_NECK": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "BODY_NECK",
+        "FLOWER",
+        "HEAD",
+        "LEFT_BROW",
+        "LEFT_EYE",
+        "MEDALLION",
+        "RIGHT_BROW",
+        "RIGHT_EYE",
+        "TONGUE"
+      ],
+      "moved_semantics": [
+        "BODY_NECK",
+        "FLOWER",
+        "HEAD",
+        "LEFT_BROW",
+        "LEFT_EYE",
+        "MEDALLION",
+        "RIGHT_BROW",
+        "RIGHT_EYE",
+        "TONGUE"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "COIL_BASE": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "BODY_NECK",
+        "COIL_BASE",
+        "FLOWER",
+        "HEAD",
+        "LEFT_BROW",
+        "LEFT_EYE",
+        "MEDALLION",
+        "RIGHT_BROW",
+        "RIGHT_EYE",
+        "TAIL",
+        "TONGUE"
+      ],
+      "moved_semantics": [
+        "BODY_NECK",
+        "COIL_BASE",
+        "FLOWER",
+        "HEAD",
+        "LEFT_BROW",
+        "LEFT_EYE",
+        "MEDALLION",
+        "RIGHT_BROW",
+        "RIGHT_EYE",
+        "TAIL",
+        "TONGUE"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "TAIL_ROOT": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "TAIL"
+      ],
+      "moved_semantics": [
+        "TAIL"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "TAIL_TIP": {
+      "angle_degrees": 10,
+      "expected_semantics": [],
+      "moved_semantics": [],
+      "unexpected_semantics": [],
+      "status": "SKIPPED",
+      "reason": "no mapped semantic component uses this controller"
+    },
+    "TONGUE": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "TONGUE"
+      ],
+      "moved_semantics": [
+        "TONGUE"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "EYE_L": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "LEFT_EYE"
+      ],
+      "moved_semantics": [
+        "LEFT_EYE"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "EYE_R": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "RIGHT_EYE"
+      ],
+      "moved_semantics": [
+        "RIGHT_EYE"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "MEDALLION": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "MEDALLION"
+      ],
+      "moved_semantics": [
+        "MEDALLION"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    }
+  },
+  "gates": {
+    "HEAD_ASSEMBLY": "PASS",
+    "CONTROLLER_ISOLATION": "PASS",
+    "ACTION_ELIGIBILITY": "PASS",
+    "ineligible_actions": []
+  },
+  "outputs": {
+    "head_assembly_audit": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/semantic_review/head_assembly_audit.png",
+    "neutral": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/semantic_review/semantic_ownership_neutral.png",
+    "isolation_dir": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/semantic_review/isolation"
+  },
+  "status": "PASS",
+  "human_review": [
+    "Verify the colored head assembly image against the original textured source.",
+    "Unavailable semantic components are explicitly absent or ineligible when the supplied split has no separate component.",
+    "Do not author an action whose required_components are missing."
+  ]
+}

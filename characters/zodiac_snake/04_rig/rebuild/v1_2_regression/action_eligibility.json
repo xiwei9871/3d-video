@@ -1,0 +1,73 @@
+{
+  "available_components": [
+    "BODY_NECK",
+    "COIL_BASE",
+    "FLOWER",
+    "HEAD",
+    "LEFT_BROW",
+    "LEFT_EYE",
+    "MEDALLION",
+    "RIGHT_BROW",
+    "RIGHT_EYE",
+    "TAIL",
+    "TONGUE"
+  ],
+  "actions": {
+    "snake_idle": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "BODY_NECK",
+        "HEAD"
+      ]
+    },
+    "snake_head_shake": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "HEAD"
+      ]
+    },
+    "snake_head_tilt": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "HEAD"
+      ]
+    },
+    "snake_body_sway": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "BODY_NECK"
+      ]
+    },
+    "snake_tail_wag": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "TAIL"
+      ]
+    },
+    "snake_tongue_flick": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "TONGUE"
+      ]
+    },
+    "snake_bounce": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "COIL_BASE"
+      ]
+    },
+    "snake_blink": {
+      "eligible": false,
+      "status": "FALLBACK",
+      "reason": "eye_squash_placeholder"
+    }
+  },
+  "status": "PASS"
+}

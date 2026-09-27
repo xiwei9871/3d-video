@@ -17,7 +17,10 @@
       "G4_visual_deformation_qa": "PASS_WITH_KNOWN_LIMITATION",
       "G5_export_roundtrip": "PASS",
       "G5_5_runtime_asset": "PASS",
-      "G6_threejs_runtime": "PASS"
+      "G6_threejs_runtime": "PASS",
+      "G1_5_semantic_ownership": "PASS",
+      "G1_5_controller_isolation": "PASS",
+      "G1_5_action_eligibility": "PASS"
     },
     "known_limitations": [
       "TailWag component boundary is visible only at close inspection and is accepted at normal runtime viewing distance.",
@@ -338,5 +341,116 @@
     "COIL_BASE remains rigid.",
     "No full-body smooth skinning.",
     "Blink is a fallback placeholder because no eyelid component is present in the supplied segmentation reference."
-  ]
+  ],
+  "head_base_semantics": [
+    "HEAD"
+  ],
+  "semantic_controllers": {
+    "HEAD": "HEAD",
+    "BODY_NECK": "BODY_NECK",
+    "COIL_BASE": "COIL_BASE",
+    "TAIL": "TAIL_ROOT",
+    "TONGUE": "TONGUE",
+    "LEFT_EYE": "EYE_L",
+    "RIGHT_EYE": "EYE_R",
+    "LEFT_BROW": "HEAD",
+    "RIGHT_BROW": "HEAD",
+    "FLOWER": "HEAD",
+    "MEDALLION": "MEDALLION"
+  },
+  "semantic_groups": {
+    "HEAD_ASSEMBLY": [
+      "HEAD",
+      "LEFT_EYE",
+      "RIGHT_EYE",
+      "TONGUE",
+      "FLOWER",
+      "LEFT_BROW",
+      "RIGHT_BROW"
+    ],
+    "BODY_ASSEMBLY": [
+      "BODY_NECK",
+      "COIL_BASE"
+    ],
+    "TAIL_ASSEMBLY": [
+      "TAIL"
+    ]
+  },
+  "available_semantic_components": [
+    "HEAD",
+    "BODY_NECK",
+    "COIL_BASE",
+    "TAIL",
+    "TONGUE",
+    "LEFT_EYE",
+    "RIGHT_EYE",
+    "FLOWER"
+  ],
+  "action_eligibility": {
+    "snake_idle": {
+      "required_components": [
+        "HEAD",
+        "BODY_NECK"
+      ]
+    },
+    "snake_head_shake": {
+      "required_components": [
+        "HEAD"
+      ]
+    },
+    "snake_head_tilt": {
+      "required_components": [
+        "HEAD"
+      ]
+    },
+    "snake_body_sway": {
+      "required_components": [
+        "BODY_NECK"
+      ]
+    },
+    "snake_tail_wag": {
+      "required_components": [
+        "TAIL"
+      ]
+    },
+    "snake_tongue_flick": {
+      "required_components": [
+        "TONGUE"
+      ]
+    },
+    "snake_bounce": {
+      "required_components": [
+        "COIL_BASE"
+      ]
+    },
+    "snake_blink": {
+      "required_components": [
+        "LEFT_EYE",
+        "RIGHT_EYE",
+        "EYELID_L",
+        "EYELID_R"
+      ],
+      "eligible": false,
+      "reason": "No production eyelid component is present",
+      "fallback": "placeholder"
+    }
+  },
+  "isolation_controllers": [
+    "HEAD",
+    "BODY_NECK",
+    "COIL_BASE",
+    "TAIL_ROOT",
+    "TAIL_TIP",
+    "TONGUE",
+    "EYE_L",
+    "EYE_R",
+    "MEDALLION"
+  ],
+  "g1_5_standard_gate": {
+    "semantic_ownership": "PASS",
+    "controller_isolation": "PASS",
+    "action_eligibility": "PASS",
+    "required_before": "G3_core_actions"
+  },
+  "pipeline_version": "component_puppet_v1_2"
 }

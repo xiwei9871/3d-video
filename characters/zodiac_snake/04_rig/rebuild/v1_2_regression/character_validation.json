@@ -1,0 +1,76 @@
+{
+  "blend": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_actions.blend",
+  "controllers": {
+    "required": [
+      "BODY_NECK",
+      "COIL_BASE",
+      "EYE_L",
+      "EYE_R",
+      "HEAD",
+      "MEDALLION",
+      "ROOT",
+      "TAIL_ROOT",
+      "TAIL_TIP",
+      "TONGUE"
+    ],
+    "present": [
+      "BODY_NECK",
+      "COIL_BASE",
+      "EYE_L",
+      "EYE_R",
+      "HEAD",
+      "MEDALLION",
+      "ROOT",
+      "TAIL_ROOT",
+      "TAIL_TIP",
+      "TONGUE"
+    ],
+    "missing": []
+  },
+  "mesh_objects": 460,
+  "parented_component_objects": 460,
+  "materials": 460,
+  "images": 3,
+  "actions": {
+    "snake_body_sway": [
+      1.0,
+      30.0
+    ],
+    "snake_bounce": [
+      1.0,
+      30.0
+    ],
+    "snake_head_shake": [
+      1.0,
+      30.0
+    ],
+    "snake_head_tilt": [
+      1.0,
+      30.0
+    ],
+    "snake_idle": [
+      1.0,
+      90.0
+    ],
+    "snake_tail_wag": [
+      1.0,
+      30.0
+    ],
+    "snake_tongue_flick": [
+      1.0,
+      24.0
+    ]
+  },
+  "frame_range": [
+    1,
+    90
+  ],
+  "checks": {
+    "controllers": true,
+    "components_parented": true,
+    "actions_present": true,
+    "materials_present": true,
+    "no_nan_transforms": true
+  },
+  "status": "PASS"
+}

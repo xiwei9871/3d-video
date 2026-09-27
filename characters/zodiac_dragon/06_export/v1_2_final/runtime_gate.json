@@ -1,0 +1,264 @@
+{
+  "before_blend": "characters/zodiac_dragon/04_rig/rebuild/v1_2_final/clean_actions.blend",
+  "after_blend": "characters/zodiac_dragon/04_rig/rebuild/v1_2_final/runtime_consolidated.blend",
+  "before_glb": "characters/zodiac_dragon/06_export/v1_2_final/zodiac_dragon_character_v1.glb",
+  "after_glb": "characters/zodiac_dragon/06_export/v1_2_final/zodiac_dragon_character_v1_runtime.glb",
+  "metrics": "characters/zodiac_dragon/06_export/v1_2_final/runtime_consolidation_metrics_final.json",
+  "checks": {
+    "semantic_mesh_consolidation": true,
+    "pbr_preservation": true,
+    "action_regression": true,
+    "glb_roundtrip": true,
+    "finite_transforms": true
+  },
+  "labels": {
+    "SEMANTIC_MESH_CONSOLIDATION": "PASS",
+    "PBR_PRESERVATION": "PASS",
+    "ACTION_REGRESSION": "PASS",
+    "GLB_ROUNDTRIP": "PASS"
+  },
+  "action_hashes": {
+    "neutral": {
+      "before": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+      "after": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+      "equal": true
+    },
+    "dragon_idle": {
+      "frames": [
+        1,
+        23,
+        46,
+        68,
+        90
+      ],
+      "before": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "23": "971bbad571136b7164bcba021e875ddd96c760672fdb1989ccbe64c5c009863b",
+        "46": "f21eb594437f700be3a5cfb59bd92026c0770ac32d51fb48f30b964470cd44d1",
+        "68": "a3115bd7150c19eb1cd671cd62384437e351af672fea3b67898ae7fd6631e4e8",
+        "90": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "after": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "23": "971bbad571136b7164bcba021e875ddd96c760672fdb1989ccbe64c5c009863b",
+        "46": "f21eb594437f700be3a5cfb59bd92026c0770ac32d51fb48f30b964470cd44d1",
+        "68": "a3115bd7150c19eb1cd671cd62384437e351af672fea3b67898ae7fd6631e4e8",
+        "90": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "equal": true
+    },
+    "dragon_head_tilt": {
+      "frames": [
+        1,
+        8,
+        16,
+        23,
+        30
+      ],
+      "before": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "8": "ada95a7ec48bdbbee081344ec7c3ba70f706714ea7b6d7f75edcf4a35f007aba",
+        "16": "30580086a7aef36e507cfdf360e7ff3facaa9f7931df85846891d8020803e92c",
+        "23": "64805e7fdd82c7c6910293315614e2f09b406a12235ccf77c2972cb86d7f0bbe",
+        "30": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "after": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "8": "ada95a7ec48bdbbee081344ec7c3ba70f706714ea7b6d7f75edcf4a35f007aba",
+        "16": "30580086a7aef36e507cfdf360e7ff3facaa9f7931df85846891d8020803e92c",
+        "23": "64805e7fdd82c7c6910293315614e2f09b406a12235ccf77c2972cb86d7f0bbe",
+        "30": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "equal": true
+    },
+    "dragon_head_shake": {
+      "frames": [
+        1,
+        8,
+        16,
+        23,
+        30
+      ],
+      "before": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "8": "e7bfad2eb01e39d24a397394385f4bbed1398a5d77964f7c53c105797b112ecc",
+        "16": "b9be61a666f65f3ed84f5d8b474dd17dece803aaeff6efb6ac3dd0d2e3083a61",
+        "23": "449d0ac75ef428ba63a9a98705ed827743652837bf083f4c86317dde54ab572c",
+        "30": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "after": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "8": "e7bfad2eb01e39d24a397394385f4bbed1398a5d77964f7c53c105797b112ecc",
+        "16": "b9be61a666f65f3ed84f5d8b474dd17dece803aaeff6efb6ac3dd0d2e3083a61",
+        "23": "449d0ac75ef428ba63a9a98705ed827743652837bf083f4c86317dde54ab572c",
+        "30": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "equal": true
+    },
+    "dragon_tail_wag": {
+      "frames": [
+        1,
+        8,
+        16,
+        23,
+        30
+      ],
+      "before": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "8": "1027d71da18e62f9b84b25e20bed6cfb917ecc60e4991e7e99fa377e95961eb7",
+        "16": "fb26b41a18015606d6f52d65aa2782229ab4709ac3281de3fcb5d576ce3ecd7b",
+        "23": "744fc0a1e7174e75902a495c7e6feb99af97b295a5f3a5231a5c9d041ab660c8",
+        "30": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "after": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "8": "1027d71da18e62f9b84b25e20bed6cfb917ecc60e4991e7e99fa377e95961eb7",
+        "16": "fb26b41a18015606d6f52d65aa2782229ab4709ac3281de3fcb5d576ce3ecd7b",
+        "23": "744fc0a1e7174e75902a495c7e6feb99af97b295a5f3a5231a5c9d041ab660c8",
+        "30": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "equal": true
+    },
+    "dragon_bounce": {
+      "frames": [
+        1,
+        8,
+        16,
+        23,
+        30
+      ],
+      "before": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "8": "cd70603c6d688852c080fbe664a0170ddaac86bd2adfd84a247e97933376acdf",
+        "16": "1233a30d1798943e627371fc354afd007aa43ed89de053a778a672711ee4b988",
+        "23": "620e3da494c68bd7640c05005029b02c2b7afdbae3bdf011cfa3b9b060f4ad74",
+        "30": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "after": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "8": "cd70603c6d688852c080fbe664a0170ddaac86bd2adfd84a247e97933376acdf",
+        "16": "1233a30d1798943e627371fc354afd007aa43ed89de053a778a672711ee4b988",
+        "23": "620e3da494c68bd7640c05005029b02c2b7afdbae3bdf011cfa3b9b060f4ad74",
+        "30": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "equal": true
+    },
+    "dragon_proud": {
+      "frames": [
+        1,
+        10,
+        18,
+        27,
+        36
+      ],
+      "before": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "10": "a9712031656246f7c0589e975c981ececa8d617d8d63285bdad275e1f6cca182",
+        "18": "653489f8a5fbc14c6d4a93f2690a1d9d77f2ea8ea464f15dd12c86fb1b39a3dd",
+        "27": "c636de37eb5b104b30132c6d9202723429fc34ef9b67316c0d9836a3ff4388dd",
+        "36": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "after": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "10": "a9712031656246f7c0589e975c981ececa8d617d8d63285bdad275e1f6cca182",
+        "18": "653489f8a5fbc14c6d4a93f2690a1d9d77f2ea8ea464f15dd12c86fb1b39a3dd",
+        "27": "c636de37eb5b104b30132c6d9202723429fc34ef9b67316c0d9836a3ff4388dd",
+        "36": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "equal": true
+    },
+    "dragon_roar": {
+      "frames": [
+        1,
+        10,
+        18,
+        27,
+        36
+      ],
+      "before": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "10": "56bc22f60702ae1620ac01d3a88077928ff371df412cdbf0e31daf2b2786bc42",
+        "18": "08a65a4cadebca4410a4b15180604529528298a7617cdd25bab78a6826fe9cca",
+        "27": "f11310e565b61777791a10823117d01d018f2cf6b14281a31c18d105a508e027",
+        "36": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "after": {
+        "1": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c",
+        "10": "56bc22f60702ae1620ac01d3a88077928ff371df412cdbf0e31daf2b2786bc42",
+        "18": "08a65a4cadebca4410a4b15180604529528298a7617cdd25bab78a6826fe9cca",
+        "27": "f11310e565b61777791a10823117d01d018f2cf6b14281a31c18d105a508e027",
+        "36": "442178e5132971b0ba378c260406b069af0cbbb625a7f23278e1f6ccb4c0c80c"
+      },
+      "equal": true
+    }
+  },
+  "roundtrip": {
+    "component_mesh_objects": 12,
+    "all_mesh_objects": 13,
+    "helper_mesh_objects": [
+      "Icosphere"
+    ],
+    "bones": [
+      "ACCESSORY_CTRL",
+      "ARM_L_CTRL",
+      "ARM_R_CTRL",
+      "BODY_CTRL",
+      "CREST_CTRL",
+      "HEAD_CTRL",
+      "HORNS_CTRL",
+      "LEG_L_CTRL",
+      "LEG_R_CTRL",
+      "ROOT",
+      "TAIL_CTRL",
+      "TAIL_TIP_CTRL",
+      "TONGUE_CTRL",
+      "WHISKERS_CTRL"
+    ],
+    "actions": {
+      "dragon_bounce": [
+        0.8000000715255737,
+        24.0
+      ],
+      "dragon_head_shake": [
+        0.8000000715255737,
+        24.0
+      ],
+      "dragon_head_tilt": [
+        0.8000000715255737,
+        24.0
+      ],
+      "dragon_idle": [
+        0.8000000715255737,
+        72.0
+      ],
+      "dragon_proud": [
+        0.8000000715255737,
+        28.80000114440918
+      ],
+      "dragon_roar": [
+        0.8000000715255737,
+        28.80000114440918
+      ],
+      "dragon_tail_wag": [
+        0.8000000715255737,
+        24.0
+      ]
+    },
+    "fps": 24,
+    "materials": [
+      "Material.001"
+    ],
+    "images": [
+      "texture_pbr_20250901",
+      "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "texture_pbr_20250901_normal"
+    ],
+    "bone_parented_components": 12
+  },
+  "status": "PASS",
+  "human_review": [
+    "Review neutral and six-action comparison sheets at normal webpage viewing distance.",
+    "TailWag remains a normal-distance visual review item; no close-up sculpting pass was performed.",
+    "Blink remains the documented fallback and was not changed."
+  ]
+}

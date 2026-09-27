@@ -64,7 +64,10 @@ def main():
     paths = {
         "clean_rig": rebuild / "clean_rig.blend",
         "clean_assigned": rebuild / "clean_assigned.blend",
+        "semantic_ownership": rebuild / "semantic_ownership_audit.json",
+        "semantic_review": rebuild / "semantic_review",
         "clean_actions": rebuild / "clean_actions.blend",
+        "action_eligibility": rebuild / "action_eligibility.json",
         "validation": rebuild / "character_validation.json",
         "glb": export / f"{character_id}_character_v1.glb",
         "roundtrip": export / "roundtrip_validation.json",
@@ -90,8 +93,33 @@ def main():
     steps.append(
         run_blender(
             args.blender,
+            "tools/component_puppet/semantic_ownership_audit.py",
+            [
+                ("--blend", paths["clean_assigned"]),
+                ("--config", config),
+                ("--mapping", mapping),
+                ("--output", paths["semantic_ownership"]),
+                ("--review-dir", paths["semantic_review"]),
+            ],
+            root,
+        )
+    )
+    semantic_gate = json.loads(paths["semantic_ownership"].read_text())
+    gate_values = semantic_gate.get("gates", {})
+    required_gates = {"HEAD_ASSEMBLY", "CONTROLLER_ISOLATION", "ACTION_ELIGIBILITY"}
+    if semantic_gate.get("status") != "PASS" or not required_gates.issubset(gate_values) or any(gate_values[name] != "PASS" for name in required_gates):
+        raise RuntimeError(f"G1.5 semantic gate failed; G3 action generation is blocked: {gate_values}")
+    steps.append(
+        run_blender(
+            args.blender,
             "tools/component_puppet/build_actions.py",
-            [("--blend", paths["clean_assigned"]), ("--config", config), ("--output", paths["clean_actions"])],
+            [
+                ("--blend", paths["clean_assigned"]),
+                ("--config", config),
+                ("--mapping", mapping),
+                ("--eligibility-output", paths["action_eligibility"]),
+                ("--output", paths["clean_actions"]),
+            ],
             root,
         )
     )
@@ -123,7 +151,7 @@ def main():
     validation = json.loads(paths["validation"].read_text())
     roundtrip = json.loads(paths["roundtrip"].read_text())
     report = {
-        "pipeline": "component_puppet_character_v1",
+        "pipeline": "component_puppet_character_v1_2",
         "project_root": str(root),
         "blender": args.blender,
         "inputs": {"config": str(config), "mapping": str(mapping), "source": str(source)},
@@ -133,10 +161,13 @@ def main():
         "manual_intervention_count": 0,
         "validation_status": validation.get("status"),
         "roundtrip_status": roundtrip.get("status"),
+        "semantic_gate_status": semantic_gate.get("status"),
+        "semantic_gate_gates": semantic_gate.get("gates"),
         "status": "PASS" if validation.get("status") == "PASS" and roundtrip.get("status") == "PASS" else "PARTIAL",
         "human_review_items": [
             "TailWag remains a rigid component boundary review item.",
             "Blink remains a documented fallback because the supplied segmentation has no eyelid component.",
+            "G1.5 semantic ownership, controller isolation, and action eligibility passed before action generation.",
             "Fresh GLB import is validated in Blender; Three.js runtime is intentionally out of scope for this gate.",
         ],
     }

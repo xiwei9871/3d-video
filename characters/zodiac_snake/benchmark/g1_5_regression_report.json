@@ -1,0 +1,28 @@
+{
+  "character_id": "zodiac_snake",
+  "pipeline": "component_puppet_character_v1_2",
+  "fresh_regression": true,
+  "elapsed_seconds": 12.28,
+  "manual_intervention_count": 0,
+  "g1_5": {
+    "status": "PASS",
+    "semantic_ownership": "PASS",
+    "controller_isolation": "PASS",
+    "action_eligibility": "PASS",
+    "ineligible_actions": []
+  },
+  "validation_status": "PASS",
+  "roundtrip_status": "PASS",
+  "status": "PASS",
+  "outputs": {
+    "clean_rig": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_rig.blend",
+    "clean_assigned": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_assigned.blend",
+    "semantic_ownership": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/semantic_ownership_audit.json",
+    "semantic_review": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/semantic_review",
+    "clean_actions": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_actions.blend",
+    "action_eligibility": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/action_eligibility.json",
+    "validation": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/character_validation.json",
+    "glb": "/Users/xiwei/video making/characters/zodiac_snake/06_export/v1_2_regression/zodiac_snake_character_v1.glb",
+    "roundtrip": "/Users/xiwei/video making/characters/zodiac_snake/06_export/v1_2_regression/roundtrip_validation.json"
+  }
+}

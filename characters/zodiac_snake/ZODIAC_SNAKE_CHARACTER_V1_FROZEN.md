@@ -8,7 +8,7 @@
 
 ```text
 ZODIAC SNAKE CHARACTER V1 = PASS
-COMPONENT PUPPET PIPELINE V1 = PASS
+COMPONENT PUPPET PIPELINE V1.2 = PASS
 THREE.JS RUNTIME GATE = PASS
 ```
 
@@ -16,6 +16,9 @@ THREE.JS RUNTIME GATE = PASS
 |---|---|
 | G0 Asset Audit | PASS |
 | G1 Component Map | PASS |
+| G1.5 Semantic Ownership | PASS |
+| G1.5 Controller Isolation | PASS |
+| G1.5 Action Eligibility | PASS |
 | G2 Puppet Build | PASS |
 | G3 Core Actions | PASS |
 | G4 Visual / Deformation QA | PASS WITH KNOWN LIMITATION |
@@ -53,6 +56,20 @@ The runtime GLB is [`zodiac_snake_character_v1_runtime.glb`](06_export/zodiac_sn
 - Blink remains a fallback because no production eyelid component was supplied.
 
 These limitations do not reopen the V1 modeling or rigging gate.
+
+## Pipeline V1.2 regression
+
+Fresh isolated rebuild after the mandatory G1.5 gate:
+
+```text
+G1.5 = PASS
+validation = PASS
+roundtrip = PASS
+elapsed = 12.780 seconds
+manual interventions = 0
+```
+
+Evidence: `benchmark/g1_5_regression_report.json`.
 
 ## Frozen rules
 

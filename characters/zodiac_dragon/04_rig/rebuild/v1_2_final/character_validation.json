@@ -1,0 +1,84 @@
+{
+  "blend": "/Users/xiwei/video making/characters/zodiac_dragon/04_rig/rebuild/v1_2_final/clean_actions.blend",
+  "controllers": {
+    "required": [
+      "ACCESSORY_CTRL",
+      "ARM_L_CTRL",
+      "ARM_R_CTRL",
+      "BODY_CTRL",
+      "CREST_CTRL",
+      "HEAD_CTRL",
+      "HORNS_CTRL",
+      "LEG_L_CTRL",
+      "LEG_R_CTRL",
+      "ROOT",
+      "TAIL_CTRL",
+      "TAIL_TIP_CTRL",
+      "TONGUE_CTRL",
+      "WHISKERS_CTRL"
+    ],
+    "present": [
+      "ACCESSORY_CTRL",
+      "ARM_L_CTRL",
+      "ARM_R_CTRL",
+      "BODY_CTRL",
+      "CREST_CTRL",
+      "HEAD_CTRL",
+      "HORNS_CTRL",
+      "LEG_L_CTRL",
+      "LEG_R_CTRL",
+      "ROOT",
+      "TAIL_CTRL",
+      "TAIL_TIP_CTRL",
+      "TONGUE_CTRL",
+      "WHISKERS_CTRL"
+    ],
+    "missing": []
+  },
+  "mesh_objects": 1639,
+  "parented_component_objects": 1639,
+  "materials": 1639,
+  "images": 3,
+  "actions": {
+    "dragon_bounce": [
+      1.0,
+      30.0
+    ],
+    "dragon_head_shake": [
+      1.0,
+      30.0
+    ],
+    "dragon_head_tilt": [
+      1.0,
+      30.0
+    ],
+    "dragon_idle": [
+      1.0,
+      90.0
+    ],
+    "dragon_proud": [
+      1.0,
+      36.0
+    ],
+    "dragon_roar": [
+      1.0,
+      36.0
+    ],
+    "dragon_tail_wag": [
+      1.0,
+      30.0
+    ]
+  },
+  "frame_range": [
+    1,
+    90
+  ],
+  "checks": {
+    "controllers": true,
+    "components_parented": true,
+    "actions_present": true,
+    "materials_present": true,
+    "no_nan_transforms": true
+  },
+  "status": "PASS"
+}

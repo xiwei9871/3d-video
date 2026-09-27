@@ -16,7 +16,10 @@
       "G4_visual_deformation_qa": "PASS",
       "G5_export_roundtrip": "PASS",
       "G5_5_runtime_asset": "PASS",
-      "G6_threejs_runtime": "PASS"
+      "G6_threejs_runtime": "PASS",
+      "G1_5_semantic_ownership": "PASS",
+      "G1_5_controller_isolation": "PASS",
+      "G1_5_action_eligibility": "PASS"
     }
   },
   "controllers": {
@@ -46,29 +49,201 @@
     "FLOWER": "HEAD_CTRL"
   },
   "components": {
-    "head": {"mode": "rigid", "controller": "HEAD_CTRL"},
-    "body": {"mode": "rigid_puppet", "controller": "BODY_CTRL"},
-    "ear_l": {"mode": "rigid", "controller": "EAR_L_CTRL"},
-    "ear_r": {"mode": "rigid", "controller": "EAR_R_CTRL"},
-    "arm_l": {"mode": "rigid", "controller": "ARM_L_CTRL"},
-    "arm_r": {"mode": "rigid", "controller": "ARM_R_CTRL"},
-    "carrot": {"mode": "rigid_prop", "controller": "CARROT_CTRL"},
-    "tail": {"mode": "rigid", "controller": "TAIL_CTRL"},
-    "eye_r": {"mode": "rigid", "controller": "EYE_R_CTRL"},
-    "accessory": {"mode": "rigid", "controller": "ACCESSORY_CTRL"}
+    "head": {
+      "mode": "rigid",
+      "controller": "HEAD_CTRL"
+    },
+    "body": {
+      "mode": "rigid_puppet",
+      "controller": "BODY_CTRL"
+    },
+    "ear_l": {
+      "mode": "rigid",
+      "controller": "EAR_L_CTRL"
+    },
+    "ear_r": {
+      "mode": "rigid",
+      "controller": "EAR_R_CTRL"
+    },
+    "arm_l": {
+      "mode": "rigid",
+      "controller": "ARM_L_CTRL"
+    },
+    "arm_r": {
+      "mode": "rigid",
+      "controller": "ARM_R_CTRL"
+    },
+    "carrot": {
+      "mode": "rigid_prop",
+      "controller": "CARROT_CTRL"
+    },
+    "tail": {
+      "mode": "rigid",
+      "controller": "TAIL_CTRL"
+    },
+    "eye_r": {
+      "mode": "rigid",
+      "controller": "EYE_R_CTRL"
+    },
+    "accessory": {
+      "mode": "rigid",
+      "controller": "ACCESSORY_CTRL"
+    }
   },
   "bone_layout": [
-    {"name": "ROOT", "head": [0, 0, 0], "tail": [0, 0, 0.05]},
-    {"name": "BODY_CTRL", "head": [0, 0, 0.05], "tail": [0, 0, 0.30], "parent": "ROOT"},
-    {"name": "HEAD_CTRL", "head": [0, 0, 0.30], "tail": [0, 0, 0.60], "parent": "BODY_CTRL"},
-    {"name": "EAR_L_CTRL", "head": [-0.13, 0, 0.58], "tail": [-0.16, 0, 0.78], "parent": "HEAD_CTRL"},
-    {"name": "EAR_R_CTRL", "head": [0.13, 0, 0.58], "tail": [0.16, 0, 0.78], "parent": "HEAD_CTRL"},
-    {"name": "EYE_R_CTRL", "head": [0.10, -0.18, 0.45], "tail": [0.10, -0.22, 0.45], "parent": "HEAD_CTRL"},
-    {"name": "ARM_L_CTRL", "head": [-0.16, -0.12, 0.28], "tail": [-0.25, -0.18, 0.28], "parent": "BODY_CTRL"},
-    {"name": "ARM_R_CTRL", "head": [0.16, -0.12, 0.28], "tail": [0.25, -0.18, 0.28], "parent": "BODY_CTRL"},
-    {"name": "CARROT_CTRL", "head": [0, -0.25, 0.25], "tail": [0, -0.34, 0.25], "parent": "BODY_CTRL"},
-    {"name": "TAIL_CTRL", "head": [0, 0.22, 0.18], "tail": [0, 0.34, 0.24], "parent": "BODY_CTRL"},
-    {"name": "ACCESSORY_CTRL", "head": [0, 0, 0.25], "tail": [0, 0, 0.36], "parent": "BODY_CTRL"}
+    {
+      "name": "ROOT",
+      "head": [
+        0,
+        0,
+        0
+      ],
+      "tail": [
+        0,
+        0,
+        0.05
+      ]
+    },
+    {
+      "name": "BODY_CTRL",
+      "head": [
+        0,
+        0,
+        0.05
+      ],
+      "tail": [
+        0,
+        0,
+        0.3
+      ],
+      "parent": "ROOT"
+    },
+    {
+      "name": "HEAD_CTRL",
+      "head": [
+        0,
+        0,
+        0.3
+      ],
+      "tail": [
+        0,
+        0,
+        0.6
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "EAR_L_CTRL",
+      "head": [
+        -0.13,
+        0,
+        0.58
+      ],
+      "tail": [
+        -0.16,
+        0,
+        0.78
+      ],
+      "parent": "HEAD_CTRL"
+    },
+    {
+      "name": "EAR_R_CTRL",
+      "head": [
+        0.13,
+        0,
+        0.58
+      ],
+      "tail": [
+        0.16,
+        0,
+        0.78
+      ],
+      "parent": "HEAD_CTRL"
+    },
+    {
+      "name": "EYE_R_CTRL",
+      "head": [
+        0.1,
+        -0.18,
+        0.45
+      ],
+      "tail": [
+        0.1,
+        -0.22,
+        0.45
+      ],
+      "parent": "HEAD_CTRL"
+    },
+    {
+      "name": "ARM_L_CTRL",
+      "head": [
+        -0.16,
+        -0.12,
+        0.28
+      ],
+      "tail": [
+        -0.25,
+        -0.18,
+        0.28
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "ARM_R_CTRL",
+      "head": [
+        0.16,
+        -0.12,
+        0.28
+      ],
+      "tail": [
+        0.25,
+        -0.18,
+        0.28
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "CARROT_CTRL",
+      "head": [
+        0,
+        -0.25,
+        0.25
+      ],
+      "tail": [
+        0,
+        -0.34,
+        0.25
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "TAIL_CTRL",
+      "head": [
+        0,
+        0.22,
+        0.18
+      ],
+      "tail": [
+        0,
+        0.34,
+        0.24
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "ACCESSORY_CTRL",
+      "head": [
+        0,
+        0,
+        0.25
+      ],
+      "tail": [
+        0,
+        0,
+        0.36
+      ],
+      "parent": "BODY_CTRL"
+    }
   ],
   "actions": {
     "idle": "rabbit_idle",
@@ -80,70 +255,559 @@
     "blink": "rabbit_blink"
   },
   "qa_actions": [
-    ["Idle", "rabbit_idle"],
-    ["HeadTilt", "rabbit_head_tilt"],
-    ["HeadShake", "rabbit_head_shake"],
-    ["EarWiggle", "rabbit_ear_wiggle"],
-    ["Bounce", "rabbit_bounce"],
-    ["CarrotHappy", "rabbit_carrot_happy"]
+    [
+      "Idle",
+      "rabbit_idle"
+    ],
+    [
+      "HeadTilt",
+      "rabbit_head_tilt"
+    ],
+    [
+      "HeadShake",
+      "rabbit_head_shake"
+    ],
+    [
+      "EarWiggle",
+      "rabbit_ear_wiggle"
+    ],
+    [
+      "Bounce",
+      "rabbit_bounce"
+    ],
+    [
+      "CarrotHappy",
+      "rabbit_carrot_happy"
+    ]
   ],
-  "roundtrip_actions": ["rabbit_head_tilt", "rabbit_ear_wiggle", "rabbit_carrot_happy"],
+  "roundtrip_actions": [
+    "rabbit_head_tilt",
+    "rabbit_ear_wiggle",
+    "rabbit_carrot_happy"
+  ],
   "action_specs": {
     "rabbit_idle": {
       "duration_frames": 90,
       "fps": 30,
       "keys": {
-        "HEAD_CTRL": [[1, 0, 0, 0], [45, 0.02, 0.01, 0], [90, 0, 0, 0]],
-        "EAR_L_CTRL": [[1, 0, 0, 0], [45, 0.015, 0, 0], [90, 0, 0, 0]],
-        "EAR_R_CTRL": [[1, 0, 0, 0], [45, -0.01, 0, 0], [90, 0, 0, 0]]
+        "HEAD_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            45,
+            0.02,
+            0.01,
+            0
+          ],
+          [
+            90,
+            0,
+            0,
+            0
+          ]
+        ],
+        "EAR_L_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            45,
+            0.015,
+            0,
+            0
+          ],
+          [
+            90,
+            0,
+            0,
+            0
+          ]
+        ],
+        "EAR_R_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            45,
+            -0.01,
+            0,
+            0
+          ],
+          [
+            90,
+            0,
+            0,
+            0
+          ]
+        ]
       }
     },
     "rabbit_head_tilt": {
       "duration_frames": 30,
       "fps": 30,
-      "keys": {"HEAD_CTRL": [[1, 0, 0, 0], [15, 0.16, 0, 0.12], [30, 0, 0, 0]]}
+      "keys": {
+        "HEAD_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            15,
+            0.16,
+            0,
+            0.12
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
     },
     "rabbit_head_shake": {
       "duration_frames": 30,
       "fps": 30,
-      "keys": {"HEAD_CTRL": [[1, 0, 0, 0], [8, 0, 0.18, 0], [16, 0, -0.18, 0], [30, 0, 0, 0]]}
+      "keys": {
+        "HEAD_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            0.18,
+            0
+          ],
+          [
+            16,
+            0,
+            -0.18,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
     },
     "rabbit_ear_wiggle": {
       "duration_frames": 30,
       "fps": 30,
       "keys": {
-        "EAR_L_CTRL": [[1, 0, 0, 0], [8, 0.18, 0, 0], [16, -0.12, 0, 0], [30, 0, 0, 0]],
-        "EAR_R_CTRL": [[1, 0, 0, 0], [12, -0.12, 0, 0], [20, 0.16, 0, 0], [30, 0, 0, 0]]
+        "EAR_L_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0.18,
+            0,
+            0
+          ],
+          [
+            16,
+            -0.12,
+            0,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ],
+        "EAR_R_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            -0.12,
+            0,
+            0
+          ],
+          [
+            20,
+            0.16,
+            0,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
       }
     },
     "rabbit_bounce": {
       "duration_frames": 30,
       "fps": 30,
       "keys": {
-        "EAR_L_CTRL": [[1, 0, 0, 0], [8, 0.08, 0, 0], [16, 0, 0, 0], [30, 0, 0, 0]],
-        "EAR_R_CTRL": [[1, 0, 0, 0], [10, -0.06, 0, 0], [18, 0, 0, 0], [30, 0, 0, 0]]
+        "EAR_L_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0.08,
+            0,
+            0
+          ],
+          [
+            16,
+            0,
+            0,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ],
+        "EAR_R_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            -0.06,
+            0,
+            0
+          ],
+          [
+            18,
+            0,
+            0,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
       },
       "location_keys": {
-        "BODY_CTRL": [[1, 0, 0, 0], [6, 0, -0.025, 0], [12, 0, 0.045, 0], [20, 0, 0.01, 0], [30, 0, 0, 0]]
+        "BODY_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            -0.025,
+            0
+          ],
+          [
+            12,
+            0,
+            0.045,
+            0
+          ],
+          [
+            20,
+            0,
+            0.01,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
       }
     },
     "rabbit_carrot_happy": {
       "duration_frames": 36,
       "fps": 30,
       "keys": {
-        "CARROT_CTRL": [[1, 0, 0, 0], [14, -0.12, 0, 0.12], [24, 0.05, 0, -0.05], [36, 0, 0, 0]],
-        "ARM_L_CTRL": [[1, 0, 0, 0], [14, 0.08, 0, 0], [24, -0.04, 0, 0], [36, 0, 0, 0]],
-        "ARM_R_CTRL": [[1, 0, 0, 0], [14, -0.08, 0, 0], [24, 0.04, 0, 0], [36, 0, 0, 0]],
-        "HEAD_CTRL": [[1, 0, 0, 0], [14, 0.04, 0, 0], [24, 0, -0.04, 0], [36, 0, 0, 0]]
+        "CARROT_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            -0.12,
+            0,
+            0.12
+          ],
+          [
+            24,
+            0.05,
+            0,
+            -0.05
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ],
+        "ARM_L_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0.08,
+            0,
+            0
+          ],
+          [
+            24,
+            -0.04,
+            0,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ],
+        "ARM_R_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            -0.08,
+            0,
+            0
+          ],
+          [
+            24,
+            0.04,
+            0,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ],
+        "HEAD_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0.04,
+            0,
+            0
+          ],
+          [
+            24,
+            0,
+            -0.04,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ]
       },
-      "location_keys": {"CARROT_CTRL": [[1, 0, 0, 0], [14, 0, 0.035, 0], [24, 0, 0.02, 0], [36, 0, 0, 0]]}
+      "location_keys": {
+        "CARROT_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0,
+            0.035,
+            0
+          ],
+          [
+            24,
+            0,
+            0.02,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
     },
-    "rabbit_blink": {"duration_frames": 12, "fps": 30, "fallback": "not_implemented_no_eyelid_component", "keys": {}}
+    "rabbit_blink": {
+      "duration_frames": 12,
+      "fps": 30,
+      "fallback": "not_implemented_no_eyelid_component",
+      "keys": {}
+    }
   },
   "notes": [
     "Rabbit is a rigid component puppet; no full-body smooth skinning is used.",
     "Part 1 and Part 9 are grouped as one CARROT motion component because the split separates carrot body and leafy top.",
     "Part 7 is the available right eye component; the left eyelid/eye is integrated into HEAD and Blink remains fallback.",
     "The supplied FBX was rejected as a snake auxiliary asset and is not used."
-  ]
+  ],
+  "head_base_semantics": [
+    "HEAD"
+  ],
+  "semantic_groups": {
+    "HEAD_ASSEMBLY": [
+      "HEAD",
+      "EAR_L",
+      "EAR_R",
+      "EYE_R",
+      "FLOWER"
+    ],
+    "BODY_ASSEMBLY": [
+      "BODY",
+      "ARM_L",
+      "ARM_R",
+      "TAIL",
+      "ACCESSORY",
+      "CARROT"
+    ],
+    "TAIL_ASSEMBLY": [
+      "TAIL"
+    ]
+  },
+  "available_semantic_components": [
+    "HEAD",
+    "BODY",
+    "EAR_L",
+    "EAR_R",
+    "EYE_R",
+    "FLOWER",
+    "ARM_L",
+    "ARM_R",
+    "CARROT",
+    "TAIL",
+    "ACCESSORY"
+  ],
+  "action_eligibility": {
+    "rabbit_idle": {
+      "required_components": [
+        "HEAD",
+        "BODY"
+      ]
+    },
+    "rabbit_head_tilt": {
+      "required_components": [
+        "HEAD"
+      ]
+    },
+    "rabbit_head_shake": {
+      "required_components": [
+        "HEAD"
+      ]
+    },
+    "rabbit_ear_wiggle": {
+      "required_components": [
+        "EAR_L",
+        "EAR_R"
+      ]
+    },
+    "rabbit_bounce": {
+      "required_components": [
+        "BODY"
+      ]
+    },
+    "rabbit_carrot_happy": {
+      "required_components": [
+        "CARROT"
+      ]
+    },
+    "rabbit_blink": {
+      "required_components": [
+        "EYE_R",
+        "EYELID_L",
+        "EYELID_R"
+      ],
+      "eligible": false,
+      "reason": "No production eyelid component is present",
+      "fallback": "placeholder"
+    }
+  },
+  "isolation_controllers": [
+    "HEAD_CTRL",
+    "EAR_L_CTRL",
+    "EAR_R_CTRL",
+    "EYE_R_CTRL",
+    "BODY_CTRL",
+    "ARM_L_CTRL",
+    "ARM_R_CTRL",
+    "CARROT_CTRL",
+    "TAIL_CTRL",
+    "ACCESSORY_CTRL"
+  ],
+  "g1_5_standard_gate": {
+    "semantic_ownership": "PASS",
+    "controller_isolation": "PASS",
+    "action_eligibility": "PASS",
+    "required_before": "G3_core_actions"
+  },
+  "pipeline_version": "component_puppet_v1_2"
 }

@@ -126,7 +126,7 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     if args.config:
         config = json.loads(Path(args.config).read_text())
-        action_names = list(config.get("actions", {}).values())
+        action_names = list(dict.fromkeys(config.get("actions", {}).values()))
         action_names = [name for name in action_names if not config.get("action_specs", {}).get(name, {}).get("fallback")]
     else:
         action_names = ACTIONS

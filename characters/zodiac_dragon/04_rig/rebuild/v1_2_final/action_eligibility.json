@@ -1,0 +1,87 @@
+{
+  "available_components": [
+    "ARM_L",
+    "ARM_R",
+    "BODY",
+    "EYE_L",
+    "EYE_R",
+    "HEAD_BASE",
+    "HORN_L",
+    "HORN_R",
+    "LEG_L",
+    "LEG_R",
+    "MANE",
+    "TAIL",
+    "TAIL_TIP",
+    "TONGUE",
+    "WHISKER_L",
+    "WHISKER_R"
+  ],
+  "actions": {
+    "dragon_idle": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "BODY",
+        "HEAD_BASE"
+      ]
+    },
+    "dragon_head_tilt": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "HEAD_BASE"
+      ]
+    },
+    "dragon_head_shake": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "HEAD_BASE"
+      ]
+    },
+    "dragon_tail_wag": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "TAIL",
+        "TAIL_TIP"
+      ]
+    },
+    "dragon_bounce": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "BODY"
+      ]
+    },
+    "dragon_roar": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "HEAD_BASE",
+        "TONGUE",
+        "WHISKER_L",
+        "WHISKER_R"
+      ]
+    },
+    "dragon_blink": {
+      "eligible": false,
+      "status": "FALLBACK",
+      "reason": "not_implemented_no_eyelid_component"
+    },
+    "dragon_proud": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "HEAD_BASE",
+        "HORN_L",
+        "HORN_R",
+        "MANE",
+        "WHISKER_L",
+        "WHISKER_R"
+      ]
+    }
+  },
+  "status": "PASS"
+}

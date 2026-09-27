@@ -1,0 +1,67 @@
+{
+  "available_components": [
+    "ACCESSORY",
+    "ARM_L",
+    "ARM_R",
+    "BODY",
+    "CARROT",
+    "EAR_L",
+    "EAR_R",
+    "EYE_R",
+    "FLOWER",
+    "HEAD",
+    "TAIL"
+  ],
+  "actions": {
+    "rabbit_idle": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "BODY",
+        "HEAD"
+      ]
+    },
+    "rabbit_head_tilt": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "HEAD"
+      ]
+    },
+    "rabbit_head_shake": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "HEAD"
+      ]
+    },
+    "rabbit_ear_wiggle": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "EAR_L",
+        "EAR_R"
+      ]
+    },
+    "rabbit_bounce": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "BODY"
+      ]
+    },
+    "rabbit_carrot_happy": {
+      "eligible": true,
+      "status": "ELIGIBLE",
+      "required_components": [
+        "CARROT"
+      ]
+    },
+    "rabbit_blink": {
+      "eligible": false,
+      "status": "FALLBACK",
+      "reason": "not_implemented_no_eyelid_component"
+    }
+  },
+  "status": "PASS"
+}

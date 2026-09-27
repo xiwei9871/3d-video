@@ -1,0 +1,612 @@
+{
+  "gate": "G1.5 SEMANTIC OWNERSHIP / ACTION ELIGIBILITY",
+  "blend": "/Users/xiwei/video making/characters/zodiac_dragon/04_rig/rebuild/v1_2_final/clean_assigned.blend",
+  "config": "/Users/xiwei/video making/characters/zodiac_dragon/character_config.json",
+  "mapping": "/Users/xiwei/video making/characters/zodiac_dragon/component_mapping.json",
+  "available_semantic_components": [
+    "ARM_L",
+    "ARM_R",
+    "BODY",
+    "EYE_L",
+    "EYE_R",
+    "HEAD_BASE",
+    "HORN_L",
+    "HORN_R",
+    "LEG_L",
+    "LEG_R",
+    "MANE",
+    "TAIL",
+    "TAIL_TIP",
+    "TONGUE",
+    "WHISKER_L",
+    "WHISKER_R"
+  ],
+  "component_presence": {
+    "HEAD_BASE": {
+      "present": true,
+      "object_count": 229
+    },
+    "HORN_L": {
+      "present": true,
+      "object_count": 18
+    },
+    "HORN_R": {
+      "present": true,
+      "object_count": 30
+    },
+    "WHISKER_L": {
+      "present": true,
+      "object_count": 25
+    },
+    "WHISKER_R": {
+      "present": true,
+      "object_count": 27
+    },
+    "MANE": {
+      "present": true,
+      "object_count": 607
+    },
+    "EAR_L": {
+      "present": false,
+      "object_count": 0
+    },
+    "EAR_R": {
+      "present": false,
+      "object_count": 0
+    },
+    "EYE_L": {
+      "present": true,
+      "object_count": 1
+    },
+    "EYE_R": {
+      "present": true,
+      "object_count": 1
+    },
+    "TONGUE": {
+      "present": true,
+      "object_count": 8
+    },
+    "BODY": {
+      "present": true,
+      "object_count": 74
+    },
+    "ARM_L": {
+      "present": true,
+      "object_count": 27
+    },
+    "ARM_R": {
+      "present": true,
+      "object_count": 34
+    },
+    "LEG_L": {
+      "present": true,
+      "object_count": 37
+    },
+    "LEG_R": {
+      "present": true,
+      "object_count": 31
+    },
+    "TAIL": {
+      "present": true,
+      "object_count": 352
+    },
+    "TAIL_TIP": {
+      "present": true,
+      "object_count": 138
+    },
+    "WING_L": {
+      "present": false,
+      "object_count": 0
+    },
+    "WING_R": {
+      "present": false,
+      "object_count": 0
+    }
+  },
+  "ownership": [
+    {
+      "object_name": "27 objects",
+      "source_component_id": [
+        "part_6"
+      ],
+      "semantic_label": "ARM_L",
+      "controller": "ARM_L_CTRL",
+      "config_controller": "ARM_L_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 27,
+      "face_count": 1646
+    },
+    {
+      "object_name": "34 objects",
+      "source_component_id": [
+        "part_8"
+      ],
+      "semantic_label": "ARM_R",
+      "controller": "ARM_R_CTRL",
+      "config_controller": "ARM_R_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 34,
+      "face_count": 1798
+    },
+    {
+      "object_name": "74 objects",
+      "source_component_id": [
+        "part_9"
+      ],
+      "semantic_label": "BODY",
+      "controller": "BODY_CTRL",
+      "config_controller": "BODY_CTRL",
+      "parent_controller": "ROOT",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 74,
+      "face_count": 5758
+    },
+    {
+      "object_name": "node_0.680",
+      "source_component_id": [
+        "part_2"
+      ],
+      "semantic_label": "EYE_L",
+      "controller": "HEAD_CTRL",
+      "config_controller": "HEAD_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "MEDIUM",
+      "object_count": 1,
+      "face_count": 131
+    },
+    {
+      "object_name": "node_0.765",
+      "source_component_id": [
+        "part_11"
+      ],
+      "semantic_label": "EYE_R",
+      "controller": "HEAD_CTRL",
+      "config_controller": "HEAD_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "MEDIUM",
+      "object_count": 1,
+      "face_count": 106
+    },
+    {
+      "object_name": "229 objects",
+      "source_component_id": [
+        "part_5"
+      ],
+      "semantic_label": "HEAD_BASE",
+      "controller": "HEAD_CTRL",
+      "config_controller": "HEAD_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 229,
+      "face_count": 6865
+    },
+    {
+      "object_name": "18 objects",
+      "source_component_id": [
+        "part_14"
+      ],
+      "semantic_label": "HORN_L",
+      "controller": "HORNS_CTRL",
+      "config_controller": "HORNS_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "MEDIUM",
+      "object_count": 18,
+      "face_count": 1361
+    },
+    {
+      "object_name": "30 objects",
+      "source_component_id": [
+        "part_1",
+        "part_7"
+      ],
+      "semantic_label": "HORN_R",
+      "controller": "HORNS_CTRL",
+      "config_controller": "HORNS_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 30,
+      "face_count": 2153
+    },
+    {
+      "object_name": "37 objects",
+      "source_component_id": [
+        "part_12"
+      ],
+      "semantic_label": "LEG_L",
+      "controller": "LEG_L_CTRL",
+      "config_controller": "LEG_L_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 37,
+      "face_count": 1621
+    },
+    {
+      "object_name": "31 objects",
+      "source_component_id": [
+        "part_4"
+      ],
+      "semantic_label": "LEG_R",
+      "controller": "LEG_R_CTRL",
+      "config_controller": "LEG_R_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH",
+      "object_count": 31,
+      "face_count": 1905
+    },
+    {
+      "object_name": "607 objects",
+      "source_component_id": [
+        "part_13"
+      ],
+      "semantic_label": "MANE",
+      "controller": "CREST_CTRL",
+      "config_controller": "CREST_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 607,
+      "face_count": 19792
+    },
+    {
+      "object_name": "352 objects",
+      "source_component_id": [
+        "part_0"
+      ],
+      "semantic_label": "TAIL",
+      "controller": "TAIL_CTRL",
+      "config_controller": "TAIL_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 352,
+      "face_count": 2707
+    },
+    {
+      "object_name": "138 objects",
+      "source_component_id": [
+        "part_10"
+      ],
+      "semantic_label": "TAIL_TIP",
+      "controller": "TAIL_TIP_CTRL",
+      "config_controller": "TAIL_TIP_CTRL",
+      "parent_controller": "TAIL_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 138,
+      "face_count": 3297
+    },
+    {
+      "object_name": "8 objects",
+      "source_component_id": [
+        "part_16"
+      ],
+      "semantic_label": "TONGUE",
+      "controller": "TONGUE_CTRL",
+      "config_controller": "TONGUE_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 8,
+      "face_count": 214
+    },
+    {
+      "object_name": "25 objects",
+      "source_component_id": [
+        "part_15"
+      ],
+      "semantic_label": "WHISKER_L",
+      "controller": "WHISKERS_CTRL",
+      "config_controller": "WHISKERS_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 25,
+      "face_count": 647
+    },
+    {
+      "object_name": "27 objects",
+      "source_component_id": [
+        "part_3"
+      ],
+      "semantic_label": "WHISKER_R",
+      "controller": "WHISKERS_CTRL",
+      "config_controller": "WHISKERS_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "LOW",
+      "object_count": 27,
+      "face_count": 855
+    }
+  ],
+  "head_assembly": {
+    "members": [
+      "EYE_L",
+      "EYE_R",
+      "HEAD_BASE",
+      "HORN_L",
+      "HORN_R",
+      "MANE",
+      "TONGUE",
+      "WHISKER_L",
+      "WHISKER_R"
+    ],
+    "present_members": [
+      "EYE_L",
+      "EYE_R",
+      "HEAD_BASE",
+      "HORN_L",
+      "HORN_R",
+      "MANE",
+      "TONGUE",
+      "WHISKER_L",
+      "WHISKER_R"
+    ],
+    "missing_members": [],
+    "base_semantic": "HEAD_BASE",
+    "head_base_controller": "HEAD_CTRL",
+    "status": "PASS"
+  },
+  "action_eligibility": {
+    "dragon_idle": {
+      "required_components": [
+        "BODY",
+        "HEAD_BASE"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "dragon_head_tilt": {
+      "required_components": [
+        "HEAD_BASE"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "dragon_head_shake": {
+      "required_components": [
+        "HEAD_BASE"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "dragon_proud": {
+      "required_components": [
+        "HEAD_BASE",
+        "HORN_L",
+        "HORN_R",
+        "MANE",
+        "WHISKER_L",
+        "WHISKER_R"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "dragon_bounce": {
+      "required_components": [
+        "BODY"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "dragon_roar": {
+      "required_components": [
+        "HEAD_BASE",
+        "TONGUE",
+        "WHISKER_L",
+        "WHISKER_R"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "dragon_tail_wag": {
+      "required_components": [
+        "TAIL",
+        "TAIL_TIP"
+      ],
+      "missing_components": [],
+      "eligible": true,
+      "declared_ineligible": false,
+      "status": "ELIGIBLE",
+      "valid": true,
+      "reason": null
+    },
+    "dragon_blink": {
+      "required_components": [
+        "EYELID_L",
+        "EYELID_R",
+        "EYE_L",
+        "EYE_R"
+      ],
+      "missing_components": [
+        "EYELID_L",
+        "EYELID_R"
+      ],
+      "eligible": false,
+      "declared_ineligible": true,
+      "status": "INELIGIBLE",
+      "valid": true,
+      "reason": "No eyelid component is present in the supplied split"
+    },
+    "dragon_wing_flap": {
+      "required_components": [
+        "WING_L",
+        "WING_R"
+      ],
+      "missing_components": [
+        "WING_L",
+        "WING_R"
+      ],
+      "eligible": false,
+      "declared_ineligible": true,
+      "status": "INELIGIBLE",
+      "valid": true,
+      "reason": "No verified wing semantic components in the supplied split"
+    }
+  },
+  "controller_isolation": {
+    "HEAD_CTRL": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "EYE_L",
+        "EYE_R",
+        "HEAD_BASE",
+        "HORN_L",
+        "HORN_R",
+        "MANE",
+        "TONGUE",
+        "WHISKER_L",
+        "WHISKER_R"
+      ],
+      "moved_semantics": [
+        "EYE_L",
+        "EYE_R",
+        "HEAD_BASE",
+        "HORN_L",
+        "HORN_R",
+        "MANE",
+        "TONGUE",
+        "WHISKER_L",
+        "WHISKER_R"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "ARM_L_CTRL": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "ARM_L"
+      ],
+      "moved_semantics": [
+        "ARM_L"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "ARM_R_CTRL": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "ARM_R"
+      ],
+      "moved_semantics": [
+        "ARM_R"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "LEG_L_CTRL": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "LEG_L"
+      ],
+      "moved_semantics": [
+        "LEG_L"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "LEG_R_CTRL": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "LEG_R"
+      ],
+      "moved_semantics": [
+        "LEG_R"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "TAIL_CTRL": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "TAIL",
+        "TAIL_TIP"
+      ],
+      "moved_semantics": [
+        "TAIL",
+        "TAIL_TIP"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "TAIL_TIP_CTRL": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "TAIL_TIP"
+      ],
+      "moved_semantics": [
+        "TAIL_TIP"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    },
+    "WHISKERS_CTRL": {
+      "angle_degrees": 10,
+      "expected_semantics": [
+        "WHISKER_L",
+        "WHISKER_R"
+      ],
+      "moved_semantics": [
+        "WHISKER_L",
+        "WHISKER_R"
+      ],
+      "unexpected_semantics": [],
+      "status": "PASS"
+    }
+  },
+  "gates": {
+    "HEAD_ASSEMBLY": "PASS",
+    "CONTROLLER_ISOLATION": "PASS",
+    "ACTION_ELIGIBILITY": "PASS",
+    "ineligible_actions": [
+      "dragon_blink",
+      "dragon_wing_flap"
+    ]
+  },
+  "outputs": {
+    "head_assembly_audit": "/Users/xiwei/video making/characters/zodiac_dragon/04_rig/rebuild/v1_2_final/semantic_review/head_assembly_audit.png",
+    "neutral": "/Users/xiwei/video making/characters/zodiac_dragon/04_rig/rebuild/v1_2_final/semantic_review/semantic_ownership_neutral.png",
+    "isolation_dir": "/Users/xiwei/video making/characters/zodiac_dragon/04_rig/rebuild/v1_2_final/semantic_review/isolation"
+  },
+  "status": "PASS",
+  "human_review": [
+    "Verify the colored head assembly image against the original textured source.",
+    "Unavailable semantic components are explicitly absent or ineligible when the supplied split has no separate component.",
+    "Do not author an action whose required_components are missing."
+  ]
+}

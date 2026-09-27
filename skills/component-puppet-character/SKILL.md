@@ -3,7 +3,7 @@ name: component-puppet-character
 description: Build and validate a modular character animation layer from a textured GLB by combining rigid component parenting, minimal deformation, morph targets, and small semantic action clips.
 ---
 
-# Component Puppet Character Skill V1.1
+# Component Puppet Character Skill V1.2
 
 Use this Skill when a character needs readable actions but continuous full-body skinning is unstable, unnecessarily expensive, or visually inappropriate. The method keeps high-value visual geometry and its original materials while moving only semantic modules with a small controller rig.
 
@@ -48,6 +48,60 @@ Map loose islands or faces to semantic regions. Prefer explicit face IDs or auth
 - confidence and method.
 
 Keep the generic semantic vocabulary small: `HEAD`, `BODY_NECK`, `COIL_BASE` or `BODY_BASE`, `TAIL`, `EYES`, `TONGUE`, `FLOWER`/`ACCESSORY`, and `MEDALLION`/`PROP`. Character configs may add species-specific names, but must state the mapping explicitly.
+
+## G1.5 — Semantic Ownership / Action Eligibility (Mandatory Gate)
+
+Run this gate after G1 and before G2/G3. It is a hard gate for every
+character: G3 action generation is forbidden until all three G1.5 sub-gates
+pass. A successful clip is not evidence of a correct rig when the controller
+owns the wrong component.
+
+1. Emit an ownership row for every runtime/component mesh or semantic group:
+   `object_name`, `source_component_id`, `semantic_label`, `controller`,
+   `parent_controller`, `motion_mode`, and `confidence`.
+2. Define explicit semantic groups such as `HEAD_ASSEMBLY`, `BODY_ASSEMBLY`,
+   and `TAIL_ASSEMBLY`. The base component must be present and owned by the
+   group controller; child ornaments may use child controls but must inherit
+   the group motion.
+3. Run isolated controller poses before action generation. Move one controller
+   by a small test angle and record expected, moved, and unexpected semantic
+   labels. Any unexpected label is a gate failure and stops G3.
+4. Every action spec declares `required_components`. Eligibility is computed
+   from the actual component map, never from a species name. Missing required
+   components make the action `INELIGIBLE`; they must not produce a placeholder
+   clip or a UI button. A fallback such as Blink is reported separately.
+5. The orchestrator must stop before G3 when any of these is not `PASS`:
+   `SEMANTIC OWNERSHIP`, `CONTROLLER ISOLATION`, or `ACTION ELIGIBILITY`.
+
+Example:
+
+```json
+{
+  "semantic_groups": {
+    "HEAD_ASSEMBLY": ["HEAD_BASE", "MANE", "HORN_L", "HORN_R", "EYE_L", "EYE_R"]
+  },
+  "actions": {
+    "head_shake": {"required_components": ["HEAD_BASE"]},
+    "wing_flap": {"required_components": ["WING_L", "WING_R"]}
+  }
+}
+```
+
+If `WING_L` or `WING_R` is absent, the audit records
+`WINGFLAP = INELIGIBLE` and the pipeline chooses a supported character action
+from the components that actually exist. The audit and isolation contact
+sheet are human-review evidence; segmentation colors remain mapping evidence,
+not a replacement for the source material.
+
+### Semantic grouping
+
+Configs may define stable motion groups such as `HEAD_ASSEMBLY`,
+`BODY_ASSEMBLY`, `TAIL_ASSEMBLY`, and species-specific groups. Every movable
+component has one explicit semantic owner. Accessories may inherit a parent
+group's rigid movement while receiving optional secondary motion through a
+child controller. Group membership must not be inferred from object names or
+the character species.
+
 
 ## G2 — Puppet Build
 
@@ -186,7 +240,7 @@ Run this gate after Character V1 actions and the authored GLB roundtrip pass.
 
 The target is usually 8–15 runtime mesh objects. A successful consolidation must keep triangle count, UV coverage, material/image inventory, action timing, and controller ownership unchanged. This is an object-count/draw-call preparation gate, not a license to retopologize or redesign the rig.
 
-## Generic Tool V1.1 capabilities
+## Generic Tool V1.2 capabilities
 
 The reusable tools support the following config-driven capabilities:
 
@@ -199,6 +253,13 @@ The reusable tools support the following config-driven capabilities:
 - **config-driven roundtrip** expected bones, actions and component counts;
 - **consolidation regression** using controller-owned runtime groups and multi-frame evaluated hashes;
 - **configurable runtime evidence actions** for imported GLB review.
+- **G1.5 semantic ownership audit** with component presence, ownership rows,
+  head-assembly checks, isolated controller poses, and action eligibility.
+- **required-component action gating** so unavailable anatomy cannot create a
+  generated clip or runtime control.
+- **mandatory G1.5 orchestration**: the clean rebuild runs ownership,
+  controller-isolation, and action-eligibility checks before `build_actions.py`
+  and fails closed when the gate is not PASS.
 
 Generic code must not contain Rabbit geometry branches, hard-coded Rabbit coordinates, or Rabbit object names. Character-specific geometry semantics belong in `character_config.json`, `component_mapping.json` and evidence scripts.
 
@@ -252,12 +313,50 @@ end-to-end elapsed production ≈ 2 hours, operator-reported estimate
 
 The two reference implementations establish the design rule: motion requirements determine rig complexity, while rigid semantic ownership remains the default.
 
+### Zodiac Dragon V1
+
+Dragon is the third reference implementation. It demonstrates that semantic
+ownership is the structural risk for a complex component character, even when
+the mechanical pipeline and runtime are healthy.
+
+```text
+50,856 triangles
+14 controls/bones
+7 clips
+12 runtime meshes
+12 draw calls
+60–60.714 FPS in the measured desktop browser
+ROOT drift = 0
+SkinnedMesh = 0
+G1.5 semantic gate = PASS
+G6 runtime = PASS
+```
+
+Dragon exposed the failure mode in which `HeadShake` moved horns and whiskers
+while the head base stayed still, and an inferred `WingFlap` moved unrelated
+parts. The repair established the rule:
+
+```text
+mechanical PASS != semantic PASS
+```
+
+G1.5 is therefore mandatory before action generation for Snake, Rabbit, Dragon,
+and every future character.
+
 ## Lessons learned
 
 - Prefer rigid semantic components for head assemblies, accessories, coils, and other modules whose motion is rigid by design.
 - Add minimal deformation only where a named motion requires it; motion requirements should drive rig complexity.
 - Avoid full-body smooth skinning by default for stylized component characters when rigid ownership communicates the intended motion.
 - Use component segmentation to define animation semantics. Segmentation colors are audit/mapping data and do not replace the source material policy.
+- Treat G1.5 as a required semantic gate. A smooth action on the wrong object
+  is a rig failure, not an animation-tuning problem.
+- Verify the base mesh separately from ornaments, eyes, horns, mane, whiskers,
+  tongue, tail, and tail tip. Do not let a nearest-part heuristic silently
+  assign a head shell to a limb or an eye to `HEAD_BASE`.
+- Derive action eligibility from the actual semantic map. Unsupported anatomy
+  is an explicit `INELIGIBLE` result and should never be inferred from a
+  character species label.
 - Consolidate loose islands by controller before runtime export so object traversal and draw-call behavior are measured on the actual runtime asset.
 - Validate actual Three.js draw calls, triangles, memory, load time, parse time, and FPS before choosing KTX2, Meshopt, Draco, LOD, or geometry changes.
 - `ACCEPTABLE_LIMITATION` is a valid V1 outcome for a non-critical visual defect that is not apparent at the intended viewing distance. Record the limitation and stop the gate instead of reopening the asset for close-up perfection.

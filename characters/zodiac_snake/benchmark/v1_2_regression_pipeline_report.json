@@ -1,0 +1,142 @@
+{
+  "pipeline": "component_puppet_character_v1_2",
+  "project_root": "/Users/xiwei/video making",
+  "blender": "/opt/homebrew/bin/blender",
+  "inputs": {
+    "config": "/Users/xiwei/video making/characters/zodiac_snake/character_config.json",
+    "mapping": "/Users/xiwei/video making/characters/zodiac_snake/component_mapping.json",
+    "source": "/Users/xiwei/video making/experiments/snake-b-route/raw/snake_unsplit_50k.glb"
+  },
+  "outputs": {
+    "clean_rig": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_rig.blend",
+    "clean_assigned": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_assigned.blend",
+    "semantic_ownership": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/semantic_ownership_audit.json",
+    "semantic_review": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/semantic_review",
+    "clean_actions": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_actions.blend",
+    "action_eligibility": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/action_eligibility.json",
+    "validation": "/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/character_validation.json",
+    "glb": "/Users/xiwei/video making/characters/zodiac_snake/06_export/v1_2_regression/zodiac_snake_character_v1.glb",
+    "roundtrip": "/Users/xiwei/video making/characters/zodiac_snake/06_export/v1_2_regression/roundtrip_validation.json"
+  },
+  "steps": [
+    {
+      "script": "tools/component_puppet/build_rig.py",
+      "elapsed_seconds": 0.692,
+      "returncode": 0,
+      "last_output_lines": [
+        "21:28:01 | INFO: Data are loaded, start creating Blender stuff",
+        "21:28:01 | INFO: Blender create Mesh node node_0",
+        "21:28:01 | INFO: glTF import finished in 0.05s",
+        "Info: Saved as \"clean_rig.blend\"",
+        "{'output': '/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_rig.blend', 'pieces': 460, 'bones': ['ROOT', 'COIL_BASE', 'BODY_NECK', 'HEAD', 'EYE_L', 'EYE_R', 'TONGUE', 'MEDALLION', 'TAIL_ROOT', 'TAIL_TIP']}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/assign_components.py",
+      "elapsed_seconds": 0.554,
+      "returncode": 0,
+      "last_output_lines": [
+        "00:00.247  blend            | Read blend: \"/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_rig.blend\"",
+        "Info: Saved as \"clean_assigned.blend\"",
+        "{'output': '/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_assigned.blend', 'assigned_objects': 460, 'groups': {'TAIL': 18, 'COIL_BASE': 42, 'HEAD': 180, 'MEDALLION': 55, 'TONGUE': 19, 'BODY_NECK': 42, 'FLOWER': 65, 'RIGHT_BROW': 6, 'RIGHT_EYE': 15, 'LEFT_BROW': 6, 'LEFT_EYE': 12}}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/semantic_ownership_audit.py",
+      "elapsed_seconds": 7.479,
+      "returncode": 0,
+      "last_output_lines": [
+        "}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit",
+        "/Users/xiwei/video making/tools/component_puppet/semantic_ownership_audit.py:85: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0",
+        "  world.use_nodes = True",
+        "/Users/xiwei/video making/tools/component_puppet/semantic_ownership_audit.py:121: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0",
+        "  mat.use_nodes = True"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/build_actions.py",
+      "elapsed_seconds": 0.571,
+      "returncode": 0,
+      "last_output_lines": [
+        "00:00.248  blend            | Read blend: \"/Users/xiwei/video making/characters/zodiac_snake/04_rig/rebuild/v1_2_regression/clean_assigned.blend\"",
+        "Info: Saved as \"clean_actions.blend\"",
+        "actions ['snake_body_sway', 'snake_bounce', 'snake_head_shake', 'snake_head_tilt', 'snake_idle', 'snake_tail_wag', 'snake_tongue_flick']",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/validate_character.py",
+      "elapsed_seconds": 0.496,
+      "returncode": 0,
+      "last_output_lines": [
+        "    \"materials_present\": true,",
+        "    \"no_nan_transforms\": true",
+        "  },",
+        "  \"status\": \"PASS\"",
+        "}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "tools/component_puppet/export_character.py",
+      "elapsed_seconds": 1.757,
+      "returncode": 0,
+      "last_output_lines": [
+        "21:28:11 | INFO: Extracting primitive: node_0.143",
+        "21:28:11 | INFO: Primitives created: 1",
+        "21:28:12 | INFO: Finished glTF 2.0 export in 1.1996490955352783 s",
+        "",
+        "/Users/xiwei/video making/characters/zodiac_snake/06_export/v1_2_regression/zodiac_snake_character_v1.glb",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    },
+    {
+      "script": "characters/zodiac_snake/06_export/roundtrip_check.py",
+      "elapsed_seconds": 0.729,
+      "returncode": 0,
+      "last_output_lines": [
+        "    \"Original 50K material images are counted after import; shader-node equivalence is reviewed separately.\",",
+        "    \"Blender's glTF importer can create helper meshes for armature display; they are excluded from component_mesh_objects.\",",
+        "    \"glTF stores animation time in seconds, so Blender may display imported keyframes at its current FPS (24 here) instead of the authored 30fps frame numbers.\"",
+        "  ]",
+        "}",
+        "Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)",
+        "",
+        "Blender quit"
+      ]
+    }
+  ],
+  "elapsed_seconds": 12.28,
+  "manual_intervention_count": 0,
+  "validation_status": "PASS",
+  "roundtrip_status": "PASS",
+  "semantic_gate_status": "PASS",
+  "semantic_gate_gates": {
+    "HEAD_ASSEMBLY": "PASS",
+    "CONTROLLER_ISOLATION": "PASS",
+    "ACTION_ELIGIBILITY": "PASS",
+    "ineligible_actions": []
+  },
+  "status": "PASS",
+  "human_review_items": [
+    "TailWag remains a rigid component boundary review item.",
+    "Blink remains a documented fallback because the supplied segmentation has no eyelid component.",
+    "G1.5 semantic ownership, controller isolation, and action eligibility passed before action generation.",
+    "Fresh GLB import is validated in Blender; Three.js runtime is intentionally out of scope for this gate."
+  ]
+}

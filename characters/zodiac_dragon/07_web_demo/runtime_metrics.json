@@ -1,0 +1,326 @@
+{
+  "generated_utc": "2026-09-27T05:03:13.098833+00:00",
+  "environment": {
+    "browser_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": [
+      1280,
+      720
+    ],
+    "device_pixel_ratio": 1,
+    "renderer": "THREE.WebGLRenderer / Three.js r180",
+    "test_host": "127.0.0.1 static HTTP server; local browser run, not a remote production network"
+  },
+  "load": {
+    "response_status": 200,
+    "transfer_bytes": 36810788,
+    "fetch_to_arraybuffer_ms": 25,
+    "body_read_ms": 23.2,
+    "resource_network_ms": 18,
+    "encoded_body_bytes": 36810788,
+    "transfer_size_bytes": 36811088,
+    "parse_ms": 196.2,
+    "first_visible_ms": 461.2
+  },
+  "first_visible_ms": 461.2,
+  "renderer_info_after_last_frame": {
+    "calls": 12,
+    "triangles": 50856,
+    "points": 0,
+    "lines": 0,
+    "geometries": 12,
+    "textures": 3,
+    "canvas_width": 1280,
+    "canvas_height": 645
+  },
+  "renderer_info_by_action": [
+    {
+      "semantic": "idle",
+      "duration_ms": 1401.6,
+      "samples": 85,
+      "average_fps": 60.645,
+      "average_frame_time_ms": 16.489,
+      "average_draw_calls": 12,
+      "average_triangles": 50856,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 12,
+      "textures": 3
+    },
+    {
+      "semantic": "head_shake",
+      "duration_ms": 1400,
+      "samples": 85,
+      "average_fps": 60.714,
+      "average_frame_time_ms": 16.471,
+      "average_draw_calls": 12,
+      "average_triangles": 50856,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 12,
+      "textures": 3
+    },
+    {
+      "semantic": "dragon_proud",
+      "duration_ms": 1400.1,
+      "samples": 85,
+      "average_fps": 60.71,
+      "average_frame_time_ms": 16.472,
+      "average_draw_calls": 12,
+      "average_triangles": 50856,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 12,
+      "textures": 3
+    },
+    {
+      "semantic": "roar",
+      "duration_ms": 1400,
+      "samples": 85,
+      "average_fps": 60.714,
+      "average_frame_time_ms": 16.471,
+      "average_draw_calls": 12,
+      "average_triangles": 50856,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 12,
+      "textures": 3
+    },
+    {
+      "semantic": "bounce",
+      "duration_ms": 1416.7,
+      "samples": 86,
+      "average_fps": 60.704,
+      "average_frame_time_ms": 16.473,
+      "average_draw_calls": 12,
+      "average_triangles": 50856,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 12,
+      "textures": 3
+    },
+    {
+      "semantic": "tail_wag",
+      "duration_ms": 1400,
+      "samples": 84,
+      "average_fps": 60,
+      "average_frame_time_ms": 16.667,
+      "average_draw_calls": 12,
+      "average_triangles": 50856,
+      "average_points": 0,
+      "average_lines": 0,
+      "max_root_position_drift": 0,
+      "geometries": 12,
+      "textures": 3
+    }
+  ],
+  "frame_rate_summary": {
+    "min_average_fps": 60,
+    "max_average_fps": 60.714,
+    "mean_average_fps": 60.581,
+    "min_draw_calls": 12,
+    "max_draw_calls": 12
+  },
+  "idle_loop": {
+    "started_ms": 535.0999999046326,
+    "elapsed_ms": 292545.40000009537,
+    "root_baseline": [
+      0,
+      0,
+      0
+    ],
+    "max_root_drift": 0,
+    "root_position_track_count": 1,
+    "boundary": {
+      "duration_seconds": 3,
+      "max_position_delta": 0,
+      "max_rotation_delta_degrees": 0.03778,
+      "root_start": [
+        0,
+        0,
+        0
+      ],
+      "root_end": [
+        0,
+        0,
+        0
+      ],
+      "root_boundary_drift": 0,
+      "pass": true
+    }
+  },
+  "interaction_events": [
+    {
+      "type": "autoplay",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 296.19999980926514
+    },
+    {
+      "type": "button",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 79822.09999990463
+    },
+    {
+      "type": "button",
+      "semantic": "head_shake",
+      "clip": "dragon_head_shake",
+      "time_ms": 80760.5
+    },
+    {
+      "type": "button",
+      "semantic": "head_tilt",
+      "clip": "dragon_head_tilt",
+      "time_ms": 81724
+    },
+    {
+      "type": "button",
+      "semantic": "dragon_proud",
+      "clip": "dragon_proud",
+      "time_ms": 82658.30000019073
+    },
+    {
+      "type": "button",
+      "semantic": "bounce",
+      "clip": "dragon_bounce",
+      "time_ms": 83592.40000009537
+    },
+    {
+      "type": "button",
+      "semantic": "roar",
+      "clip": "dragon_roar",
+      "time_ms": 84540.80000019073
+    },
+    {
+      "type": "button",
+      "semantic": "tail_wag",
+      "clip": "dragon_tail_wag",
+      "time_ms": 85491
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 86490.19999980927
+    },
+    {
+      "type": "hover",
+      "semantic": "head_tilt",
+      "clip": "dragon_head_tilt",
+      "time_ms": 148974.30000019073
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 149874.90000009537
+    },
+    {
+      "type": "click",
+      "semantic": "bounce",
+      "clip": "dragon_bounce",
+      "time_ms": 151286.80000019073
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 152270.69999980927
+    },
+    {
+      "type": "button",
+      "semantic": "tail_wag",
+      "clip": "dragon_tail_wag",
+      "time_ms": 180155
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 181169.90000009537
+    },
+    {
+      "type": "benchmark",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 213233.19999980927
+    },
+    {
+      "type": "benchmark",
+      "semantic": "head_shake",
+      "clip": "dragon_head_shake",
+      "time_ms": 214636.40000009537
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 215634.69999980927
+    },
+    {
+      "type": "benchmark",
+      "semantic": "dragon_proud",
+      "clip": "dragon_proud",
+      "time_ms": 216035
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 217251.19999980927
+    },
+    {
+      "type": "benchmark",
+      "semantic": "roar",
+      "clip": "dragon_roar",
+      "time_ms": 217435.19999980927
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 218651.09999990463
+    },
+    {
+      "type": "benchmark",
+      "semantic": "bounce",
+      "clip": "dragon_bounce",
+      "time_ms": 218835
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 219851.30000019073
+    },
+    {
+      "type": "benchmark",
+      "semantic": "tail_wag",
+      "clip": "dragon_tail_wag",
+      "time_ms": 220251.69999980927
+    },
+    {
+      "type": "auto_return",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 221251.19999980927
+    },
+    {
+      "type": "idle_boundary_audit_restore",
+      "semantic": "idle",
+      "clip": "dragon_idle",
+      "time_ms": 293090.5
+    }
+  ],
+  "performance_method": "renderer.info sampled after each WebGLRenderer.render call; 1.4s window per configured benchmark state",
+  "limitations": [
+    "Load timing is measured on localhost with a warm browser process; deployment cold-cache network timing is not measured.",
+    "FPS reflects this desktop HeadlessChrome 153 run at 1280x720 CSS pixels and DPR 1.",
+    "No texture compression, geometry reduction, Draco, Meshopt, or KTX2 optimization was applied."
+  ]
+}

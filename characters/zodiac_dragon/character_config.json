@@ -1,0 +1,1042 @@
+{
+  "character_id": "zodiac_dragon",
+  "display_name": "生肖龙宝宝",
+  "rig_type": "component_puppet_v1",
+  "source_high_50k": "characters/zodiac_dragon/01_visual_master/dragon_source_b.glb",
+  "component_reference": "characters/zodiac_dragon/02_components/dragon_source_a.glb",
+  "material_policy": "preserve_source_material; segmentation colors are audit-only",
+  "status": {
+    "overall": "PASS_HUMAN_REVIEW",
+    "checkpoint": "ZODIAC_DRAGON_CHARACTER_V1_FROZEN",
+    "gates": {
+      "G0_asset_audit": "PASS",
+      "G1_component_map": "PASS",
+      "G1_5_semantic_ownership": "PASS",
+      "G2_puppet_build": "PASS",
+      "G3_core_actions": "PASS",
+      "G4_visual_deformation_qa": "PASS",
+      "G5_export_roundtrip": "PASS",
+      "G5_5_runtime_asset": "PASS",
+      "G6_threejs_runtime": "PASS",
+      "G1_5_controller_isolation": "PASS",
+      "G1_5_action_eligibility": "PASS"
+    },
+    "known_limitations": [
+      "No separate EAR_L/EAR_R semantic components were verified in the supplied split; ears remain part of the head/mane ownership.",
+      "WING_L/WING_R are absent; WingFlap is INELIGIBLE and was not generated or exposed.",
+      "Blink remains an explicit fallback because eyelid geometry is absent.",
+      "TailWag remains a normal-distance human-review item; no close-up seam polish was performed."
+    ]
+  },
+  "controllers": {
+    "root": "ROOT",
+    "body": "BODY_CTRL",
+    "head": "HEAD_CTRL",
+    "horns": "HORNS_CTRL",
+    "crest": "CREST_CTRL",
+    "tail": "TAIL_CTRL",
+    "arm_l": "ARM_L_CTRL",
+    "arm_r": "ARM_R_CTRL",
+    "leg_l": "LEG_L_CTRL",
+    "leg_r": "LEG_R_CTRL",
+    "whiskers": "WHISKERS_CTRL",
+    "accessory": "ACCESSORY_CTRL",
+    "tail_tip": "TAIL_TIP_CTRL",
+    "tongue": "TONGUE_CTRL",
+    "mane": "CREST_CTRL",
+    "horn_l": "HORNS_CTRL",
+    "horn_r": "HORNS_CTRL",
+    "whisker_l": "WHISKERS_CTRL",
+    "whisker_r": "WHISKERS_CTRL",
+    "eye_l": "HEAD_CTRL",
+    "eye_r": "HEAD_CTRL"
+  },
+  "semantic_controllers": {
+    "HEAD_BASE": "HEAD_CTRL",
+    "MANE": "CREST_CTRL",
+    "HORN_L": "HORNS_CTRL",
+    "HORN_R": "HORNS_CTRL",
+    "WHISKER_L": "WHISKERS_CTRL",
+    "WHISKER_R": "WHISKERS_CTRL",
+    "EYE_L": "HEAD_CTRL",
+    "EYE_R": "HEAD_CTRL",
+    "TONGUE": "TONGUE_CTRL",
+    "BODY": "BODY_CTRL",
+    "BELLY": "BODY_CTRL",
+    "ARM_L": "ARM_L_CTRL",
+    "ARM_R": "ARM_R_CTRL",
+    "LEG_L": "LEG_L_CTRL",
+    "LEG_R": "LEG_R_CTRL",
+    "TAIL": "TAIL_CTRL",
+    "TAIL_TIP": "TAIL_TIP_CTRL",
+    "ACCESSORY": "ACCESSORY_CTRL"
+  },
+  "components": {
+    "head_base": {
+      "mode": "rigid",
+      "controller": "HEAD_CTRL"
+    },
+    "mane": {
+      "mode": "rigid",
+      "controller": "CREST_CTRL"
+    },
+    "horn_l": {
+      "mode": "rigid",
+      "controller": "HORNS_CTRL"
+    },
+    "horn_r": {
+      "mode": "rigid",
+      "controller": "HORNS_CTRL"
+    },
+    "whisker_l": {
+      "mode": "rigid",
+      "controller": "WHISKERS_CTRL"
+    },
+    "whisker_r": {
+      "mode": "rigid",
+      "controller": "WHISKERS_CTRL"
+    },
+    "eye_l": {
+      "mode": "rigid",
+      "controller": "HEAD_CTRL"
+    },
+    "eye_r": {
+      "mode": "rigid",
+      "controller": "HEAD_CTRL"
+    },
+    "tongue": {
+      "mode": "rigid",
+      "controller": "TONGUE_CTRL"
+    },
+    "body": {
+      "mode": "rigid_puppet",
+      "controller": "BODY_CTRL"
+    },
+    "belly": {
+      "mode": "rigid",
+      "controller": "BODY_CTRL"
+    },
+    "arm_l": {
+      "mode": "rigid",
+      "controller": "ARM_L_CTRL"
+    },
+    "arm_r": {
+      "mode": "rigid",
+      "controller": "ARM_R_CTRL"
+    },
+    "leg_l": {
+      "mode": "rigid",
+      "controller": "LEG_L_CTRL"
+    },
+    "leg_r": {
+      "mode": "rigid",
+      "controller": "LEG_R_CTRL"
+    },
+    "tail": {
+      "mode": "rigid",
+      "controller": "TAIL_CTRL"
+    },
+    "tail_tip": {
+      "mode": "rigid",
+      "controller": "TAIL_TIP_CTRL"
+    }
+  },
+  "bone_layout": [
+    {
+      "name": "ROOT",
+      "head": [
+        0,
+        0,
+        0
+      ],
+      "tail": [
+        0,
+        0,
+        0.05
+      ]
+    },
+    {
+      "name": "BODY_CTRL",
+      "head": [
+        0,
+        0,
+        0.05
+      ],
+      "tail": [
+        0,
+        0,
+        0.34
+      ],
+      "parent": "ROOT"
+    },
+    {
+      "name": "HEAD_CTRL",
+      "head": [
+        0,
+        0,
+        0.34
+      ],
+      "tail": [
+        0,
+        0,
+        0.68
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "HORNS_CTRL",
+      "head": [
+        0,
+        0,
+        0.68
+      ],
+      "tail": [
+        0,
+        0,
+        0.92
+      ],
+      "parent": "HEAD_CTRL"
+    },
+    {
+      "name": "CREST_CTRL",
+      "head": [
+        0,
+        0,
+        0.68
+      ],
+      "tail": [
+        0,
+        0.05,
+        0.85
+      ],
+      "parent": "HEAD_CTRL"
+    },
+    {
+      "name": "WHISKERS_CTRL",
+      "head": [
+        0,
+        -0.25,
+        0.52
+      ],
+      "tail": [
+        0,
+        -0.38,
+        0.52
+      ],
+      "parent": "HEAD_CTRL"
+    },
+    {
+      "name": "ARM_L_CTRL",
+      "head": [
+        -0.18,
+        -0.12,
+        0.3
+      ],
+      "tail": [
+        -0.3,
+        -0.18,
+        0.3
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "ARM_R_CTRL",
+      "head": [
+        0.18,
+        -0.12,
+        0.3
+      ],
+      "tail": [
+        0.3,
+        -0.18,
+        0.3
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "LEG_L_CTRL",
+      "head": [
+        -0.16,
+        0,
+        0.12
+      ],
+      "tail": [
+        -0.2,
+        -0.02,
+        0.02
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "LEG_R_CTRL",
+      "head": [
+        0.16,
+        0,
+        0.12
+      ],
+      "tail": [
+        0.2,
+        -0.02,
+        0.02
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "TAIL_CTRL",
+      "head": [
+        0,
+        0.24,
+        0.2
+      ],
+      "tail": [
+        0,
+        0.4,
+        0.28
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "ACCESSORY_CTRL",
+      "head": [
+        0,
+        0,
+        0.42
+      ],
+      "tail": [
+        0,
+        0,
+        0.5
+      ],
+      "parent": "BODY_CTRL"
+    },
+    {
+      "name": "TAIL_TIP_CTRL",
+      "head": [
+        0,
+        0.4,
+        0.28
+      ],
+      "tail": [
+        0,
+        0.5,
+        0.38
+      ],
+      "parent": "TAIL_CTRL"
+    },
+    {
+      "name": "TONGUE_CTRL",
+      "head": [
+        0,
+        -0.3,
+        0.52
+      ],
+      "tail": [
+        0,
+        -0.38,
+        0.52
+      ],
+      "parent": "HEAD_CTRL"
+    }
+  ],
+  "actions": {
+    "idle": "dragon_idle",
+    "head_tilt": "dragon_head_tilt",
+    "head_shake": "dragon_head_shake",
+    "tail_wag": "dragon_tail_wag",
+    "bounce": "dragon_bounce",
+    "character_action": "dragon_proud",
+    "blink": "dragon_blink",
+    "roar": "dragon_roar",
+    "dragon_specific": "dragon_proud"
+  },
+  "qa_actions": [
+    [
+      "Idle",
+      "dragon_idle"
+    ],
+    [
+      "HeadTilt",
+      "dragon_head_tilt"
+    ],
+    [
+      "HeadShake",
+      "dragon_head_shake"
+    ],
+    [
+      "DragonProud",
+      "dragon_proud"
+    ],
+    [
+      "Bounce",
+      "dragon_bounce"
+    ],
+    [
+      "Roar",
+      "dragon_roar"
+    ],
+    [
+      "TailWag",
+      "dragon_tail_wag"
+    ]
+  ],
+  "roundtrip_actions": [
+    "dragon_head_tilt",
+    "dragon_proud",
+    "dragon_roar"
+  ],
+  "action_specs": {
+    "dragon_idle": {
+      "duration_frames": 90,
+      "fps": 30,
+      "keys": {
+        "HEAD_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            45,
+            0.02,
+            0.01,
+            0
+          ],
+          [
+            90,
+            0,
+            0,
+            0
+          ]
+        ],
+        "WHISKERS_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            45,
+            0,
+            0.02,
+            0
+          ],
+          [
+            90,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "dragon_head_tilt": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {
+        "HEAD_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            15,
+            0.16,
+            0,
+            0.1
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "dragon_head_shake": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {
+        "HEAD_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            0.18,
+            0
+          ],
+          [
+            16,
+            0,
+            -0.18,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "dragon_tail_wag": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {
+        "TAIL_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            0.18,
+            0
+          ],
+          [
+            16,
+            0,
+            -0.18,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ],
+        "TAIL_TIP_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            -0.24,
+            0
+          ],
+          [
+            16,
+            0,
+            0.24,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "dragon_bounce": {
+      "duration_frames": 30,
+      "fps": 30,
+      "keys": {
+        "HORNS_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0.08,
+            0,
+            0
+          ],
+          [
+            16,
+            0,
+            0,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "location_keys": {
+        "BODY_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            -0.025,
+            0
+          ],
+          [
+            12,
+            0,
+            0.045,
+            0
+          ],
+          [
+            20,
+            0,
+            0.01,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "dragon_roar": {
+      "duration_frames": 36,
+      "fps": 30,
+      "keys": {
+        "HEAD_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            -0.08,
+            0,
+            0
+          ],
+          [
+            24,
+            0.08,
+            0,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ],
+        "WHISKERS_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            0,
+            0.16,
+            0
+          ],
+          [
+            24,
+            0,
+            -0.16,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ],
+        "TONGUE_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            0.16,
+            0,
+            0
+          ],
+          [
+            24,
+            -0.1,
+            0,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "dragon_blink": {
+      "duration_frames": 12,
+      "fps": 30,
+      "fallback": "not_implemented_no_eyelid_component",
+      "keys": {}
+    },
+    "dragon_proud": {
+      "duration_frames": 36,
+      "fps": 30,
+      "keys": {
+        "HEAD_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            -0.06,
+            0,
+            0
+          ],
+          [
+            24,
+            0.05,
+            0,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ],
+        "HORNS_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            0.1,
+            0,
+            0
+          ],
+          [
+            24,
+            -0.06,
+            0,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ],
+        "CREST_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            -0.08,
+            0,
+            0
+          ],
+          [
+            24,
+            0.05,
+            0,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ],
+        "WHISKERS_CTRL": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            0,
+            0.14,
+            0
+          ],
+          [
+            24,
+            0,
+            -0.12,
+            0
+          ],
+          [
+            36,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  },
+  "notes": [
+    "G1.5 repaired ownership from verified component parts: part_5=HEAD_BASE, part_2/11=EYE_L/EYE_R, part_13=MANE, part_3/15=WHISKER_R/WHISKER_L, part_16=TONGUE.",
+    "Tail is split into TAIL and TAIL_TIP; both remain rigid semantic modules.",
+    "HEAD_ASSEMBLY moves as one owned group through HEAD_CTRL; ornament controls are child controls for optional secondary motion.",
+    "WingFlap is explicitly ineligible because WING_L and WING_R are absent.",
+    "Blink remains a documented fallback because eyelid geometry is absent."
+  ],
+  "semantic_groups": {
+    "HEAD_ASSEMBLY": [
+      "HEAD_BASE",
+      "MANE",
+      "HORN_L",
+      "HORN_R",
+      "WHISKER_L",
+      "WHISKER_R",
+      "EYE_L",
+      "EYE_R",
+      "TONGUE"
+    ],
+    "BODY_ASSEMBLY": [
+      "BODY",
+      "BELLY",
+      "ARM_L",
+      "ARM_R",
+      "LEG_L",
+      "LEG_R"
+    ],
+    "TAIL_ASSEMBLY": [
+      "TAIL",
+      "TAIL_TIP"
+    ]
+  },
+  "action_eligibility": {
+    "dragon_idle": {
+      "required_components": [
+        "HEAD_BASE",
+        "BODY"
+      ]
+    },
+    "dragon_head_tilt": {
+      "required_components": [
+        "HEAD_BASE"
+      ]
+    },
+    "dragon_head_shake": {
+      "required_components": [
+        "HEAD_BASE"
+      ]
+    },
+    "dragon_proud": {
+      "required_components": [
+        "HEAD_BASE",
+        "HORN_L",
+        "HORN_R",
+        "MANE",
+        "WHISKER_L",
+        "WHISKER_R"
+      ]
+    },
+    "dragon_bounce": {
+      "required_components": [
+        "BODY"
+      ]
+    },
+    "dragon_roar": {
+      "required_components": [
+        "HEAD_BASE",
+        "TONGUE",
+        "WHISKER_L",
+        "WHISKER_R"
+      ]
+    },
+    "dragon_tail_wag": {
+      "required_components": [
+        "TAIL",
+        "TAIL_TIP"
+      ]
+    },
+    "dragon_blink": {
+      "required_components": [
+        "EYE_L",
+        "EYE_R",
+        "EYELID_L",
+        "EYELID_R"
+      ],
+      "eligible": false,
+      "reason": "No eyelid component is present in the supplied split"
+    },
+    "dragon_wing_flap": {
+      "required_components": [
+        "WING_L",
+        "WING_R"
+      ],
+      "eligible": false,
+      "reason": "No verified wing semantic components in the supplied split"
+    }
+  },
+  "available_semantic_components": [
+    "HEAD_BASE",
+    "MANE",
+    "HORN_L",
+    "HORN_R",
+    "WHISKER_L",
+    "WHISKER_R",
+    "EYE_L",
+    "EYE_R",
+    "TONGUE",
+    "BODY",
+    "ARM_L",
+    "ARM_R",
+    "LEG_L",
+    "LEG_R",
+    "TAIL",
+    "TAIL_TIP"
+  ],
+  "semantic_ownership": {
+    "HEAD_BASE": {
+      "controller": "HEAD_CTRL",
+      "parent_controller": null,
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "MANE": {
+      "controller": "CREST_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "HORN_L": {
+      "controller": "HORNS_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "HORN_R": {
+      "controller": "HORNS_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "WHISKER_L": {
+      "controller": "WHISKERS_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "WHISKER_R": {
+      "controller": "WHISKERS_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "EYE_L": {
+      "controller": "HEAD_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "EYE_R": {
+      "controller": "HEAD_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "TONGUE": {
+      "controller": "TONGUE_CTRL",
+      "parent_controller": "HEAD_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "BODY": {
+      "controller": "BODY_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "ARM_L": {
+      "controller": "ARM_L_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "ARM_R": {
+      "controller": "ARM_R_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "LEG_L": {
+      "controller": "LEG_L_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "LEG_R": {
+      "controller": "LEG_R_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "TAIL": {
+      "controller": "TAIL_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    },
+    "TAIL_TIP": {
+      "controller": "TAIL_TIP_CTRL",
+      "parent_controller": "BODY_CTRL",
+      "motion_mode": "rigid",
+      "confidence": "HIGH"
+    }
+  },
+  "evidence": {
+    "g1_5": "characters/zodiac_dragon/04_rig/review/g1_5/semantic_ownership_audit.json",
+    "g1_5_head_assembly": "characters/zodiac_dragon/04_rig/review/g1_5/head_assembly_audit.png",
+    "g1_5_controller_isolation": "characters/zodiac_dragon/04_rig/review/g1_5/semantic_controller_isolation_contact_sheet.png",
+    "g4_visual_qa": "characters/zodiac_dragon/04_rig/review/g1_5/dragon_actions_contact_sheet_g1_5.png",
+    "g5_runtime_glb": "characters/zodiac_dragon/06_export/v1_2_final/zodiac_dragon_character_v1_runtime.glb",
+    "g5_runtime_gate": "characters/zodiac_dragon/06_export/v1_2_final/runtime_gate.json",
+    "g6_runtime_gate": "characters/zodiac_dragon/07_web_demo/review/g1_5/THREEJS_RUNTIME_GATE.md",
+    "g1_5_final": "characters/zodiac_dragon/04_rig/rebuild/v1_2_final/semantic_ownership_audit.json"
+  },
+  "pipeline_version": "component_puppet_v1_2",
+  "freeze_checkpoint": "ZODIAC_DRAGON_CHARACTER_V1_FROZEN"
+}

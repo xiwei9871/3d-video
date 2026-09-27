@@ -7,6 +7,9 @@
 ```text
 G0 ASSET AUDIT        = PASS
 G1 COMPONENT MAP      = PASS
+G1.5 SEMANTIC OWNERSHIP = PASS
+G1.5 CONTROLLER ISOLATION = PASS
+G1.5 ACTION ELIGIBILITY = PASS
 G2 PUPPET BUILD       = PASS
 G3 CORE ACTIONS       = PASS
 G4 VISUAL QA          = PASS
@@ -78,6 +81,22 @@ manual interventions = 0
 
 The regression used an isolated output directory and did not modify the frozen Snake checkpoint.
 
+## Pipeline V1.2 regression
+
+Fresh isolated rebuild after the mandatory G1.5 gate:
+
+```text
+G1.5 = PASS
+validation = PASS
+roundtrip = PASS
+elapsed = 15.238 seconds
+manual interventions = 0
+```
+
+Evidence: `benchmark/g1_5_regression_report.json`.
+
 ## Freeze rule
 
-Do not modify this Rabbit V1 asset in place. Future changes must use a new version or a separate optimization gate. Do not start Dragon in this task.
+Do not modify this Rabbit V1 asset in place. Future changes must use a new version
+or a separate optimization gate. Dragon is recorded as a separate V1.2
+reference implementation.

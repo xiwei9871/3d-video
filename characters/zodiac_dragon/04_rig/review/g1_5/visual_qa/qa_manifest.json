@@ -1,0 +1,54 @@
+{
+  "source_blend": "characters/zodiac_dragon/04_rig/rebuild/g1_5/clean_actions.blend",
+  "static_actions": [
+    {
+      "label": "Idle",
+      "action": "dragon_idle",
+      "frame": 46,
+      "path": "characters/zodiac_dragon/04_rig/review/g1_5/visual_qa/poses/Idle.png"
+    },
+    {
+      "label": "HeadTilt",
+      "action": "dragon_head_tilt",
+      "frame": 16,
+      "path": "characters/zodiac_dragon/04_rig/review/g1_5/visual_qa/poses/HeadTilt.png"
+    },
+    {
+      "label": "HeadShake",
+      "action": "dragon_head_shake",
+      "frame": 16,
+      "path": "characters/zodiac_dragon/04_rig/review/g1_5/visual_qa/poses/HeadShake.png"
+    },
+    {
+      "label": "DragonProud",
+      "action": "dragon_proud",
+      "frame": 18,
+      "path": "characters/zodiac_dragon/04_rig/review/g1_5/visual_qa/poses/DragonProud.png"
+    },
+    {
+      "label": "Bounce",
+      "action": "dragon_bounce",
+      "frame": 16,
+      "path": "characters/zodiac_dragon/04_rig/review/g1_5/visual_qa/poses/Bounce.png"
+    },
+    {
+      "label": "Roar",
+      "action": "dragon_roar",
+      "frame": 18,
+      "path": "characters/zodiac_dragon/04_rig/review/g1_5/visual_qa/poses/Roar.png"
+    },
+    {
+      "label": "TailWag",
+      "action": "dragon_tail_wag",
+      "frame": 16,
+      "path": "characters/zodiac_dragon/04_rig/review/g1_5/visual_qa/poses/TailWag.png"
+    }
+  ],
+  "contact_sheet": "characters/zodiac_dragon/04_rig/review/g1_5/visual_qa/snake_actions_contact_sheet.png",
+  "preview_action": "AN_ComponentPuppet_V1_Preview",
+  "preview_frames": 60,
+  "fps": 30,
+  "preview_frame_dir": "characters/zodiac_dragon/05_animations/g1_5/preview_frames",
+  "material_policy": "Original Material.001 PBR retained; segmentation colors are not rendered.",
+  "status": "HUMAN_REVIEW"
+}

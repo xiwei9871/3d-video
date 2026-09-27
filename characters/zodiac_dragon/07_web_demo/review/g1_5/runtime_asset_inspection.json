@@ -1,0 +1,90 @@
+{
+  "generated_utc": "2026-09-27T05:03:13.098833+00:00",
+  "asset_url": "./public/zodiac_dragon_character_v1_runtime.glb",
+  "asset_file": "public/zodiac_dragon_character_v1_runtime.glb",
+  "glb_load_status": 200,
+  "glb_size_bytes": 36810788,
+  "scene_mesh_count": 12,
+  "skinned_mesh_count": 0,
+  "bone_count": 14,
+  "bone_names": [
+    "ACCESSORY_CTRL",
+    "ARM_L_CTRL",
+    "ARM_R_CTRL",
+    "BODY_CTRL",
+    "CREST_CTRL",
+    "HEAD_CTRL",
+    "HORNS_CTRL",
+    "LEG_L_CTRL",
+    "LEG_R_CTRL",
+    "ROOT",
+    "TAIL_CTRL",
+    "TAIL_TIP_CTRL",
+    "TONGUE_CTRL",
+    "WHISKERS_CTRL"
+  ],
+  "triangles": 50856,
+  "materials": [
+    "Material.001"
+  ],
+  "texture_count": 3,
+  "three_revision": "180",
+  "animation_clip_count": 7,
+  "animation_clip_names": [
+    "dragon_bounce",
+    "dragon_head_shake",
+    "dragon_head_tilt",
+    "dragon_idle",
+    "dragon_proud",
+    "dragon_roar",
+    "dragon_tail_wag"
+  ],
+  "animation_clips": [
+    {
+      "name": "dragon_bounce",
+      "duration_seconds": 1,
+      "tracks": 42
+    },
+    {
+      "name": "dragon_head_shake",
+      "duration_seconds": 1,
+      "tracks": 42
+    },
+    {
+      "name": "dragon_head_tilt",
+      "duration_seconds": 1,
+      "tracks": 42
+    },
+    {
+      "name": "dragon_idle",
+      "duration_seconds": 3,
+      "tracks": 42
+    },
+    {
+      "name": "dragon_proud",
+      "duration_seconds": 1.2,
+      "tracks": 42
+    },
+    {
+      "name": "dragon_roar",
+      "duration_seconds": 1.2,
+      "tracks": 42
+    },
+    {
+      "name": "dragon_tail_wag",
+      "duration_seconds": 1,
+      "tracks": 42
+    }
+  ],
+  "semantic_action_mapping": {
+    "bounce": "dragon_bounce",
+    "head_shake": "dragon_head_shake",
+    "head_tilt": "dragon_head_tilt",
+    "idle": "dragon_idle",
+    "dragon_proud": "dragon_proud",
+    "roar": "dragon_roar",
+    "tail_wag": "dragon_tail_wag"
+  },
+  "expected_semantics_present": true,
+  "status": "PASS"
+}
